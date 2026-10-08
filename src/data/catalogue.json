@@ -1,0 +1,4644 @@
+{
+  "generated_on": "2026-09-03",
+  "disclaimer": "Unofficial student learner tool. Not affiliated with the Ministry of Culture, UNESCO, AICTE, or Sahapedia.",
+  "regions": [
+    {
+      "slug": "rajasthan",
+      "name": "Rajasthan",
+      "state_ut": "Rajasthan",
+      "zone": "West",
+      "lat": 26.9124,
+      "lng": 75.7873,
+      "blurb": "Desert courts, GI crafts, and living performance including Kalbelia.",
+      "id": "da59cdd3-db2a-594d-90c7-e5ba25732c41"
+    },
+    {
+      "slug": "gujarat",
+      "name": "Gujarat",
+      "state_ut": "Gujarat",
+      "zone": "West",
+      "lat": 23.0225,
+      "lng": 72.5714,
+      "blurb": "Garba, Ajrakh, and coastal–desert craft corridors.",
+      "id": "fbd0af12-9048-5222-a769-eb6c1fc08d5c"
+    },
+    {
+      "slug": "west-bengal",
+      "name": "West Bengal",
+      "state_ut": "West Bengal",
+      "zone": "East",
+      "lat": 22.5726,
+      "lng": 88.3639,
+      "blurb": "Durga Puja neighbourhoods, patachitra lineages, and urban ritual theatre.",
+      "id": "77a39887-4016-560b-a608-11e81ecda8b5"
+    },
+    {
+      "slug": "kerala",
+      "name": "Kerala",
+      "state_ut": "Kerala",
+      "zone": "South",
+      "lat": 9.9312,
+      "lng": 76.2673,
+      "blurb": "Kutiyattam, Mudiyettu, Onam, and temple-linked performance.",
+      "id": "14c1a658-6d81-5cf4-9323-81b1f040a957"
+    },
+    {
+      "slug": "tamil-nadu",
+      "name": "Tamil Nadu",
+      "state_ut": "Tamil Nadu",
+      "zone": "South",
+      "lat": 13.0827,
+      "lng": 80.2707,
+      "blurb": "Kanchipuram weaving, Pongal, and Carnatic-adjacent living practice.",
+      "id": "e1cd844b-4b6a-5f43-b684-ed71bb3fcfb4"
+    },
+    {
+      "slug": "odisha",
+      "name": "Odisha",
+      "state_ut": "Odisha",
+      "zone": "East",
+      "lat": 20.2961,
+      "lng": 85.8245,
+      "blurb": "Chhau, Pattachitra, and coastal–tribal craft belts.",
+      "id": "826f4435-bed1-5d0b-8bc4-d0c328e199bc"
+    },
+    {
+      "slug": "manipur",
+      "name": "Manipur",
+      "state_ut": "Manipur",
+      "zone": "Northeast",
+      "lat": 24.817,
+      "lng": 93.9368,
+      "blurb": "Sankirtana and court–temple performance lineages.",
+      "id": "91b391c8-6cd9-562f-9a97-623d8fcde854"
+    },
+    {
+      "slug": "punjab",
+      "name": "Punjab",
+      "state_ut": "Punjab",
+      "zone": "North",
+      "lat": 31.326,
+      "lng": 75.5762,
+      "blurb": "Thathera metalcraft at Jandiala Guru and Phulkari embroidery.",
+      "id": "672bd754-4119-5deb-b671-c37472f71aef"
+    },
+    {
+      "slug": "uttarakhand",
+      "name": "Uttarakhand",
+      "state_ut": "Uttarakhand",
+      "zone": "North",
+      "lat": 30.3165,
+      "lng": 78.0322,
+      "blurb": "Ramman of Garhwal and Himalayan festival theatre.",
+      "id": "e7fda04b-0cc0-5039-8b3f-8aa6b5ae1abf"
+    },
+    {
+      "slug": "karnataka",
+      "name": "Karnataka",
+      "state_ut": "Karnataka",
+      "zone": "South",
+      "lat": 12.9716,
+      "lng": 77.5946,
+      "blurb": "Channapatna lacquer toys and Mysore inlay crafts.",
+      "id": "255d35de-e2d2-5635-b471-c2dd7b3841ef"
+    },
+    {
+      "slug": "maharashtra",
+      "name": "Maharashtra",
+      "state_ut": "Maharashtra",
+      "zone": "West",
+      "lat": 18.5204,
+      "lng": 73.8567,
+      "blurb": "Warli painting, Ganesh Utsav, and Parsi Nawrouz in cities.",
+      "id": "48070004-8029-574c-9457-06d0ed61e1d8"
+    },
+    {
+      "slug": "telangana",
+      "name": "Telangana",
+      "state_ut": "Telangana",
+      "zone": "South",
+      "lat": 17.385,
+      "lng": 78.4867,
+      "blurb": "Bidriware of Hyderabad and Deccan metal inlay.",
+      "id": "05b29d84-541e-580a-96a9-a94709c8a148"
+    },
+    {
+      "slug": "andhra-pradesh",
+      "name": "Andhra Pradesh",
+      "state_ut": "Andhra Pradesh",
+      "zone": "South",
+      "lat": 16.5062,
+      "lng": 80.648,
+      "blurb": "Kalamkari, Kondapalli toys, and temple-town crafts.",
+      "id": "1189e115-c90b-5ded-b823-1df45fc24c51"
+    },
+    {
+      "slug": "bihar",
+      "name": "Bihar",
+      "state_ut": "Bihar",
+      "zone": "East",
+      "lat": 26.1542,
+      "lng": 85.8918,
+      "blurb": "Madhubani/Mithila painting and ritual wall art.",
+      "id": "25ed30e7-0da9-58a6-adc4-92f21c535718"
+    },
+    {
+      "slug": "uttar-pradesh",
+      "name": "Uttar Pradesh",
+      "state_ut": "Uttar Pradesh",
+      "zone": "North",
+      "lat": 25.3176,
+      "lng": 82.9739,
+      "blurb": "Banarasi weaving, Chikankari, Ramlila, and Kumbh host cities.",
+      "id": "a53ed266-be27-53cb-b4f3-9989113a8cad"
+    },
+    {
+      "slug": "assam",
+      "name": "Assam",
+      "state_ut": "Assam",
+      "zone": "Northeast",
+      "lat": 26.1445,
+      "lng": 91.7362,
+      "blurb": "Bihu, Muga silk, and river-valley festival cycles.",
+      "id": "108f8257-d491-51dc-8665-f5d14f08f4e7"
+    },
+    {
+      "slug": "ladakh",
+      "name": "Ladakh",
+      "state_ut": "Ladakh",
+      "zone": "North",
+      "lat": 34.1526,
+      "lng": 77.5771,
+      "blurb": "Buddhist chanting and high-altitude monastic sound.",
+      "id": "7adeee00-fddc-56b7-933b-ae1f67c056d5"
+    },
+    {
+      "slug": "jammu-kashmir",
+      "name": "Jammu and Kashmir",
+      "state_ut": "Jammu and Kashmir",
+      "zone": "North",
+      "lat": 34.0837,
+      "lng": 74.7973,
+      "blurb": "Pashmina and valley craft knowledge.",
+      "id": "b7c7a69f-0707-5937-b030-13b91815d758"
+    },
+    {
+      "slug": "himachal-pradesh",
+      "name": "Himachal Pradesh",
+      "state_ut": "Himachal Pradesh",
+      "zone": "North",
+      "lat": 31.1048,
+      "lng": 77.1734,
+      "blurb": "Hill weaving and local festival calendars.",
+      "id": "72f31112-7964-57b4-9d09-07f46abb87cd"
+    },
+    {
+      "slug": "chhattisgarh",
+      "name": "Chhattisgarh",
+      "state_ut": "Chhattisgarh",
+      "zone": "Central",
+      "lat": 21.2514,
+      "lng": 81.6296,
+      "blurb": "Dhokra/bell-metal casting belts.",
+      "id": "9e8d1521-3224-5624-b1dd-1d13d5c6c261"
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi"
+    },
+    {
+      "code": "bn",
+      "name": "Bengali"
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil"
+    },
+    {
+      "code": "te",
+      "name": "Telugu"
+    },
+    {
+      "code": "kn",
+      "name": "Kannada"
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam"
+    },
+    {
+      "code": "or",
+      "name": "Odia"
+    },
+    {
+      "code": "pa",
+      "name": "Punjabi"
+    },
+    {
+      "code": "mr",
+      "name": "Marathi"
+    },
+    {
+      "code": "as",
+      "name": "Assamese"
+    },
+    {
+      "code": "ur",
+      "name": "Urdu"
+    },
+    {
+      "code": "sa",
+      "name": "Sanskrit"
+    },
+    {
+      "code": "mni",
+      "name": "Manipuri"
+    },
+    {
+      "code": "raj",
+      "name": "Rajasthani"
+    },
+    {
+      "code": "aw",
+      "name": "Awadhi"
+    },
+    {
+      "code": "bo",
+      "name": "Tibetan/Ladakhi (public label)"
+    },
+    {
+      "code": "ks",
+      "name": "Kashmiri"
+    }
+  ],
+  "items": [
+    {
+      "id": "e10616a9-c530-515c-a2da-3f435af564c5",
+      "slug": "kalbelia",
+      "type": "performing",
+      "title": "Kalbelia folk songs and dances",
+      "summary": "Kalbelia is a living song-and-dance practice of Kalbelia communities in Rajasthan, inscribed by UNESCO. The compass card ties it to place, community, and sources — not a costume souvenir.",
+      "body": "Kalbelia refers to songs and dances associated with Kalbelia communities in Rajasthan. UNESCO lists “Kalbelia folk songs and dances of Rajasthan” on the Representative List of the Intangible Cultural Heritage of Humanity. The practice is a performing art: swirling black skirts, rapid footwork, and snake-related imagery appear in popular descriptions, but those visuals are not a license to invent ritual rules or “ancient secrets.”\n\nFor a student or traveller in or near Jaipur, Jodhpur, or Pushkar, the useful questions are narrower. Who performs, in what setting, and what has already been documented by UNESCO, the Ministry of Culture, or open scholarship? Stage shows for tourists can be skilled and paid work; they are not automatically the same as community ceremony. If a guide claims a step “always means” a specific myth, ask for a source. This card will not invent that meaning.\n\nRespectful watching means not grabbing dancers for photos, not demanding “more authentic” versions, and not treating the community as an exhibit. If you ask a question this app cannot retrieve from the card and its cited pages, the answer is that we do not know — not a generated folk tale.\n\nKalbelia sits in a place–practice graph: Rajasthan as region, performing type, UNESCO badge with an outbound link. GI crafts of the same state (for example Jaipur blue pottery) are neighbours in the explorer, not the same item. A short quiz after this card only tests facts written here and in the listed sources.",
+      "unesco_id": "00340",
+      "gi_flag": false,
+      "region_id": "da59cdd3-db2a-594d-90c7-e5ba25732c41",
+      "region_slug": "rajasthan",
+      "calendar_note": "Performed year-round; often visible around tourist seasons and local fairs in Rajasthan. Do not treat hotel shows as the only authentic context.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "dance",
+        "rajasthan",
+        "jaipur"
+      ],
+      "languages": [
+        "hi",
+        "raj"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/kalbelia-folk-songs-and-dances-of-rajasthan-00340",
+          "title": "Kalbelia folk songs and dances of Rajasthan",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "14c37791-b386-5400-af33-02a35444ff5e"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India — elements on the Lists of ICH",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "cc32696b-7d48-589c-a031-5eddec67edd0"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "e793de0c-e7ee-5167-8b8e-7e36f2ecf180"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-09-03",
+          "id": "c77fa6a3-13cd-59ac-af08-5b8b7428d192"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "409118f8-a417-52d1-9493-0017fca9554b"
+        }
+      ],
+      "quiz": {
+        "id": "ac75a897-9ec5-5bdf-a11b-9531a630313e",
+        "item_id": "e10616a9-c530-515c-a2da-3f435af564c5",
+        "title": "Kalbelia — five checks",
+        "questions": [
+          {
+            "prompt": "Kalbelia is primarily classified here as which heritage type?",
+            "options": [
+              "Craft / GI metalwork",
+              "Performing art (song and dance)",
+              "A national government archive",
+              "A social video feed"
+            ],
+            "answer_index": 1,
+            "explanation": "The card treats Kalbelia as a performing practice tied to Rajasthan communities.",
+            "id": "5e26ef3b-e3a2-56bd-83a4-bf5aa24ba1b1",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Which body inscribed Kalbelia on a Representative List mentioned in this card?",
+            "options": [
+              "Only a hotel association",
+              "UNESCO ICH",
+              "A private marketplace",
+              "This student app as the official owner"
+            ],
+            "answer_index": 1,
+            "explanation": "The UNESCO RL page is a primary outbound source.",
+            "id": "435f091d-b4fd-56ef-82ee-5384b75fc246",
+            "sort_order": 1
+          },
+          {
+            "prompt": "If a tourist show and a community event differ, what does this card recommend?",
+            "options": [
+              "Assume they are identical",
+              "Invent a unifying myth",
+              "Do not treat hotel shows as the only authentic context",
+              "Ignore living performers"
+            ],
+            "answer_index": 2,
+            "explanation": "Settings differ; the card refuses a fake single story.",
+            "id": "bb295960-9aae-558e-a2c5-fe7241d7dcc6",
+            "sort_order": 2
+          },
+          {
+            "prompt": "What should you do if a fact is not in the card or its sources?",
+            "options": [
+              "Ask a generic chatbot to fill it in",
+              "Treat the gap as “we do not know”",
+              "Copy a WhatsApp forward",
+              "Scrape Sahapedia in full"
+            ],
+            "answer_index": 1,
+            "explanation": "Grounded answers only; refuse otherwise.",
+            "id": "dae01881-01c3-5772-bdac-d0535101e02b",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Jaipur on this compass is mainly a…",
+            "options": [
+              "Place node that can lead to living practices such as Kalbelia",
+              "Replacement for the Archaeological Survey of India",
+              "3D metaverse twin",
+              "Payment marketplace"
+            ],
+            "answer_index": 0,
+            "explanation": "Place ↔ practice graph, not an official archive clone.",
+            "id": "4b3c4f2b-f9c5-51b3-9496-51c76f1e0a43",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "657b215d-0048-5671-bdfe-57e34e105146",
+      "slug": "durga-puja-kolkata",
+      "type": "festival",
+      "title": "Durga Puja in Kolkata",
+      "summary": "Neighbourhood-scale festival in Kolkata combining worship, public art (pandals), and civic gathering. UNESCO inscribed Durga Puja in Kolkata; this card is a learner path, not a temple timetable.",
+      "body": "Durga Puja in Kolkata is a public, neighbourhood festival: temporary pavilions (pandals), images of the goddess Durga and her children, processions, food, and late-night walking routes. UNESCO inscribed “Durga Puja in Kolkata” on the Representative List. The Ministry of Culture and Indian Culture Portal discuss Durga Puja among India’s ICH narratives. That does not make this student app an official calendar.\n\nDo / don’t for a first-time visitor, at the level this card can honestly support: do expect crowds and photography rules that vary by pandal committee; don’t assume every image or chant is free to commercialise; don’t invent caste or “secret tantra” explanations. Committee and household practices differ. If you need visarjan timing for a specific ghat, use a local notice, not a language model.\n\nThe innovation of Parampara Path is to bind the festival to West Bengal as a region, mark UNESCO, and let you ask only questions the retrieved text can answer. Quizzes are generated from this card, not from rumours. Contributions (a family memory of a particular para) stay unpublished until a human reviewer accepts them.\n\nPatachitra and other Bengal crafts appear as separate items so the explorer does not collapse “Bengal culture” into one page.",
+      "unesco_id": "00703",
+      "gi_flag": false,
+      "region_id": "77a39887-4016-560b-a608-11e81ecda8b5",
+      "region_slug": "west-bengal",
+      "calendar_note": "Sharadiya / autumn (Ashwin). Exact city dates follow the Bengali calendar each year — store as season, not a fake Gregorian timestamp.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "festival",
+        "kolkata",
+        "bengal"
+      ],
+      "languages": [
+        "bn",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703",
+          "title": "Durga Puja in Kolkata",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "633a0e5b-7f75-5931-b6b0-4c57a28a769b"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India — ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "88f75afa-04eb-55d4-9124-a22c66d226c1"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH page",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "06322dd3-a30b-532e-a58f-b79b109da44a"
+        },
+        {
+          "url": "https://indianculture.gov.in/intangible-cultural-heritage",
+          "title": "ICP intangible cultural heritage",
+          "publisher": "Indian Culture Portal",
+          "accessed_on": "2026-09-03",
+          "id": "6557b50e-9031-502e-934a-702c2470890e"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "6f889443-5a38-5b9d-b089-df157989f8a4"
+        }
+      ],
+      "quiz": {
+        "id": "4a562f76-d689-5ae3-9f84-5e05fe9c8e72",
+        "item_id": "657b215d-0048-5671-bdfe-57e34e105146",
+        "title": "Durga Puja Kolkata — five checks",
+        "questions": [
+          {
+            "prompt": "UNESCO’s inscription named in this card is for Durga Puja in…",
+            "options": [
+              "Every Indian city equally",
+              "Kolkata",
+              "Only rural Bengal with no city form",
+              "A theme park"
+            ],
+            "answer_index": 1,
+            "explanation": "The RL title is Durga Puja in Kolkata.",
+            "id": "913445a7-2740-5952-913a-602443c4a608",
+            "sort_order": 0
+          },
+          {
+            "prompt": "How should exact visarjan times be treated in the MVP?",
+            "options": [
+              "As invented precise timestamps",
+              "As local notices, not LLM guesses",
+              "As a paid Google Maps feature",
+              "As AR overlays"
+            ],
+            "answer_index": 1,
+            "explanation": "Calendar_note is seasonal; no fake dates.",
+            "id": "8355d4d0-ec78-5069-86e6-6f4598930324",
+            "sort_order": 1
+          },
+          {
+            "prompt": "A pandal is described here as…",
+            "options": [
+              "A permanent ASI monument only",
+              "A temporary public pavilion / neighbourhood stage",
+              "A GI metal workshop",
+              "A national exam hall"
+            ],
+            "answer_index": 1,
+            "explanation": "Public art and gathering, temporary structures.",
+            "id": "5e0d9624-1b20-58f8-a838-512314e61a74",
+            "sort_order": 2
+          },
+          {
+            "prompt": "User-submitted para memories publish when?",
+            "options": [
+              "Immediately",
+              "After human review",
+              "After blockchain stamping",
+              "Never, because contributions are banned"
+            ],
+            "answer_index": 1,
+            "explanation": "Unpublished until reviewed.",
+            "id": "bcce3237-c3d3-543a-aedb-efed88191982",
+            "sort_order": 3
+          },
+          {
+            "prompt": "This product’s relationship to the Ministry of Culture is…",
+            "options": [
+              "Official replacement portal",
+              "Unofficial learner tool that points to official pages",
+              "UMANG super-app module",
+              "Google Arts & Culture"
+            ],
+            "answer_index": 1,
+            "explanation": "Do not impersonate government.",
+            "id": "11d4a1dc-0a18-589b-b04a-6b46a093b106",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2020f58-b890-5f5c-bc02-f29df933d728",
+      "slug": "garba-of-gujarat",
+      "type": "festival",
+      "title": "Garba of Gujarat",
+      "summary": "Garba is a participatory dance-and-song practice of Gujarat, inscribed by UNESCO in 2023. The card separates living practice from club remix culture without shaming either.",
+      "body": "Garba of Gujarat is a community dance traditionally associated with Navaratri, circling a lamp or image, with clapping patterns and songs. UNESCO inscribed Garba of Gujarat on the Representative List (2023). Variants exist across districts and in diaspora halls. This card will not publish a “one true choreography.”\n\nA traveller in Ahmedabad or Vadodara during Navaratri may find municipal and neighbourhood events. Dress codes and gender mixing rules are local, not universal. Do not treat film choreography as ethnography. If you ask whether a specific mudra is mandatory, and it is not in the sources below, the system refuses.\n\nAjrakh and other Gujarati crafts are separate nodes. The compass job is: region Gujarat → Garba card → grounded Q&A → quiz. Social reels of Garba are out of MVP on purpose: they explode moderation risk.",
+      "unesco_id": "01962",
+      "gi_flag": false,
+      "region_id": "fbd0af12-9048-5222-a769-eb6c1fc08d5c",
+      "region_slug": "gujarat",
+      "calendar_note": "Navaratri (approx. September–October). Regional and diaspora events exist; do not invent a single “correct” step list.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "dance",
+        "navaratri",
+        "gujarat"
+      ],
+      "languages": [
+        "gu",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/garba-of-gujarat-01962",
+          "title": "Garba of Gujarat",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "a8e4559a-fd8b-5817-8012-d1188d26a250"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH list",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "0a5b55a9-66b9-5d48-a990-b29ebd34458a"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "dad3950a-32fd-56b5-86d7-fe40537d25f1"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "c0246a15-ad02-5ca9-a895-9d41e3e19673"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "18044fed-ef54-5d8a-9331-d42765e2cdc5"
+        }
+      ],
+      "quiz": {
+        "id": "b0c7413e-7bcb-58e2-a680-3897981b9400",
+        "item_id": "e2020f58-b890-5f5c-bc02-f29df933d728",
+        "title": "Garba — five checks",
+        "questions": [
+          {
+            "prompt": "Garba of Gujarat was inscribed by UNESCO in which year named on the official RL page cited here?",
+            "options": [
+              "2008",
+              "2018",
+              "2023",
+              "2030"
+            ],
+            "answer_index": 2,
+            "explanation": "UNESCO RL for Garba of Gujarat is 2023.",
+            "id": "eb19184d-fc50-596e-84da-32f3d7b9a43d",
+            "sort_order": 0
+          },
+          {
+            "prompt": "This card’s stance on a single correct Garba step list is…",
+            "options": [
+              "Publish one national syllabus",
+              "Refuse to invent one true choreography",
+              "Scrape every YouTube tutorial",
+              "Replace Navaratri with a video game"
+            ],
+            "answer_index": 1,
+            "explanation": "Variants exist; RAG must not hallucinate steps.",
+            "id": "a44ae6a4-5638-5655-9f02-102318009b02",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Navaratri timing in the MVP is stored as…",
+            "options": [
+              "A fake exact timestamp for every city",
+              "An approximate seasonal note",
+              "A billed Maps API",
+              "AR moon tracking"
+            ],
+            "answer_index": 1,
+            "explanation": "Avoid fake festival dates.",
+            "id": "f3d5b264-4044-5f20-a396-1ed587b87df1",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Why is a Garba social feed out of this MVP?",
+            "options": [
+              "Judges dislike dance",
+              "Moderation, copyright, and communal-risk cost",
+              "UNESCO forbids video",
+              "Next.js cannot play video"
+            ],
+            "answer_index": 1,
+            "explanation": "Appendix B / concept C rejection.",
+            "id": "e9551083-ddf2-508b-b775-d260d072faa0",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Ajrakh in this explorer is…",
+            "options": [
+              "The same row as Garba",
+              "A separate Gujarati craft item",
+              "Not Indian",
+              "A ministry chatbot"
+            ],
+            "answer_index": 1,
+            "explanation": "Place–practice graph keeps types distinct.",
+            "id": "0868ea9d-6113-5754-927c-105b51484c4f",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "50c303ea-e031-5881-ba8d-c6b012aab1e3",
+      "slug": "yoga",
+      "type": "knowledge",
+      "title": "Yoga",
+      "summary": "Yoga is inscribed by UNESCO as an ICH element of India. This card is a source-attributed orientation, not a medical or guru-endorsement product.",
+      "body": "Yoga appears on UNESCO’s Representative List as an Indian ICH element. The Ministry of Culture discusses yoga among living heritage narratives. Parampara Path places a learner card in the Uttarakhand / Himalayan foothills node because Rishikesh is a commonly searched place for practice — that is a navigation convenience, not a claim that yoga “belongs only” to one town.\n\nWhat this card will not do: prescribe asanas for injury, certify teachers, or generate Sanskrit translations of closed lineages. If a question is medical, refuse. If a question is historical and not in the cited pages, refuse.\n\nThe product principle is attribution before animation. A quiz tests whether you noticed UNESCO listing and the unofficial-learner stance, not whether you can perform a headstand.\n\nRelated items (Vedic chanting, Kumbh) are neighbours in the knowledge/festival graph, not substitutes.",
+      "unesco_id": "01186",
+      "gi_flag": false,
+      "region_id": "e7fda04b-0cc0-5039-8b3f-8aa6b5ae1abf",
+      "region_slug": "uttarakhand",
+      "calendar_note": "International Day of Yoga is 21 June (UN). Living practice is year-round; studio marketing is not ICH law.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "knowledge",
+        "practice"
+      ],
+      "languages": [
+        "sa",
+        "hi",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/yoga-01186",
+          "title": "Yoga",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "b02ea5ee-2692-5ca4-9c8e-328b5b88d891"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "a507b049-217e-5219-b5e4-c90e18231e5b"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "2604fc5e-4f61-5936-8d35-f5638909c957"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "Indian Culture Portal",
+          "accessed_on": "2026-09-03",
+          "id": "e8b811bd-ee18-5452-9391-b93b691ee2eb"
+        },
+        {
+          "url": "https://www.un.org/en/observances/yoga-day",
+          "title": "International Day of Yoga",
+          "publisher": "United Nations",
+          "accessed_on": "2026-09-03",
+          "id": "ccdc4c88-5ca1-58bf-b131-46dd6aca8dae"
+        }
+      ],
+      "quiz": {
+        "id": "eac9543f-4973-59de-ac77-093adb2dce66",
+        "item_id": "50c303ea-e031-5881-ba8d-c6b012aab1e3",
+        "title": "Yoga card — five checks",
+        "questions": [
+          {
+            "prompt": "In this product, Yoga is typed as…",
+            "options": [
+              "A GI handicraft",
+              "Knowledge / living practice",
+              "A native iOS game",
+              "AR lens"
+            ],
+            "answer_index": 1,
+            "explanation": "type=knowledge.",
+            "id": "31d67c0f-d138-5dba-98b5-7a69a48fd835",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Medical asana advice from the Ask feature should be…",
+            "options": [
+              "Freely generated",
+              "Refused if not in retrieved cards",
+              "Sold as a course",
+              "Posted to a social feed"
+            ],
+            "answer_index": 1,
+            "explanation": "Cite or refuse.",
+            "id": "518f5564-a124-5926-92f1-583ee07605f9",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Placing Yoga under an Uttarakhand region node means…",
+            "options": [
+              "Yoga exists only in Rishikesh by law",
+              "A navigation convenience, not exclusive ownership",
+              "UNESCO moved the capital",
+              "ICP was shut down"
+            ],
+            "answer_index": 1,
+            "explanation": "Honest IA, not fake geography.",
+            "id": "57e335b0-771c-5956-b6b7-3051b3915980",
+            "sort_order": 2
+          },
+          {
+            "prompt": "International Day of Yoga is cited as…",
+            "options": [
+              "21 June (UN observance)",
+              "A random demo date",
+              "Deepavali",
+              "Only a private brand holiday"
+            ],
+            "answer_index": 0,
+            "explanation": "UN observance is sourced.",
+            "id": "9b8a334a-166e-5b21-ad01-150d37e2584b",
+            "sort_order": 3
+          },
+          {
+            "prompt": "This app is…",
+            "options": [
+              "A yoga teacher council",
+              "An unofficial learner compass with outbound sources",
+              "The Ministry of AYUSH website",
+              "A metaverse ashram"
+            ],
+            "answer_index": 1,
+            "explanation": "Do not impersonate government.",
+            "id": "d3a0db90-6689-5316-96c1-f57d34564d36",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "1c8aca61-4afc-51f7-8999-14b2a02c40aa",
+      "slug": "kumbh-mela",
+      "type": "festival",
+      "title": "Kumbh Mela",
+      "summary": "Kumbh Mela is a large cyclical pilgrimage gathering inscribed by UNESCO. This card orients learners; it is not crowd-control or ticketing software.",
+      "body": "Kumbh Mela is among India’s UNESCO-listed ICH elements: a massive, cyclical gathering of pilgrims, akharas, and temporary cities at rotating river sites. Host geography includes cities in Uttar Pradesh and other states depending on the cycle. This MVP pins a region node to Uttar Pradesh for discoverability (Prayagraj is a widely searched host) while stating clearly that the phenomenon is not “UP-only property.”\n\nSafety, stamps, and exact bathing minutes are operational matters for authorities. This app must not hallucinate them. Ask may refuse crowd numbers that are not in the card. Contributions about family pilgrimage stay in a pending queue.\n\nDo not depict restricted initiatory knowledge. Public festival description is enough for a student MVP.",
+      "unesco_id": "01258",
+      "gi_flag": false,
+      "region_id": "a53ed266-be27-53cb-b4f3-9989113a8cad",
+      "region_slug": "uttar-pradesh",
+      "calendar_note": "Cycle of gatherings at rotating host cities; dates follow traditional calendars. Do not invent the next snan minute.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "festival",
+        "pilgrimage"
+      ],
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/kumbh-mela-01258",
+          "title": "Kumbh Mela",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "2394219d-f982-5a46-914a-fa2d3cb8a4af"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "955c2550-bfb3-5d0c-b6c1-838dbd34d91d"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "35c8ccbd-cf5c-5a4a-8223-92775fa4bfb3"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "4c48ba35-c4d7-58bc-a826-27a23d0c39f1"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "1bfc54ee-f41c-56f6-aa96-1275a7b4b698"
+        }
+      ],
+      "quiz": {
+        "id": "9da74130-f404-58f3-aee4-793758faa388",
+        "item_id": "1c8aca61-4afc-51f7-8999-14b2a02c40aa",
+        "title": "Kumbh — five checks",
+        "questions": [
+          {
+            "prompt": "Exact next snan timings in Ask should be…",
+            "options": [
+              "Invented confidently",
+              "Refused unless present in retrieved sources",
+              "Sold via Maps billing",
+              "Posted as reels"
+            ],
+            "answer_index": 1,
+            "explanation": "No fake operational data.",
+            "id": "d5a1f013-2173-5c08-b95d-4481d46b2654",
+            "sort_order": 0
+          },
+          {
+            "prompt": "The UP region pin is…",
+            "options": [
+              "Legal exclusive ownership",
+              "A discovery convenience with an explicit caveat",
+              "A replacement for the mela administration",
+              "A 3D twin"
+            ],
+            "answer_index": 1,
+            "explanation": "Honest geography.",
+            "id": "49a041dd-73d4-5a4a-ac85-199a2c915daa",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Kumbh is typed here as…",
+            "options": [
+              "Craft",
+              "Festival",
+              "Programming language",
+              "UMANG module"
+            ],
+            "answer_index": 1,
+            "explanation": "festival.",
+            "id": "c9e8bef6-5846-5cd7-8d76-226e5b26b7a5",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Restricted initiatory content is…",
+            "options": [
+              "Scraped in full",
+              "Omitted / not touristified",
+              "Required for MVP",
+              "Generated by LLM"
+            ],
+            "answer_index": 1,
+            "explanation": "Sensitivity principle.",
+            "id": "365abfb6-6be7-5559-8820-cc6230acbbe0",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Family pilgrimage stories go to…",
+            "options": [
+              "Instant public comments",
+              "A pending human-reviewed queue",
+              "A social ranking feed",
+              "Chain of blocks"
+            ],
+            "answer_index": 1,
+            "explanation": "Contribution brakes.",
+            "id": "95a0151f-7712-5342-b440-be7c622294fb",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7a5ab14-aa88-5509-95ce-0857ee6603bc",
+      "slug": "kutiyattam",
+      "type": "performing",
+      "title": "Kutiyattam, Sanskrit theatre",
+      "summary": "Kutiyattam is a Sanskrit theatre tradition of Kerala inscribed by UNESCO. Treat it as a specialist performing lineage, not a tourist skit generator.",
+      "body": "Kutiyattam (Koodiyattam) is a form of Sanskrit theatre practised in Kerala, with UNESCO inscription on the Representative List. Training, gesture vocabularies, and temple associations are specialised. This card will not generate a fake scene-by-scene script or claim that every Kerala tourist show is Kutiyattam.\n\nFor learners: use outbound UNESCO and MoC pages; respect that some performance contexts are not drop-in tourist products. Ask refuses costume “meanings” that are not in sources. Related Kerala nodes include Mudiyettu and Onam, which are different practices.",
+      "unesco_id": "00010",
+      "gi_flag": false,
+      "region_id": "14c1a658-6d81-5cf4-9323-81b1f040a957",
+      "region_slug": "kerala",
+      "calendar_note": "Temple and stage calendars vary; do not invent show times.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "theatre",
+        "kerala"
+      ],
+      "languages": [
+        "ml",
+        "sa"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/kutiyattam-sanskrit-theatre-00010",
+          "title": "Kutiyattam, Sanskrit theatre",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "a36be8a8-fa84-52c3-be24-aefca8b8185d"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "803b92c9-2bfa-5270-bace-98dea886b863"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "ab77dc6a-0961-5e2c-9ea7-038c07c9f348"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "4a9a82a9-ce02-5340-b67b-c855e9bfb2b5"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "8edeb075-55e4-545f-970c-12acc90caa1e"
+        }
+      ],
+      "quiz": {
+        "id": "05b3faed-c72f-5da2-91af-81e96b05b11f",
+        "item_id": "f7a5ab14-aa88-5509-95ce-0857ee6603bc",
+        "title": "Kutiyattam, Sanskrit theatre — checks",
+        "questions": [
+          {
+            "prompt": "Kutiyattam is primarily…",
+            "options": [
+              "A GI toy cluster",
+              "Sanskrit theatre of Kerala",
+              "A Punjab metalcraft",
+              "A social DM product"
+            ],
+            "answer_index": 1,
+            "explanation": "UNESCO performing element.",
+            "id": "1cf41893-b007-5d6c-95f3-7b265938115b",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Fake scene scripts from Ask are…",
+            "options": [
+              "Encouraged",
+              "Out of scope / refuse if ungrounded",
+              "Required by SIH"
+            ],
+            "answer_index": 1,
+            "explanation": "No ungrounded generation.",
+            "id": "e9675b0d-623a-50b6-b4bd-e7782ec1ae5b",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Mudiyettu and Kutiyattam in this app are…",
+            "options": [
+              "The same row",
+              "Different Kerala practices",
+              "Banned words"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph, not collapse.",
+            "id": "65a00e46-664d-54fa-897f-4398c4f834ab",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "b51bf192-f5b2-5afb-80fd-cf006dba8edc",
+      "slug": "chhau-dance",
+      "type": "performing",
+      "title": "Chhau dance",
+      "summary": "Chhau is a masked or martial-inflected dance family spanning Odisha, Jharkhand, and West Bengal. MoC notes vulnerability to falling participation.",
+      "body": "Chhau dance is UNESCO-listed. Styles associated with Seraikella, Purulia, and Mayurbhanj are often distinguished in public literature; this card will not invent a fourth “official” national style. The Ministry of Culture has described Chhau as pressured by modern influences and declining participation — a reminder that living heritage is not guaranteed.\n\nOdisha is the region pin for discovery; neighbouring states also host styles. Masks and martial vocabulary are documented at a high level; sacred or closed details are omitted. Do not use Ask to generate a combat manual.",
+      "unesco_id": "00337",
+      "gi_flag": false,
+      "region_id": "826f4435-bed1-5d0b-8bc4-d0c328e199bc",
+      "region_slug": "odisha",
+      "calendar_note": "Seasonal and community performance calendars vary across Seraikella, Purulia, and Mayurbhanj styles.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "dance",
+        "odisha"
+      ],
+      "languages": [
+        "or",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/chhau-dance-00337",
+          "title": "Chhau dance",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "b3e8c7c9-a565-5816-99a0-09fe041f1744"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "897fb586-de04-518f-839e-6d802616e756"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "2fd0217a-8f39-5bea-bba3-e4036f0803f8"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "ba82b29a-9e98-5617-9130-8996d3412f88"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "8994c444-29e3-59f7-8c76-0de5519a9396"
+        }
+      ],
+      "quiz": {
+        "id": "d2b88db4-e335-548b-b7b3-27e529067673",
+        "item_id": "b51bf192-f5b2-5afb-80fd-cf006dba8edc",
+        "title": "Chhau dance — checks",
+        "questions": [
+          {
+            "prompt": "Chhau is listed by…",
+            "options": [
+              "UNESCO ICH",
+              "Only a marketplace",
+              "This app as owner"
+            ],
+            "answer_index": 0,
+            "explanation": "UNESCO RL.",
+            "id": "0cd5806b-7465-51ef-9544-faf0ac6924ab",
+            "sort_order": 0
+          },
+          {
+            "prompt": "This card’s Odisha pin means…",
+            "options": [
+              "Other states never practised Chhau",
+              "A discovery default; styles also exist across a wider belt",
+              "ICP shutdown"
+            ],
+            "answer_index": 1,
+            "explanation": "Honest geography.",
+            "id": "14a17f54-0a7b-542a-8b54-4d71294c51ef",
+            "sort_order": 1
+          },
+          {
+            "prompt": "MoC language about falling participation is used here to…",
+            "options": [
+              "Shame communities",
+              "Note that living heritage can be vulnerable",
+              "Sell AR tickets"
+            ],
+            "answer_index": 1,
+            "explanation": "Problem landscape.",
+            "id": "87a4e845-6fe7-514d-953d-7ace01ebc26f",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "d36f8e12-ef88-5a84-b755-431f0d19893e",
+      "slug": "sankirtana",
+      "type": "performing",
+      "title": "Sankirtana of Manipur",
+      "summary": "Sankirtana is a ritual singing-and-drumming practice of Manipur inscribed by UNESCO.",
+      "body": "Sankirtana (Manipur) is a UNESCO-listed performing/ritual singing practice with drums and dance in Vaishnava contexts as described on official ICH pages. This learner card will not reconstruct full liturgy, nor treat it as a nightclub genre.\n\nAsk refuses unsourced claims about caste or “secret” verses. Contributions of family attendance memories are allowed as pending text, not as theology.",
+      "unesco_id": "00508",
+      "gi_flag": false,
+      "region_id": "91b391c8-6cd9-562f-9a97-623d8fcde854",
+      "region_slug": "manipur",
+      "calendar_note": "Temple and festival contexts; do not invent liturgy.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "manipur",
+        "music"
+      ],
+      "languages": [
+        "mni"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/sankirtana-ritual-singing-drumming-and-dancing-of-manipur-00508",
+          "title": "Sankirtana of Manipur",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "70cf2462-4813-5b0d-a5ee-4246b8a0d081"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "1802c42f-9245-5c36-88d8-8c0d12db4d95"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "67032ae5-0a2b-5426-bd24-402f2381ccd2"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "edf328e2-f499-53dd-8f94-cdbb7d47b122"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "50b0b80b-27af-5174-8e08-7ec131bd6ffb"
+        }
+      ],
+      "quiz": {
+        "id": "535bc44e-9a5b-5535-be07-285a4ee749fa",
+        "item_id": "d36f8e12-ef88-5a84-b755-431f0d19893e",
+        "title": "Sankirtana of Manipur — checks",
+        "questions": [
+          {
+            "prompt": "Sankirtana in this explorer is pinned to…",
+            "options": [
+              "Manipur",
+              "Only Gujarat",
+              "Only Europe"
+            ],
+            "answer_index": 0,
+            "explanation": "Region node.",
+            "id": "a81c67e3-613f-5b6c-b2bf-825351baaca0",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Full liturgical reconstruction is…",
+            "options": [
+              "MVP scope",
+              "Out of scope",
+              "Required AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Sensitivity.",
+            "id": "b1dc2438-7dc5-58d6-8cac-e6bc50965ec9",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Drumming here is described at…",
+            "options": [
+              "A high-level sourced practice",
+              "A DJ contest"
+            ],
+            "answer_index": 0,
+            "explanation": "ICH performing.",
+            "id": "7e5a79c2-029e-54c6-9a84-866d9afe4fa3",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "b5e6e0f2-412e-5739-9e29-f8d5292ef0dc",
+      "slug": "thathera-jandiala-guru",
+      "type": "craft",
+      "title": "Thathera metal craft of Jandiala Guru",
+      "summary": "Traditional brass and copper utensil making of the Thatheras of Jandiala Guru, Punjab — UNESCO listed and a craft-economy story, not a souvenir mill.",
+      "body": "The traditional brass and copper craft of the Thatheras of Jandiala Guru is a UNESCO-listed ICH element. Public descriptions emphasise hammered utensils and a specialised artisan community in Punjab. GI and craft-economy writing in India often treats metalware as livelihood plus authenticity — still poorly explained to youth, which is this product’s gap.\n\nThis card will not set prices, certify GI labels for a stall, or generate a metallurgy textbook. If you are at a fair, the learner job is: name, place, UNESCO pointer, and how-it-is-made at summary level. Phulkari is a neighbouring Punjab textile practice, not the same item.\n\nPhotos: prefer own or clearly licensed images later; captions must not imply Ministry ownership of this app.",
+      "unesco_id": "00865",
+      "gi_flag": true,
+      "region_id": "672bd754-4119-5deb-b671-c37472f71aef",
+      "region_slug": "punjab",
+      "calendar_note": "Workshop practice is ongoing; not a one-day festival.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "gi",
+        "craft",
+        "punjab"
+      ],
+      "languages": [
+        "pa",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/traditional-brass-and-copper-craft-of-utensil-making-among-the-thatheras-of-jandiala-guru-punjab-india-00865",
+          "title": "Thatheras of Jandiala Guru",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "8bbcbfab-c5cb-544e-b92d-af3ad4b81448"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "1a6e4e30-7e73-57c1-865d-6e948ec3de13"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "d4422897-d529-510a-b496-9fe35baa7442"
+        },
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "GI crafts mapping (contextual)",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "903a062b-9d12-5c54-8b89-ed2715993b2f"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI handicrafts and livelihoods (contextual)",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "91d9b04b-6755-57e5-8ad6-48ffc7312b19"
+        }
+      ],
+      "quiz": {
+        "id": "72b3059e-3634-556d-9bb0-b075ac3027b9",
+        "item_id": "b5e6e0f2-412e-5739-9e29-f8d5292ef0dc",
+        "title": "Thathera — five checks",
+        "questions": [
+          {
+            "prompt": "Jandiala Guru is associated in this card with…",
+            "options": [
+              "Brass and copper utensil craft",
+              "Only Garba",
+              "Only Durga Puja",
+              "LiDAR scanning"
+            ],
+            "answer_index": 0,
+            "explanation": "UNESCO metalcraft element.",
+            "id": "602d58f8-b635-5533-95d7-ff2d535c14d0",
+            "sort_order": 0
+          },
+          {
+            "prompt": "GI-flag on this item means…",
+            "options": [
+              "This app issues GI certificates",
+              "Craft authenticity/livelihood is part of the learning frame",
+              "Payments are enabled",
+              "ICP was scraped wholesale"
+            ],
+            "answer_index": 1,
+            "explanation": "Learner loop, not marketplace.",
+            "id": "10c36d4d-2d3c-5d38-befc-30d053e7d5c1",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Price haggling scripts from Ask are…",
+            "options": [
+              "In scope",
+              "Out of scope",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "Not a shop.",
+            "id": "4c47ed6c-0adc-5f1d-94b8-d9ff052fd925",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Phulkari is…",
+            "options": [
+              "The same UNESCO metal element",
+              "A separate Punjab textile practice",
+              "A Kerala theatre"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "e3cb49d4-d2f4-5c31-9985-a580a3718028",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Youth-facing GI explanation is…",
+            "options": [
+              "Already solved by every shop app",
+              "Named as a gap this compass tries to fill",
+              "Illegal"
+            ],
+            "answer_index": 1,
+            "explanation": "Problem landscape.",
+            "id": "558250e2-6b6f-50af-89ab-ad60e73c09e7",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "3db92da9-03c6-57da-8745-fe7ece43a95b",
+      "slug": "ramman",
+      "type": "festival",
+      "title": "Ramman, religious festival and ritual theatre of the Garhwal Himalayas",
+      "summary": "Ramman is a UNESCO-listed religious festival and ritual theatre of Garhwal.",
+      "body": "Ramman combines festival and ritual theatre in the Garhwal Himalayas and is UNESCO-listed. It is place-specific. This card will not relocate it to a generic “hill station package.” Closed or highly local ritual details stay out. Yoga and Ramman share a region node but are different types.",
+      "unesco_id": "00281",
+      "gi_flag": false,
+      "region_id": "e7fda04b-0cc0-5039-8b3f-8aa6b5ae1abf",
+      "region_slug": "uttarakhand",
+      "calendar_note": "Village festival cycle in Garhwal; do not invent the next date.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "uttarakhand",
+        "theatre"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/ramman-religious-festival-and-ritual-theatre-of-the-garhwal-himalayas-india-00281",
+          "title": "Ramman",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "bcab764c-f219-560e-a4f9-d1da2bd2f9d2"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "436da2f3-1ba0-5614-ab85-57cfe5e442ec"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "23204aa3-3b4d-5fae-ab6a-9f3a83a555be"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "e2b43d5f-fd3d-5233-971d-8ce42d3410f4"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "740c6eb6-5479-549d-9377-71fd12530a54"
+        }
+      ],
+      "quiz": {
+        "id": "4ffc4717-c4ea-59b4-b60f-79f3e381a4fc",
+        "item_id": "3db92da9-03c6-57da-8745-fe7ece43a95b",
+        "title": "Ramman, religious festival and ritual theatre of the Garhwal Himalayas — checks",
+        "questions": [
+          {
+            "prompt": "Ramman is associated with…",
+            "options": [
+              "Garhwal Himalayas",
+              "Only Kanchipuram",
+              "Only Kutch"
+            ],
+            "answer_index": 0,
+            "explanation": "UNESCO title.",
+            "id": "d45dc330-6277-5366-8bea-fc478f7f6f59",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Inventing the next village date is…",
+            "options": [
+              "Fine",
+              "Against this card’s calendar rule",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "No fake dates.",
+            "id": "822d9a16-82d9-59c3-a132-41d96bfa7010",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Yoga and Ramman are…",
+            "options": [
+              "Identical",
+              "Different items that can share a region node",
+              "Both GI toys"
+            ],
+            "answer_index": 1,
+            "explanation": "IA.",
+            "id": "ed0f22f4-8ab7-521e-a226-874965ab62cd",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "5ea4c679-6655-593f-ab82-3730850d41c9",
+      "slug": "ramlila",
+      "type": "performing",
+      "title": "Ramlila, traditional performance of the Ramayana",
+      "summary": "Ramlila is a traditional performance of the Ramayana, UNESCO-listed, with many local forms.",
+      "body": "Ramlila is UNESCO-listed as traditional performance of the Ramayana. Forms differ by town. This card refuses a single national script dump and refuses to adjudicate sectarian disputes. UP is a discovery pin because many well-known Ramlilas are discussed there; performances exist elsewhere. Durga Puja and Ramlila are different festival/theatre complexes.",
+      "unesco_id": "00110",
+      "gi_flag": false,
+      "region_id": "a53ed266-be27-53cb-b4f3-9989113a8cad",
+      "region_slug": "uttar-pradesh",
+      "calendar_note": "Often around Dussehra; local calendars vary widely.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "theatre",
+        "ramayana"
+      ],
+      "languages": [
+        "hi",
+        "aw"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/ramlila-the-traditional-performance-of-the-ramayana-00110",
+          "title": "Ramlila",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "2a5a93d0-9c36-51c9-8e02-fde0be8d2e19"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "b1dbc6e2-e5b4-51de-a324-6087fcb8025e"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "b88d02fc-ae95-532f-a4da-b6880352d532"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "e264fb61-c433-5079-810c-aa240a952446"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0054ed38-3c83-55b6-9283-257cf5b165d4"
+        }
+      ],
+      "quiz": {
+        "id": "d858133c-40a1-5ea6-a92b-1a7fc9277c9f",
+        "item_id": "5ea4c679-6655-593f-ab82-3730850d41c9",
+        "title": "Ramlila, traditional performance of the Ramayana — checks",
+        "questions": [
+          {
+            "prompt": "Ramlila is…",
+            "options": [
+              "One identical script everywhere",
+              "A family of local performances of the Ramayana",
+              "A GI silk"
+            ],
+            "answer_index": 1,
+            "explanation": "Local forms.",
+            "id": "93b41123-aeb6-508f-b74f-0e75ac4899ab",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Sectarian adjudication in Ask is…",
+            "options": [
+              "Required",
+              "Refused",
+              "Monetised"
+            ],
+            "answer_index": 1,
+            "explanation": "Ethics.",
+            "id": "c3975452-3ca3-5a49-864a-44343cd5baa6",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Approximate seasonal note is…",
+            "options": [
+              "Around Dussehra, locally variable",
+              "A fake UTC timestamp"
+            ],
+            "answer_index": 0,
+            "explanation": "Calendar.",
+            "id": "577b9c29-6970-56c8-82da-870d64247968",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "28c44046-c0ed-5b2e-a477-6623f5eaf062",
+      "slug": "mudiyettu",
+      "type": "ritual",
+      "title": "Mudiyettu",
+      "summary": "Mudiyettu is a ritual theatre of Kerala inscribed by UNESCO. Tourist packaging is not the same as temple permission.",
+      "body": "Mudiyettu is UNESCO-listed ritual theatre in Kerala. This card describes it at a public ICH level only. Do not autoplay chanting. Do not generate a how-to for costume or possession. Kutiyattam is a related but distinct Kerala performing lineage.",
+      "unesco_id": "00345",
+      "gi_flag": false,
+      "region_id": "14c1a658-6d81-5cf4-9323-81b1f040a957",
+      "region_slug": "kerala",
+      "calendar_note": "Bhagavati / temple-related ritual theatre calendar; omit restricted practice details.",
+      "sensitivity_flag": true,
+      "published": true,
+      "tags": [
+        "unesco",
+        "kerala",
+        "ritual"
+      ],
+      "languages": [
+        "ml"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/mudiyettu-ritual-theatre-and-dance-drama-of-kerala-00345",
+          "title": "Mudiyettu",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "a73feec4-0b05-530e-ab32-a0eeb7c44614"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "0037af84-551f-5b48-b813-17467b5d8ef0"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "a7aa701b-a7ba-51c2-9fb3-4affe72ece28"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "b49468f1-cece-5c25-9d6d-0c4a68e7b94f"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0d1e11b1-aad7-5ee4-a834-76d9b83e9e82"
+        }
+      ],
+      "quiz": {
+        "id": "ce1f41a2-3d7d-5b9c-ae6a-03ea6e1075a5",
+        "item_id": "28c44046-c0ed-5b2e-a477-6623f5eaf062",
+        "title": "Mudiyettu — checks",
+        "questions": [
+          {
+            "prompt": "Audio of chanting in this product should be…",
+            "options": [
+              "Autoplayed",
+              "User-initiated only, if present at all",
+              "Loud always"
+            ],
+            "answer_index": 1,
+            "explanation": "Sacred sound ethics.",
+            "id": "d7f400ea-fe3f-5e0a-ab00-2bbf57ba0cf3",
+            "sort_order": 0
+          },
+          {
+            "prompt": "How-to possession guides are…",
+            "options": [
+              "MVP",
+              "Omitted",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Sensitivity flag territory.",
+            "id": "0dc6a904-8959-5a88-a29c-deb7aaa9c709",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Type enum used here is…",
+            "options": [
+              "ritual",
+              "craft",
+              "knowledge-only"
+            ],
+            "answer_index": 0,
+            "explanation": "ritual.",
+            "id": "5e44d844-81c6-5108-8cf4-b4cabd5f19e8",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "96c8309f-bc24-5bc1-a7e2-bbb9c27a1546",
+      "slug": "vedic-chanting",
+      "type": "oral",
+      "title": "Tradition of Vedic chanting",
+      "summary": "UNESCO lists the tradition of Vedic chanting. This card will not dump copyrighted recitations or closed-school secrets.",
+      "body": "The tradition of Vedic chanting is a UNESCO-listed oral heritage. Transmission is specialised. This MVP will not host full recitation audio, autoplay mantras, or claim to replace a teacher. The UP pin is a weak geographic convenience for the explorer, not a statement that chanting exists only there. Ask refuses to “translate secretly” unsourced verses.",
+      "unesco_id": "00062",
+      "gi_flag": false,
+      "region_id": "a53ed266-be27-53cb-b4f3-9989113a8cad",
+      "region_slug": "uttar-pradesh",
+      "calendar_note": "Living oral transmission; not a playlist product.",
+      "sensitivity_flag": true,
+      "published": true,
+      "tags": [
+        "unesco",
+        "oral",
+        "veda"
+      ],
+      "languages": [
+        "sa"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+          "title": "Tradition of Vedic chanting",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "8ad538c9-e3b4-5a5b-b403-890d03eb67aa"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "cba15be7-debe-56fc-be63-0a55424918cb"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "6b3dca54-aded-58da-a140-0c636fb7e255"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "acd0cb02-1ecf-5a87-8cc0-cc60fe47eaa3"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "b2b69473-97b3-55f1-9f1d-6db5b0720b92"
+        }
+      ],
+      "quiz": {
+        "id": "f38f1dfa-9589-5c38-a6c2-9b953e755bfd",
+        "item_id": "96c8309f-bc24-5bc1-a7e2-bbb9c27a1546",
+        "title": "Tradition of Vedic chanting — checks",
+        "questions": [
+          {
+            "prompt": "Full recitation dumps are…",
+            "options": [
+              "In MVP",
+              "Out of MVP",
+              "Required by RAG"
+            ],
+            "answer_index": 1,
+            "explanation": "Oral ethics.",
+            "id": "2394d43d-2dac-52d8-bae4-44edb5771c08",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Type is…",
+            "options": [
+              "oral",
+              "craft",
+              "festival-only"
+            ],
+            "answer_index": 0,
+            "explanation": "oral.",
+            "id": "d37eee51-dd03-5390-8384-24870e221d4f",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Autoplay sacred audio is…",
+            "options": [
+              "Allowed",
+              "Against the a11y/ethics notes",
+              "Needed for judges"
+            ],
+            "answer_index": 1,
+            "explanation": "No autoplay chanting.",
+            "id": "cc000bb0-7d0f-5c35-a881-545ef1a6c25a",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4f606eb-e4ba-5b69-aa59-ebf69c4cc995",
+      "slug": "buddhist-chanting-ladakh",
+      "type": "oral",
+      "title": "Buddhist chanting of Ladakh",
+      "summary": "UNESCO lists Buddhist chanting of Ladakh. Treat monasteries as living communities, not film sets.",
+      "body": "Buddhist chanting of Ladakh is UNESCO-listed. Learners should expect that recording rules are local. This card will not generate a “secret tantra tourist pack.” Ask refuses unsourced claims about specific rites. Related: Yoga is a different knowledge item.",
+      "unesco_id": "00265",
+      "gi_flag": false,
+      "region_id": "7adeee00-fddc-56b7-933b-ae1f67c056d5",
+      "region_slug": "ladakh",
+      "calendar_note": "Monastic calendars; visitor access is not guaranteed.",
+      "sensitivity_flag": true,
+      "published": true,
+      "tags": [
+        "unesco",
+        "ladakh",
+        "chanting"
+      ],
+      "languages": [
+        "bo"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/buddhist-chanting-of-ladakh-recitation-of-sacred-buddhist-texts-in-the-trans-himalayan-ladakh-region-jammu-and-kashmir-india-00265",
+          "title": "Buddhist chanting of Ladakh",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "49f80671-9ff0-5e02-9b5a-f4dbe81bbd05"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH state page",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "aebdd188-054f-5700-be82-16d51e929abb"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "1a35bf29-2c56-560a-85cf-38b6cfd30dc9"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "c787c46f-d78a-5b5d-b8d2-9a3729cabe97"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "d8ea6296-d290-5dff-ab0a-7fc4bb94bb73"
+        }
+      ],
+      "quiz": {
+        "id": "bd9fa275-d7cb-5b44-9d53-008eba06f542",
+        "item_id": "f4f606eb-e4ba-5b69-aa59-ebf69c4cc995",
+        "title": "Buddhist chanting of Ladakh — checks",
+        "questions": [
+          {
+            "prompt": "Recording inside monasteries…",
+            "options": [
+              "Is always free",
+              "Depends on local rules; this card does not override them",
+              "Is billed via Maps"
+            ],
+            "answer_index": 1,
+            "explanation": "Respect.",
+            "id": "b9d2a2b5-a866-5473-8e71-fb82c1f66e53",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Region pin is…",
+            "options": [
+              "Ladakh",
+              "Kerala",
+              "Kanchipuram"
+            ],
+            "answer_index": 0,
+            "explanation": "ladakh.",
+            "id": "56407706-e83a-53a4-971b-641b6e520b90",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Secret tourist tantra packs are…",
+            "options": [
+              "Product feature",
+              "Rejected",
+              "GI-tagged"
+            ],
+            "answer_index": 1,
+            "explanation": "Ethics.",
+            "id": "b1fa5d37-9fc0-5f3e-95ce-8caf787616ca",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "8243e8df-956d-59f3-b7ca-9d6dc3a6ede8",
+      "slug": "deepavali",
+      "type": "festival",
+      "title": "Deepavali",
+      "summary": "Deepavali was inscribed by UNESCO in 2025. This card stresses regional variation and refuses a single pan-India ritual script.",
+      "body": "Deepavali (Diwali) is listed on UNESCO’s India ICH page as an inscribed element (2025 inscription referenced in the research brief). Practices differ by region: lamps, Lakshmi puja, new year associations, Jain and Sikh observances, and local foodways. Tamil Nadu is a discovery pin, not exclusive ownership.\n\nThis card will not generate fireworks safety law for every municipal ward, nor a shopping list. Ask may refuse “what does every Hindu must do.” Pongal is a separate Tamil festival item. Kanchipuram silk may appear in gift economies but is a craft node, not the festival itself.",
+      "unesco_id": "02312",
+      "gi_flag": false,
+      "region_id": "e1cd844b-4b6a-5f43-b684-ed71bb3fcfb4",
+      "region_slug": "tamil-nadu",
+      "calendar_note": "Lunar calendar; national public holiday dates are announced annually. Regional names and emphases differ (Deepavali / Diwali).",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco",
+        "festival",
+        "diwali"
+      ],
+      "languages": [
+        "ta",
+        "hi",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/RL/deepavali-02312",
+          "title": "Deepavali",
+          "publisher": "UNESCO ICH",
+          "accessed_on": "2026-09-03",
+          "id": "a7a1fd40-cb16-5061-b3a7-6590cc4d3f1a"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India ICH including Deepavali",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "3625b210-cbd7-5345-8cee-80407f6ff8aa"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "a9d93c98-cd2b-5eb6-9485-fcc15c45199e"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "cba2eefe-3824-596a-bedf-a7a55c6c6f6a"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "e7aaf346-63c6-57b1-ad3d-558f8a0a1984"
+        }
+      ],
+      "quiz": {
+        "id": "82547d1e-fd49-5dde-bef8-da350e317edf",
+        "item_id": "8243e8df-956d-59f3-b7ca-9d6dc3a6ede8",
+        "title": "Deepavali — five checks",
+        "questions": [
+          {
+            "prompt": "Deepavali regional variation in this card is…",
+            "options": [
+              "Denied",
+              "Stated as fact",
+              "Replaced by one Bollywood scene"
+            ],
+            "answer_index": 1,
+            "explanation": "Variants.",
+            "id": "acc4afec-bfe0-5e47-97bd-314cc8abcc08",
+            "sort_order": 0
+          },
+          {
+            "prompt": "UNESCO RL cited for Deepavali uses id…",
+            "options": [
+              "02312",
+              "00703",
+              "01962"
+            ],
+            "answer_index": 0,
+            "explanation": "deepavali-02312.",
+            "id": "e2933454-74ac-56f2-8212-8b50b7c2af4d",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Fireworks legal advice city-by-city is…",
+            "options": [
+              "Generated",
+              "Refused as ungrounded operational law",
+              "A Maps SKU"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "239f35c0-9851-558b-ac49-f0386c168912",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Pongal is…",
+            "options": [
+              "The same UNESCO row",
+              "A separate Tamil festival card",
+              "A Punjab craft"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "f8b6c233-a579-5cd2-8a04-684551ab382d",
+            "sort_order": 3
+          },
+          {
+            "prompt": "The Tamil Nadu pin means…",
+            "options": [
+              "Only Tamils observe lamps",
+              "A discovery convenience with explicit non-exclusivity",
+              "ICP clone"
+            ],
+            "answer_index": 1,
+            "explanation": "IA honesty.",
+            "id": "ab3e63e5-338c-53f1-b765-5d5281aac48e",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "9bea2ccb-bc31-5a54-8147-2a61888f201f",
+      "slug": "jaipur-blue-pottery",
+      "type": "craft",
+      "title": "Jaipur blue pottery",
+      "summary": "Blue-glazed pottery associated with Jaipur — a GI craft learner card, not a shop.",
+      "body": "Jaipur blue pottery is a distinctive glazed ceramic practice associated with Jaipur, often discussed in GI and handicraft narratives. Quartz-based bodies and turquoise-blue palettes appear in public craft writing. This card will not certify a stall’s GI status or invent a Mughal origin story beyond what sources support.\n\nAt a mela, the job-to-be-done is name, region, GI-as-authenticity-frame, and making-at-summary-level. Kalbelia is a performing neighbour in Rajasthan, not a glaze recipe. Payments and marketplaces are out of MVP.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "da59cdd3-db2a-594d-90c7-e5ba25732c41",
+      "region_slug": "rajasthan",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "craft",
+        "jaipur"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "4dc8da3c-164f-58cf-a379-fd9f09fef810"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "b617e387-c5b4-5681-a42c-c9c92011bfb2"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "03c35048-0d07-53e2-b902-a4dae3222e09"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "5279c3d9-87c0-5537-b36e-31084d2abc98"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "72538813-fa55-5ce5-93da-7909ac689dfd"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC ICH (national frame)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "cec893aa-3b95-52b6-8e43-cc4b1d0c4acc"
+        }
+      ],
+      "quiz": {
+        "id": "4bd88a7a-4605-53cb-b6d8-ab9d27bbb0bd",
+        "item_id": "9bea2ccb-bc31-5a54-8147-2a61888f201f",
+        "title": "Jaipur blue pottery — checks",
+        "questions": [
+          {
+            "prompt": "Blue pottery here is…",
+            "options": [
+              "A Rajasthan craft card",
+              "A UNESCO dance",
+              "A chat app"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "04a6c972-bb8f-5341-883b-8f0acd27c857",
+            "sort_order": 0
+          },
+          {
+            "prompt": "This app issues GI certificates?",
+            "options": [
+              "Yes",
+              "No",
+              "On-chain only"
+            ],
+            "answer_index": 1,
+            "explanation": "Learner tool.",
+            "id": "b7c4f185-a981-5932-92d9-1fd2864c133d",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Kalbelia vs blue pottery…",
+            "options": [
+              "Same item",
+              "Different types in one region graph",
+              "Unrelated continents"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "6afa866b-577e-51e6-a130-6d7f9464460a",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "5ce82050-db7d-5f28-93ac-3f910e25643d",
+      "slug": "banarasi-brocade",
+      "type": "craft",
+      "title": "Banarasi brocade weaving",
+      "summary": "Varanasi brocade/silk weaving as a GI craft story for learners.",
+      "body": "Banarasi weaving is widely discussed as a GI-tagged silk/brocade tradition of Varanasi. This card explains place and craft at summary level. It will not set gold-zari prices or generate caste commentary. Ramlila and Kumbh share the UP node as different types. Do not scrape full commercial catalogues.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "a53ed266-be27-53cb-b4f3-9989113a8cad",
+      "region_slug": "uttar-pradesh",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "silk",
+        "varanasi"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "8d8aa74f-c02f-5261-bab0-c0d22f0f75aa"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "1ac35fd5-7828-57d5-9364-22b920b42909"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "c6125ae1-0a70-54f4-b916-c82ec09b67ee"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "37e51ee1-2595-560c-ae94-f24d93fdf13d"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0b81b0cf-8798-5653-95f8-5320bfab1651"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "c6125ae1-0a70-54f4-b916-c82ec09b67ee"
+        }
+      ],
+      "quiz": {
+        "id": "467cfd98-9765-52b1-9b04-32baf3f8919f",
+        "item_id": "5ce82050-db7d-5f28-93ac-3f910e25643d",
+        "title": "Banarasi brocade weaving — checks",
+        "questions": [
+          {
+            "prompt": "Banarasi weaving is pinned to…",
+            "options": [
+              "Uttar Pradesh / Varanasi frame",
+              "Ladakh only",
+              "Kerala theatre"
+            ],
+            "answer_index": 0,
+            "explanation": "region.",
+            "id": "2f9de7c2-296d-58d4-8e94-165dbccc3a09",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Price lists in Ask…",
+            "options": [
+              "Are invented",
+              "Are refused if not in sources",
+              "Are required"
+            ],
+            "answer_index": 1,
+            "explanation": "Not a shop.",
+            "id": "f6fa3eb8-2614-5a6a-8c66-7da68d696312",
+            "sort_order": 1
+          },
+          {
+            "prompt": "GI-flag means…",
+            "options": [
+              "Learner authenticity frame",
+              "In-app checkout"
+            ],
+            "answer_index": 0,
+            "explanation": "No payments.",
+            "id": "fd51212b-42f7-521c-9ed1-13f9196ac04a",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "a016b65b-ab1e-5956-b224-007b547425b1",
+      "slug": "channapatna-toys",
+      "type": "craft",
+      "title": "Channapatna lacquer toys",
+      "summary": "Wood-lacquer toys of Channapatna, Karnataka — GI craft, child-object making, not a game app.",
+      "body": "Channapatna toys are lacquered wooden toys associated with a Karnataka GI craft cluster. Vegetable dyes and turning techniques appear in public craft explainers. This card will not claim EN-71 lab results. Mysore inlay is a separate Karnataka craft. Native apps and 3D toys are out of MVP.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "255d35de-e2d2-5635-b471-c2dd7b3841ef",
+      "region_slug": "karnataka",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "toys",
+        "karnataka"
+      ],
+      "languages": [
+        "kn"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "27a2e517-f59a-5afe-a8e8-3412c3302082"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "d322fda1-a696-5ab5-a05e-6e26a06a498d"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "065e99d7-f499-5daa-aa08-3bbd24c51cd1"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "33605941-e5c9-5d46-aa32-8d995fd0ee7d"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "514f370d-43bd-5e3f-a4d8-a55e024bcba2"
+        }
+      ],
+      "quiz": {
+        "id": "2b1adb09-5990-575a-967e-bad6567bd719",
+        "item_id": "a016b65b-ab1e-5956-b224-007b547425b1",
+        "title": "Channapatna lacquer toys — checks",
+        "questions": [
+          {
+            "prompt": "Channapatna is…",
+            "options": [
+              "Karnataka toy craft",
+              "Punjab metal UNESCO element",
+              "Manipur Sankirtana"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "6484ece8-5e95-5653-83ea-e6812d9591e7",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Safety certification numbers…",
+            "options": [
+              "Hallucinated",
+              "Refused unless sourced",
+              "NFT"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "3ca033cc-b89f-5a32-9308-8ee8bd28c124",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Type…",
+            "options": [
+              "craft",
+              "oral",
+              "ritual"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "e7fc5a47-9cb8-51e0-b744-3f2a0caa0b51",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "473d6c60-c512-5455-a975-ee6625e7516f",
+      "slug": "kanchipuram-silk",
+      "type": "craft",
+      "title": "Kanchipuram silk weaving",
+      "summary": "Temple-town silk weaving associated with Kanchipuram, framed for learners not couture checkout.",
+      "body": "Kanchipuram silk is a GI-associated weaving tradition of Tamil Nadu. Contrast borders and temple-town identity appear in public writing. This card will not authenticate a sari label. Deepavali and Pongal are festival neighbours. No marketplace.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "e1cd844b-4b6a-5f43-b684-ed71bb3fcfb4",
+      "region_slug": "tamil-nadu",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "silk",
+        "tamil-nadu"
+      ],
+      "languages": [
+        "ta"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "4090791b-0b17-56ae-af3b-21ed1e2d73b9"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "befbd2ba-7ee3-5b15-bca1-47df4ebb1fb8"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "5c81dc13-2151-5ad1-8b83-2108f26614ac"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "9b134ab6-e811-5b79-b6e9-c312f8df13b5"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "57d43e7d-ea24-5ff3-906f-4f73c39137cd"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "5c81dc13-2151-5ad1-8b83-2108f26614ac"
+        }
+      ],
+      "quiz": {
+        "id": "2f2833cd-b92c-54d2-86f8-d519893576f1",
+        "item_id": "473d6c60-c512-5455-a975-ee6625e7516f",
+        "title": "Kanchipuram silk weaving — checks",
+        "questions": [
+          {
+            "prompt": "Kanchipuram silk is…",
+            "options": [
+              "Tamil Nadu craft",
+              "Ladakh chanting",
+              "Chhau"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "1434dcb8-90bc-5f5d-ba44-bee3f9bfeea0",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Label authentication is…",
+            "options": [
+              "In scope",
+              "Out of scope",
+              "AR only"
+            ],
+            "answer_index": 1,
+            "explanation": "Not a lab.",
+            "id": "02142b64-dbbd-56b8-9fcb-651b954f2149",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Pongal vs silk…",
+            "options": [
+              "Same row",
+              "Different items",
+              "Both UNESCO Deepavali"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "aca8923f-ab32-5727-8da5-8290061e8825",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ddd39435-ab2f-5d89-976d-65dae0fba28b",
+      "slug": "bidriware",
+      "type": "craft",
+      "title": "Bidriware",
+      "summary": "Zinc-alloy inlay metalware associated with Bidar/Hyderabad Deccan GI narratives.",
+      "body": "Bidriware is a dark metal inlay craft of the Deccan, often GI-tagged in craft mapping. Silver inlay on a darkened alloy is the public visual signature. This card will not reconstruct a full chemical recipe. Telangana is the pin; historical Bidar geography is acknowledged as wider than one modern state label. Thathera is a different metal story in Punjab.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "05b29d84-541e-580a-96a9-a94709c8a148",
+      "region_slug": "telangana",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "metal",
+        "deccan"
+      ],
+      "languages": [
+        "ur",
+        "te"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "b08c6e09-165d-52c9-a07d-e0a6c18ccd91"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "8bc4bbe5-e9c3-5027-bdbb-a622cce98ab3"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "55d32742-7428-5f9a-aafa-e0642d5ac2d5"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "002d4ebb-f00a-57d5-b06b-3e74a8bc30a9"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "2e1e3614-3eb0-597d-806f-f1c4d4df8847"
+        }
+      ],
+      "quiz": {
+        "id": "070e6043-8a92-570e-875c-b710b7f9f623",
+        "item_id": "ddd39435-ab2f-5d89-976d-65dae0fba28b",
+        "title": "Bidriware — checks",
+        "questions": [
+          {
+            "prompt": "Bidriware is…",
+            "options": [
+              "Deccan metal inlay craft",
+              "Garba",
+              "Yoga"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "64a19297-71d4-56e1-b574-0822c499db44",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Full chemical recipes…",
+            "options": [
+              "Published as lab notes",
+              "Not dumped here",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "Summary level.",
+            "id": "95563cbb-180e-5181-b0ba-64e462c92ffb",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Thathera vs Bidri…",
+            "options": [
+              "Identical",
+              "Different regional metalcrafts",
+              "Both Kerala theatre"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "ead8d54d-fb3f-51dd-acf8-643a6f8c5f4f",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "2f68c8a6-6c27-575b-b29a-0df32f2e08e0",
+      "slug": "madhubani-painting",
+      "type": "craft",
+      "title": "Madhubani / Mithila painting",
+      "summary": "Wall and paper painting of the Mithila region — GI craft, not an NFT drop.",
+      "body": "Madhubani (Mithila) painting is a well-known Bihar GI/art practice: ritual wall painting that also exists on paper for wider markets. Motifs and gender of traditional practitioners are often discussed in public arts writing; this card will not exoticise communities. No comments-as-forum. Contributions of family wall-painting memories stay pending.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "25ed30e7-0da9-58a6-adc4-92f21c535718",
+      "region_slug": "bihar",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "painting",
+        "mithila"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "1c09d555-dd05-5c76-a1d2-53bdb7aac2dc"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "a2bfa0a1-1a8a-5c53-a9aa-b2e531b45d54"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "0b55b79e-fc2b-5c6f-becb-83aaad9f27ce"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0ea47706-1864-532f-bc1c-e36b40aa9eff"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "3e8133df-af3f-56d5-a0fd-c0eb003c693a"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0ea47706-1864-532f-bc1c-e36b40aa9eff"
+        }
+      ],
+      "quiz": {
+        "id": "8346241e-182b-5fd4-86b5-810cf6329330",
+        "item_id": "2f68c8a6-6c27-575b-b29a-0df32f2e08e0",
+        "title": "Madhubani / Mithila painting — checks",
+        "questions": [
+          {
+            "prompt": "Madhubani is pinned to…",
+            "options": [
+              "Bihar / Mithila",
+              "Ladakh",
+              "Kerala Kutiyattam"
+            ],
+            "answer_index": 0,
+            "explanation": "bihar.",
+            "id": "aad8f53f-2e4f-5b3a-bb98-f3be1f2caf58",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Exoticising copy is…",
+            "options": [
+              "Encouraged",
+              "Against inclusion notes",
+              "Required GI law"
+            ],
+            "answer_index": 1,
+            "explanation": "Ethics.",
+            "id": "729caaed-d125-57d6-9c5a-3f8ba6a470ce",
+            "sort_order": 1
+          },
+          {
+            "prompt": "NFTs are…",
+            "options": [
+              "MVP",
+              "Out (Appendix B adjacent)",
+              "UNESCO mandate"
+            ],
+            "answer_index": 1,
+            "explanation": "Scope.",
+            "id": "a909066a-3e67-5de5-9020-af1a3413b907",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "b21d5fe8-e53e-55ab-8cd6-555c9541d717",
+      "slug": "warli-painting",
+      "type": "craft",
+      "title": "Warli painting",
+      "summary": "Warli painting of Maharashtra — living graphic language, not a generic “tribal sticker pack.”",
+      "body": "Warli painting is associated with Warli communities in Maharashtra, with public-domain-adjacent visual tropes (white on earth grounds) that are often misused in design. This card names the community as sources do and refuses “exotic tribe” copy. Ganesh Utsav is a separate festival node. Ask refuses unsourced claims about sacred images you may not reproduce.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "48070004-8029-574c-9457-06d0ed61e1d8",
+      "region_slug": "maharashtra",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "painting",
+        "warli"
+      ],
+      "languages": [
+        "mr"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "42956b9a-b578-5268-88c2-28805dd2a013"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "a9f5db49-5751-5fe0-b708-92f3502a1616"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "3b7b0d71-e8e9-59f8-8d41-2e6d41e1b76b"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "2fbfbbe0-f39b-515f-8a37-1ecf75d10464"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "f951c0d5-173d-5135-9874-5f0b2181ad22"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "2fbfbbe0-f39b-515f-8a37-1ecf75d10464"
+        }
+      ],
+      "quiz": {
+        "id": "9b8dd263-93ac-54d4-ae69-63cbebc3a7b8",
+        "item_id": "b21d5fe8-e53e-55ab-8cd6-555c9541d717",
+        "title": "Warli painting — checks",
+        "questions": [
+          {
+            "prompt": "Warli painting is…",
+            "options": [
+              "Maharashtra-associated living art",
+              "Punjab Phulkari",
+              "Kutiyattam"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "8a127a2d-0802-588c-8993-32ed14fff94e",
+            "sort_order": 0
+          },
+          {
+            "prompt": "“Exotic tribe” language is…",
+            "options": [
+              "Allowed",
+              "Banned by the inclusion section",
+              "GI-required"
+            ],
+            "answer_index": 1,
+            "explanation": "Inclusion.",
+            "id": "bf07dced-1a1b-5faf-be73-357a3bf4ede4",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Ganesh Utsav is…",
+            "options": [
+              "The same GI row",
+              "A separate festival item",
+              "UNESCO Chhau"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "893a6f3e-e452-5dc4-a737-7d3e873657f6",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "d666704c-5fb3-5cf4-ba00-d3ad66c06b84",
+      "slug": "pattachitra",
+      "type": "craft",
+      "title": "Pattachitra",
+      "summary": "Cloth/palm-leaf painting traditions of Odisha (and related Bengal pata), framed carefully as living craft.",
+      "body": "Pattachitra refers to painting on cloth (and related pata traditions) associated especially with Odisha in GI conversations, with Bengal pata as a related but not identical practice. This card will not collapse them. Chhau is a performing neighbour in Odisha. Copyright: do not paste entire illustrated manuscripts.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "826f4435-bed1-5d0b-8bc4-d0c328e199bc",
+      "region_slug": "odisha",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "painting",
+        "odisha"
+      ],
+      "languages": [
+        "or"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "fbd3e57f-24a1-52bf-9052-2b8160215e74"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "f2636fdb-7e0d-5106-b986-7d6a99b6bfca"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "5a0a2ced-c32d-5fb7-96de-b1c708fcbf4d"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "11c690e3-ee80-5fa5-9e90-d9e198b65e4b"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "c408702d-7bb1-5836-b67d-b298f6fb3897"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "11c690e3-ee80-5fa5-9e90-d9e198b65e4b"
+        }
+      ],
+      "quiz": {
+        "id": "e802a9c8-7940-5219-b77e-61fa0666a60d",
+        "item_id": "d666704c-5fb3-5cf4-ba00-d3ad66c06b84",
+        "title": "Pattachitra — checks",
+        "questions": [
+          {
+            "prompt": "Pattachitra in this MVP is pinned to…",
+            "options": [
+              "Odisha",
+              "Ladakh",
+              "Gujarat Garba"
+            ],
+            "answer_index": 0,
+            "explanation": "odisha.",
+            "id": "f46f89d9-031c-5297-91be-e3144caa08bc",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Bengal pata is treated as…",
+            "options": [
+              "Always identical",
+              "Related, not automatically the same row",
+              "Illegal"
+            ],
+            "answer_index": 1,
+            "explanation": "Precision.",
+            "id": "0aba80df-9833-5ad4-a601-5dd589427f7b",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Whole manuscript copy-paste is…",
+            "options": [
+              "Allowed",
+              "Against content strategy",
+              "Required RAG"
+            ],
+            "answer_index": 1,
+            "explanation": "Attribution not scrape.",
+            "id": "cae7911c-b25d-5f61-b7b5-610a96bab11e",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "a88daa5f-d7be-56e7-b674-538fb30f00b3",
+      "slug": "chikankari",
+      "type": "craft",
+      "title": "Lucknow Chikankari",
+      "summary": "White-on-white embroidery associated with Lucknow — GI craft learner card.",
+      "body": "Chikankari is an embroidery practice associated with Lucknow, often GI-tagged. This card stays at summary making-level. It will not rank workshops. Banarasi weaving is a different UP textile. No checkout.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "a53ed266-be27-53cb-b4f3-9989113a8cad",
+      "region_slug": "uttar-pradesh",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "embroidery",
+        "lucknow"
+      ],
+      "languages": [
+        "hi",
+        "ur"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "81c26838-1a84-564f-ba3c-4757cf5fda17"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "000f409c-6cea-5f53-9e72-c63f42828b1e"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "165c3171-a125-5961-922a-51ce33822cee"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "be28e226-1378-5d15-b4ff-1729b39d658e"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "e970e89b-d78e-59aa-b513-884666a65c9f"
+        }
+      ],
+      "quiz": {
+        "id": "4069aa3a-6651-5f8e-8cfe-6a73623b5444",
+        "item_id": "a88daa5f-d7be-56e7-b674-538fb30f00b3",
+        "title": "Lucknow Chikankari — checks",
+        "questions": [
+          {
+            "prompt": "Chikankari is associated with…",
+            "options": [
+              "Lucknow / UP",
+              "Kanchipuram only",
+              "Ladakh chanting"
+            ],
+            "answer_index": 0,
+            "explanation": "region.",
+            "id": "aee41e9c-241b-568d-8373-6e3ce9469f23",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Workshop rankings…",
+            "options": [
+              "Invented",
+              "Not this product",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Not Yelp.",
+            "id": "2daf7453-3444-55f9-a45d-7d4ed1ea6f5f",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Type…",
+            "options": [
+              "craft",
+              "festival",
+              "oral"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "d77e0f38-84fb-5f77-a028-4ba70ae39d14",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "aa03e30a-1152-5ad6-a669-bbba5fa24f33",
+      "slug": "kalamkari",
+      "type": "craft",
+      "title": "Kalamkari",
+      "summary": "Hand-painted or block-printed narrative textiles of the Andhra coast, GI-framed.",
+      "body": "Kalamkari is a narrative textile practice of Andhra Pradesh (Srikalahasti/Machilipatnam traditions are often distinguished in public writing). This card will not merge them into one fake technique. Kondapalli toys are a separate AP craft. Temple imagery reproduction rules are not generated here.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "1189e115-c90b-5ded-b823-1df45fc24c51",
+      "region_slug": "andhra-pradesh",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "textile",
+        "andhra"
+      ],
+      "languages": [
+        "te"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "b8be8f54-da68-59ec-a7ab-40e171c96af2"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "522141c2-2515-569c-86a8-0ee7387c473d"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "ea2ff2b3-3581-5021-960a-485e5bbf5ebd"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0560597c-2cb4-53c2-b27e-c8b2938d5f51"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "fc620916-c9cc-5d7a-bac3-5741ab3c825e"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0560597c-2cb4-53c2-b27e-c8b2938d5f51"
+        }
+      ],
+      "quiz": {
+        "id": "6bf009b2-85bb-5287-80e9-ef5a1b5f5898",
+        "item_id": "aa03e30a-1152-5ad6-a669-bbba5fa24f33",
+        "title": "Kalamkari — checks",
+        "questions": [
+          {
+            "prompt": "Kalamkari is…",
+            "options": [
+              "Andhra textile craft",
+              "Kalbelia dance",
+              "Kumbh Mela"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "36100111-6968-5f9b-8d3c-0ad17c856db2",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Srikalahasti vs Machilipatnam…",
+            "options": [
+              "Must be collapsed",
+              "Often distinguished; this card will not fake-merge them",
+              "Both Punjab"
+            ],
+            "answer_index": 1,
+            "explanation": "Precision.",
+            "id": "d7f049bc-73de-5d74-a884-71ea091c8981",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Kondapalli is…",
+            "options": [
+              "Same row",
+              "Separate AP craft",
+              "UNESCO Yoga"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "ed75cff2-e3f5-5a63-9b7d-e9c9392ab8c7",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "c396890e-7fbe-5928-8a0b-378d333e8746",
+      "slug": "dhokra",
+      "type": "craft",
+      "title": "Dhokra / bell-metal casting",
+      "summary": "Lost-wax bell-metal casting associated with central Indian craft belts including Chhattisgarh.",
+      "body": "Dhokra (lost-wax metal casting) is discussed across central and eastern India. This MVP uses a Chhattisgarh pin as a discovery default and states that related practices exist in neighbouring states. It will not dump a foundry safety manual. Bidri and Thathera are different metal systems.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "9e8d1521-3224-5624-b1dd-1d13d5c6c261",
+      "region_slug": "chhattisgarh",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "metal",
+        "dhokra"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "00529a38-f80b-58e0-886d-8d6da2d015d7"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "5000bd47-c068-5370-866e-a1edb2b7836a"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "18054e4f-9a5a-5523-9021-59db72d45fe3"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "ebc55ede-b561-592d-a7c3-eb6ec17e763a"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "7e0046b1-40c8-5523-9de7-7016557b2a59"
+        }
+      ],
+      "quiz": {
+        "id": "cbeccd3f-9de0-54ee-a9e0-732354a72ff7",
+        "item_id": "c396890e-7fbe-5928-8a0b-378d333e8746",
+        "title": "Dhokra / bell-metal casting — checks",
+        "questions": [
+          {
+            "prompt": "Dhokra is…",
+            "options": [
+              "Lost-wax metal craft",
+              "Garba",
+              "Deepavali"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "d030bc0b-19f0-5f63-bc12-e69b118426f8",
+            "sort_order": 0
+          },
+          {
+            "prompt": "The Chhattisgarh pin…",
+            "options": [
+              "Bans other states",
+              "Is a discovery default with a wider-belt caveat",
+              "Is ASI law"
+            ],
+            "answer_index": 1,
+            "explanation": "Honest geo.",
+            "id": "b039db0c-7303-564e-b769-a2b735560182",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Foundry safety manuals…",
+            "options": [
+              "Generated",
+              "Refused",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "4ff75a1a-5c75-5432-bb9b-8034a3f1f869",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "b10c6c7c-7829-54fe-a3ab-c1bbab30fe03",
+      "slug": "phulkari",
+      "type": "craft",
+      "title": "Phulkari embroidery",
+      "summary": "Floral embroidery of Punjab — GI textile, distinct from Thathera metalcraft.",
+      "body": "Phulkari is a Punjab embroidery tradition often present in GI maps. This card stays with public descriptions of darn-stitch floral fields. It will not dictate wedding custom law. Thathera is the UNESCO metal neighbour in Punjab.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "672bd754-4119-5deb-b671-c37472f71aef",
+      "region_slug": "punjab",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "embroidery",
+        "punjab"
+      ],
+      "languages": [
+        "pa"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "537bdfff-2e6d-5259-ab20-6ce9e90528db"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "708c1bd7-d455-5abe-9cd6-b560983616db"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "80e5fd77-897e-5161-b539-2012c212293a"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "4cfb2f44-b808-5a74-adbc-b2296dff7c16"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "1932bc94-4545-54c0-9dec-69b0de4ab34a"
+        }
+      ],
+      "quiz": {
+        "id": "eaadd550-aba0-544f-a02c-ea435e1e4f35",
+        "item_id": "b10c6c7c-7829-54fe-a3ab-c1bbab30fe03",
+        "title": "Phulkari embroidery — checks",
+        "questions": [
+          {
+            "prompt": "Phulkari is…",
+            "options": [
+              "Punjab embroidery",
+              "Kerala Sanskrit theatre",
+              "Ladakh chanting"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "142204df-ce3f-59dc-b451-fa89030a3d4b",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Wedding law generation…",
+            "options": [
+              "In scope",
+              "Out of scope",
+              "Maps SKU"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "7c67a67e-9c83-586b-8009-8b2db0975dd1",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Thathera vs Phulkari…",
+            "options": [
+              "Same UNESCO metal row",
+              "Different Punjab practices",
+              "Both Garba"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "82dadda4-1bec-50b0-8956-42c0dbcd4ab3",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "b1bd5bff-ff2c-5ca5-8410-909041178039",
+      "slug": "kashmir-pashmina",
+      "type": "craft",
+      "title": "Kashmir Pashmina",
+      "summary": "Fine wool weaving associated with Kashmir — authenticity discourse without a fake lab.",
+      "body": "Pashmina is a Kashmir GI/authenticity story in craft writing. This card will not run a fibre lab or invent a microscopic test. It will not collapse politics into a shopping slogan. Ask refuses unsourced “always 100%” claims for a specific stall.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "b7c7a69f-0707-5937-b030-13b91815d758",
+      "region_slug": "jammu-kashmir",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "textile",
+        "kashmir"
+      ],
+      "languages": [
+        "ks",
+        "ur"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "afdc43c1-7621-5e9a-9db5-77738b333fb6"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "9e67f791-3910-5a8c-b0f9-71ba823c3195"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "10208976-adf7-595a-8802-2c8729de2652"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "ed5c4e09-b446-58ff-bc1d-8a7d41185e4b"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "07d48dd7-979b-588c-95f0-ee177241db15"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "10208976-adf7-595a-8802-2c8729de2652"
+        }
+      ],
+      "quiz": {
+        "id": "c7890722-ea2e-5dc0-92da-9da1d1e2ebf5",
+        "item_id": "b1bd5bff-ff2c-5ca5-8410-909041178039",
+        "title": "Kashmir Pashmina — checks",
+        "questions": [
+          {
+            "prompt": "Pashmina here is…",
+            "options": [
+              "J&K craft knowledge card",
+              "Chhau",
+              "Mudiyettu"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "2eeccffd-e30b-5392-a499-5522bd7de185",
+            "sort_order": 0
+          },
+          {
+            "prompt": "In-app fibre lab…",
+            "options": [
+              "Ships in week 1",
+              "Out of MVP",
+              "UNESCO required"
+            ],
+            "answer_index": 1,
+            "explanation": "Scope.",
+            "id": "f520585e-5ac9-570e-8f5a-3b08ba2be2c0",
+            "sort_order": 1
+          },
+          {
+            "prompt": "GI-flag…",
+            "options": [
+              "Checkout",
+              "Authenticity learning frame",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Learner.",
+            "id": "b346ce43-f834-5657-abd4-4997851efb82",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "fcbc905b-244e-5690-a858-3905470977f0",
+      "slug": "mysore-rosewood-inlay",
+      "type": "craft",
+      "title": "Mysore rosewood inlay",
+      "summary": "Wood inlay craft associated with Mysore, distinct from Channapatna toys.",
+      "body": "Mysore inlay (and related wood crafts) appear in Karnataka GI conversations. This card will not certify antique furniture. Channapatna toys are a different object class. No 3D LiDAR twin.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "255d35de-e2d2-5635-b471-c2dd7b3841ef",
+      "region_slug": "karnataka",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "wood",
+        "mysore"
+      ],
+      "languages": [
+        "kn"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "ff903502-5af7-5d69-949e-c6355a3710ac"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "d77a9b36-2470-5128-b65b-8240885ce65c"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "b5faa86b-3f21-52e8-b30b-a30a561b64eb"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "15c7b69c-3341-592e-8b32-5c9ab1efe14c"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "89b5b6e8-25b8-582d-b41f-31ec7c78b2ec"
+        }
+      ],
+      "quiz": {
+        "id": "63593c20-b9f8-52ad-ab63-93faf5122df7",
+        "item_id": "fcbc905b-244e-5690-a858-3905470977f0",
+        "title": "Mysore rosewood inlay — checks",
+        "questions": [
+          {
+            "prompt": "Mysore inlay is…",
+            "options": [
+              "Karnataka wood craft",
+              "Kalbelia",
+              "Sankirtana"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "865e4e11-33a2-5141-a854-63da67a23d43",
+            "sort_order": 0
+          },
+          {
+            "prompt": "LiDAR twins…",
+            "options": [
+              "MVP",
+              "Out (Appendix B)",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "No 3D.",
+            "id": "f4d9acd6-f263-5f69-ada3-ea46b3da00f8",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Channapatna vs inlay…",
+            "options": [
+              "Same toys",
+              "Different Karnataka crafts",
+              "Both UNESCO Deepavali"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "1172abe1-5ff5-53ad-b3e0-bd87ef5da961",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "4799e53d-8b16-5c0f-8625-f523cb95cc30",
+      "slug": "kondapalli-toys",
+      "type": "craft",
+      "title": "Kondapalli toys",
+      "summary": "Painted wooden toys of Kondapalli, Andhra Pradesh.",
+      "body": "Kondapalli toys are a painted wood-toy GI cluster in Andhra Pradesh. Distinct from Channapatna lacquer. This card will not invent EN test IDs. Kalamkari is a textile neighbour.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "1189e115-c90b-5ded-b823-1df45fc24c51",
+      "region_slug": "andhra-pradesh",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "toys",
+        "andhra"
+      ],
+      "languages": [
+        "te"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "5e1192bd-c176-5b6b-a2f7-3df312714424"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "bde9ea85-adf5-588c-bd61-6fb31ebb01df"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "abe7b769-e892-5d81-9ff4-45bcc06269a3"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "ebbafcad-5454-575f-bee8-014c8f900578"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0369f82b-9f59-56c0-b1dc-81529a04c051"
+        }
+      ],
+      "quiz": {
+        "id": "5302db4c-2409-51e4-a45c-dac94f77dbb4",
+        "item_id": "4799e53d-8b16-5c0f-8625-f523cb95cc30",
+        "title": "Kondapalli toys — checks",
+        "questions": [
+          {
+            "prompt": "Kondapalli is…",
+            "options": [
+              "AP wooden toys",
+              "Punjab Phulkari",
+              "Yoga"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "8e7ba7c5-4270-5037-a339-7b80c03869fd",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Channapatna is…",
+            "options": [
+              "Automatically identical",
+              "A different toy craft in Karnataka",
+              "UNESCO Kumbh"
+            ],
+            "answer_index": 1,
+            "explanation": "Precision.",
+            "id": "cae89c7e-353d-5998-be12-f0a76f571812",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Type…",
+            "options": [
+              "craft",
+              "oral",
+              "ritual"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "108c7e41-3329-5048-9c93-4d1545d81b84",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "21b8f891-8d1c-5bd9-9dba-6afe92cec957",
+      "slug": "ajrakh",
+      "type": "craft",
+      "title": "Ajrakh printing",
+      "summary": "Resist-dyed block printing associated with Kutch / Sindh-Kutch corridors.",
+      "body": "Ajrakh is a block-printed, resist-dyed textile practice associated with Kutch (and a wider Thar–Sindh world). This card uses a Gujarat pin and notes cross-border historical geography without turning into foreign-policy content. Garba is a festival neighbour. Natural-dye chemistry is summary-level only.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "fbd0af12-9048-5222-a769-eb6c1fc08d5c",
+      "region_slug": "gujarat",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "textile",
+        "kutch"
+      ],
+      "languages": [
+        "gu"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "ce472fc6-acc9-5b3b-a044-c9fce5cbd17a"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "42d0218a-fa92-5f84-8fdd-9a4af61ace6c"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "ca288761-f0c3-5621-8190-20fcae996fff"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "7709178d-e849-5914-93c2-b52db72813cd"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "6972231f-1571-5bd0-bc1d-fafb0ff9ea43"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "7709178d-e849-5914-93c2-b52db72813cd"
+        }
+      ],
+      "quiz": {
+        "id": "66ce19cf-70a2-57ee-97fb-a2feb3ae68b2",
+        "item_id": "21b8f891-8d1c-5bd9-9dba-6afe92cec957",
+        "title": "Ajrakh printing — checks",
+        "questions": [
+          {
+            "prompt": "Ajrakh is…",
+            "options": [
+              "Gujarati/Kutch textile craft",
+              "Chhau",
+              "Ramlila"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "ca8979f8-5bae-50e5-87ea-1aab978de152",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Garba vs Ajrakh…",
+            "options": [
+              "Same UNESCO dance row",
+              "Different items in Gujarat",
+              "Both Ladakh"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "e23b4c08-b068-52c0-aec3-995eacbfb42c",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Full dye chemistry…",
+            "options": [
+              "Lab dump",
+              "Summary only / refuse recipes if unsourced",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse extra.",
+            "id": "83d14eb3-0765-5e59-9308-7664877f9c2a",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "0c3508ae-61c9-5288-890a-eb509fd4afd7",
+      "slug": "muga-silk",
+      "type": "craft",
+      "title": "Muga silk of Assam",
+      "summary": "Golden Muga silk of Assam — GI craft beside Bihu, not a checkout flow.",
+      "body": "Muga silk is an Assam GI identity craft: a golden silk from Antheraea assamensis in public science/craft writing. This card will not run a sericulture course. Bihu is the festival neighbour. No marketplace.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "108f8257-d491-51dc-8665-f5d14f08f4e7",
+      "region_slug": "assam",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "silk",
+        "assam"
+      ],
+      "languages": [
+        "as"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "3817d604-b345-5b24-a859-04ddfc5e5fbb"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "0e47305b-686e-5c4c-8799-fd7c73a948bb"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "1a60dd89-7c2c-58b7-9d27-8cd19f0f9a54"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "82a40674-3539-5758-919c-c49d3d12c4ef"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "6a62e294-cb87-5c7a-a194-64952c054a16"
+        }
+      ],
+      "quiz": {
+        "id": "333112a4-123b-55ef-941b-b7802730c307",
+        "item_id": "0c3508ae-61c9-5288-890a-eb509fd4afd7",
+        "title": "Muga silk of Assam — checks",
+        "questions": [
+          {
+            "prompt": "Muga is…",
+            "options": [
+              "Assam silk craft",
+              "Kalbelia",
+              "Bidri"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "9c4bcf3e-308a-50cc-90e6-9062ba8b1038",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Bihu is…",
+            "options": [
+              "The same GI silk row",
+              "A separate Assam festival",
+              "UNESCO Kutiyattam"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "e17dd012-1e04-5e22-816f-a426a3a008b9",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Sericulture course…",
+            "options": [
+              "MVP",
+              "Out",
+              "Required RAG"
+            ],
+            "answer_index": 1,
+            "explanation": "Scope.",
+            "id": "5ca9abb5-37c0-5432-86ef-11f401ea6b9d",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "d40ca625-a3fa-5bce-83ef-269e76ac927d",
+      "slug": "onam",
+      "type": "festival",
+      "title": "Onam",
+      "summary": "Harvest / Malayali new year festival of Kerala with public and household forms.",
+      "body": "Onam is a major Kerala festival with pookalam, sadya, and public events. It is not UNESCO-listed on this card. Kutiyattam and Mudiyettu are different Kerala practices. This card will not invent a single “authentic sadya menu” for every household. Ask refuses unsourced caste jokes.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "14c1a658-6d81-5cf4-9323-81b1f040a957",
+      "region_slug": "kerala",
+      "calendar_note": "Chingam (Malayalam calendar); national/regional holiday dates vary by year.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "festival",
+        "kerala"
+      ],
+      "languages": [
+        "ml"
+      ],
+      "sources": [
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "2043d3d4-c5db-5388-9b98-c4039eaca36e"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "8c9da180-5929-5153-ab2d-7d904141de26"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "38fe5a0a-608c-5dae-8cce-8779a30c88fb"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "185b924e-80bf-54ad-981c-5ce38ae74ffc"
+        }
+      ],
+      "quiz": {
+        "id": "a18f244c-5feb-517a-8856-46aacb756555",
+        "item_id": "d40ca625-a3fa-5bce-83ef-269e76ac927d",
+        "title": "Onam — checks",
+        "questions": [
+          {
+            "prompt": "Onam is typed as…",
+            "options": [
+              "festival",
+              "craft",
+              "oral-only"
+            ],
+            "answer_index": 0,
+            "explanation": "festival.",
+            "id": "597502c2-3970-541a-958b-c4faebcea9d5",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Kutiyattam vs Onam…",
+            "options": [
+              "Identical",
+              "Different Kerala items",
+              "Both GI toys"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "2a7bc562-7695-57c6-9be9-71f81df6072d",
+            "sort_order": 1
+          },
+          {
+            "prompt": "One true sadya for all…",
+            "options": [
+              "Published as law",
+              "Refused as over-universal",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Variants.",
+            "id": "4153a0fa-24eb-5481-ae21-8774c882ad49",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "39cea3be-89d8-586a-9be0-b6a2f5cd5656",
+      "slug": "bihu",
+      "type": "festival",
+      "title": "Bihu",
+      "summary": "Assamese seasonal festival cycle with dance, music, and community gathering.",
+      "body": "Bihu refers to a set of Assamese seasonal festivals, of which Bohag Bihu is the most widely known nationally. This card will not collapse all three into one Bollywood number. Muga silk is a craft neighbour. Ask refuses unsourced claims about “the only real Bihu district.”",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "108f8257-d491-51dc-8665-f5d14f08f4e7",
+      "region_slug": "assam",
+      "calendar_note": "Three Bihus in the agricultural year (Bohag, Kati, Magh) — seasonal, not a fake timestamp.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "festival",
+        "assam"
+      ],
+      "languages": [
+        "as"
+      ],
+      "sources": [
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "48c0d001-8404-5ae8-ad2a-3634b5b2f783"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "c7dd31b7-d487-5e65-8be5-2122ad09b8a7"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "fe4dd867-e8a1-5387-8ba7-13d058fbe589"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "82f6e4ef-641e-50d2-a54e-f002d3e74108"
+        }
+      ],
+      "quiz": {
+        "id": "a9635317-4753-5662-b0d6-761c1ff061f7",
+        "item_id": "39cea3be-89d8-586a-9be0-b6a2f5cd5656",
+        "title": "Bihu — checks",
+        "questions": [
+          {
+            "prompt": "Bihu is…",
+            "options": [
+              "An Assam festival cycle",
+              "Jaipur blue pottery",
+              "Ladakh chanting"
+            ],
+            "answer_index": 0,
+            "explanation": "festival.",
+            "id": "7f611741-5ea1-5973-9641-b9c1f552ca9f",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Three Bihus…",
+            "options": [
+              "Are denied",
+              "Are named as a seasonal set",
+              "Are GI metal"
+            ],
+            "answer_index": 1,
+            "explanation": "Calendar note.",
+            "id": "ea1eec4b-dc5f-5698-8ac3-2aaa314ffc1d",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Muga vs Bihu…",
+            "options": [
+              "Same row",
+              "Craft vs festival neighbours",
+              "Both UNESCO Garba"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "69285c50-5af3-518c-babb-d73a199e2913",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "04dbe9b6-93d0-5360-a9eb-93f661f6991a",
+      "slug": "pongal",
+      "type": "festival",
+      "title": "Pongal",
+      "summary": "Tamil harvest festival, distinct from Deepavali.",
+      "body": "Pongal is a Tamil harvest festival with multi-day household practices. Deepavali is a separate festival card. Kanchipuram silk is a craft neighbour. This card will not generate a fire-safety code for sugarcane burning in every village.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "e1cd844b-4b6a-5f43-b684-ed71bb3fcfb4",
+      "region_slug": "tamil-nadu",
+      "calendar_note": "Thai month (mid-January in many public calendars); multi-day household and community forms.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "festival",
+        "tamil-nadu"
+      ],
+      "languages": [
+        "ta"
+      ],
+      "sources": [
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "ea98de81-9f29-5d25-998a-bb1f7a5eaf7a"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "2277f390-6856-51d8-ae32-8e54a2a1d79f"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "3a6aa150-4dad-538a-a254-b99e0dd7447e"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "66f239ed-e47e-51c8-96f5-700e3da23706"
+        }
+      ],
+      "quiz": {
+        "id": "9face44d-a1de-5304-b44a-c0d63d1ddc00",
+        "item_id": "04dbe9b6-93d0-5360-a9eb-93f661f6991a",
+        "title": "Pongal — checks",
+        "questions": [
+          {
+            "prompt": "Pongal vs Deepavali…",
+            "options": [
+              "Forced identical",
+              "Separate Tamil Nadu festival cards",
+              "Both Bidri"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "9180a220-a10f-5219-b107-a7b0eda3df74",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Type…",
+            "options": [
+              "festival",
+              "craft",
+              "knowledge-yoga"
+            ],
+            "answer_index": 0,
+            "explanation": "festival.",
+            "id": "4fbdd460-42e4-532f-9a21-b183314de201",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Village burning bylaws…",
+            "options": [
+              "Hallucinated",
+              "Refused",
+              "UNESCO RL"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "7d10673b-14c0-5e38-8029-f4a8e0e3bf7c",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "acf2c7d7-78fa-5da2-aab4-0f030f06c6ac",
+      "slug": "ganesh-utsav",
+      "type": "festival",
+      "title": "Ganesh Utsav",
+      "summary": "Public Ganesha festival especially associated with Maharashtra cities.",
+      "body": "Ganesh Utsav / Ganesh Chaturthi is a major public festival in Maharashtra with household and mandal forms. Sahapedia Map’s city mapping is a related research neighbour, not something we scrape wholesale. Warli is a craft neighbour. Exact visarjan minutes are local notices, not RAG fiction.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "48070004-8029-574c-9457-06d0ed61e1d8",
+      "region_slug": "maharashtra",
+      "calendar_note": "Bhadrapada; visarjan days are local. Do not invent a ghat minute.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "festival",
+        "mumbai",
+        "pune"
+      ],
+      "languages": [
+        "mr",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "d6d0582f-3664-5c21-95ed-b3c884e994bb"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0d139088-28ca-5d29-b381-7515b66a9480"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "aa732c40-dfce-5067-ac9c-4ef9ff260d67"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "069913e5-668d-5615-80cc-fbc00ae05db2"
+        }
+      ],
+      "quiz": {
+        "id": "bc26cdb9-02fb-526c-994e-04dd6f511a6d",
+        "item_id": "acf2c7d7-78fa-5da2-aab4-0f030f06c6ac",
+        "title": "Ganesh Utsav — checks",
+        "questions": [
+          {
+            "prompt": "Visarjan minutes…",
+            "options": [
+              "Invented",
+              "Local notices, not LLM",
+              "Maps billed"
+            ],
+            "answer_index": 1,
+            "explanation": "Calendar.",
+            "id": "9ac782a9-e2f4-53e5-b466-309e56377442",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Warli vs Ganesh Utsav…",
+            "options": [
+              "Same GI painting",
+              "Craft vs festival in Maharashtra",
+              "Both Punjab"
+            ],
+            "answer_index": 1,
+            "explanation": "Graph.",
+            "id": "c01b128b-a54e-5e5d-8fa5-2001db76b56a",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Scraping all Sahapedia Map…",
+            "options": [
+              "Allowed",
+              "Against Appendix B",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "No scrapeware.",
+            "id": "c5a62340-737e-526f-96e8-a11fb0d1fa83",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "4c8c292b-40f2-5d29-ae61-e558d2ab859b",
+      "slug": "theyyam",
+      "type": "ritual",
+      "title": "Theyyam",
+      "summary": "Ritual performance of northern Kerala. Public ICH-level description only; no how-to.",
+      "body": "Theyyam is a ritual performance tradition of northern Kerala, often discussed in open heritage writing. This card uses type=ritual, omits restricted knowledge, and will not generate possession manuals. Photography ethics are local. Kutiyattam and Mudiyettu are different Kerala items. Autoplay audio is forbidden.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "14c1a658-6d81-5cf4-9323-81b1f040a957",
+      "region_slug": "kerala",
+      "calendar_note": "Shrine season in northern Kerala; access and photography rules are local.",
+      "sensitivity_flag": true,
+      "published": true,
+      "tags": [
+        "ritual",
+        "kerala"
+      ],
+      "languages": [
+        "ml"
+      ],
+      "sources": [
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "0208ebb0-9d1a-527d-8601-4990abaf299c"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "15461251-bb88-5e97-9cff-ac11689f9112"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "4f4028a6-6412-5be8-8c0e-0efd3bf61596"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "f51534dc-af4b-50e5-82e1-d3fc9388bb90"
+        }
+      ],
+      "quiz": {
+        "id": "d5965f49-86cb-5893-9374-9e2dbf089108",
+        "item_id": "4c8c292b-40f2-5d29-ae61-e558d2ab859b",
+        "title": "Theyyam — checks",
+        "questions": [
+          {
+            "prompt": "Theyyam type in this schema…",
+            "options": [
+              "ritual",
+              "craft",
+              "knowledge-yoga"
+            ],
+            "answer_index": 0,
+            "explanation": "ritual.",
+            "id": "5d85ce3d-abd3-50c0-b15e-6f745cbedeec",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Possession how-to…",
+            "options": [
+              "MVP",
+              "Omitted",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Sensitivity.",
+            "id": "3be59b34-d2bb-52a4-84f1-6ce7ad1e8583",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Autoplay shrine audio…",
+            "options": [
+              "Yes",
+              "No",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "Ethics.",
+            "id": "bab7ed32-29d6-5366-ab5a-2d7ce1e151ca",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "820704ba-768b-53e2-90d4-0437acf47cd1",
+      "slug": "nawrouz-mumbai-parsi",
+      "type": "festival",
+      "title": "Nawrouz (Parsi New Year in Indian cities)",
+      "summary": "Nowruz is a UNESCO-listed multinational element; this card only orients Indian Parsi civic observance at summary level.",
+      "body": "Nawrouz/Nowruz is on UNESCO’s lists as a shared multinational heritage. This student card does not claim India owns it. It only orients learners to Parsi community new-year observance in Indian cities (Mumbai pin as discovery). It will not adjudicate calendar sects. Inventing a single “correct Indian Nowruz date” is refused.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "48070004-8029-574c-9457-06d0ed61e1d8",
+      "region_slug": "maharashtra",
+      "calendar_note": "March equinox period for many Nowruz observances; Parsi Jamshedi Navroz follows the Shahenshahi calendar — do not fake a single date.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "festival",
+        "parsi",
+        "nawrouz"
+      ],
+      "languages": [
+        "gu",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "UNESCO ICH (see Nawrouz as shared element)",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-09-03",
+          "id": "094b203b-ccd1-54b6-b049-b40f119d88a2"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "5195e1ca-4b49-5135-b226-accc42bcab2b"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "eba82e6a-6137-5d35-80a8-fc287a45d496"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "MoC",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-09-03",
+          "id": "205dc4ac-f0c2-5798-86d9-f4cf1f0303b5"
+        }
+      ],
+      "quiz": {
+        "id": "02888ae9-ea89-5e98-9e5d-2e0888887bf3",
+        "item_id": "820704ba-768b-53e2-90d4-0437acf47cd1",
+        "title": "Nawrouz (Parsi New Year in Indian cities) — checks",
+        "questions": [
+          {
+            "prompt": "This card claims India exclusively owns Nowruz?",
+            "options": [
+              "Yes",
+              "No",
+              "Only via GI"
+            ],
+            "answer_index": 1,
+            "explanation": "Shared ICH.",
+            "id": "ec21e2d2-1ffc-5caa-b8a9-a3062ae1cf47",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Calendar sects…",
+            "options": [
+              "Adjudicated here",
+              "Not adjudicated; dates not faked",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "1ed7c7db-0b10-5732-ba7b-82399c78e274",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Mumbai pin is…",
+            "options": [
+              "Exclusive ownership",
+              "Discovery convenience",
+              "UNESCO capital"
+            ],
+            "answer_index": 1,
+            "explanation": "IA.",
+            "id": "e86b5097-8390-5971-8e6c-c800342a919d",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "9b80bddd-757f-5b76-99f6-b7e4792aae30",
+      "slug": "kangra-painting",
+      "type": "craft",
+      "title": "Kangra painting",
+      "summary": "Pahari miniature painting associated with Kangra, Himachal Pradesh.",
+      "body": "Kangra painting is a Pahari miniature tradition discussed in GI and museum writing. This card will not dump entire collections or generate fake accession numbers. It is a hill-region craft/knowledge of making, not a replacement for IGNCA. Photography of living ritual is not implied.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "72f31112-7964-57b4-9d09-07f46abb87cd",
+      "region_slug": "himachal-pradesh",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "painting",
+        "pahari"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "29fe5473-91a8-5d71-9907-b81c05b15038"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "0dc6c9cf-e85e-54a3-b026-1cde2981ce6a"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "58cac064-021e-55e8-b492-620196ff503c"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "07daef2d-1f79-5394-ac8d-2104bcd37dc1"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "3dbd47c6-fd12-5a9f-9cc6-65041fc0d55d"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "ICP",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "58cac064-021e-55e8-b492-620196ff503c"
+        }
+      ],
+      "quiz": {
+        "id": "3d95087b-1ba6-5da8-885f-aff694537ddf",
+        "item_id": "9b80bddd-757f-5b76-99f6-b7e4792aae30",
+        "title": "Kangra painting — checks",
+        "questions": [
+          {
+            "prompt": "Kangra painting is pinned to…",
+            "options": [
+              "Himachal Pradesh",
+              "Kerala theatre",
+              "Kutch Ajrakh"
+            ],
+            "answer_index": 0,
+            "explanation": "himachal.",
+            "id": "154343d5-247b-5d79-b788-0a7e61462215",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Fake accession numbers…",
+            "options": [
+              "OK",
+              "Refused",
+              "Required"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "07604a1d-1127-5bc7-935e-f5c78904c5e7",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Type…",
+            "options": [
+              "craft",
+              "festival",
+              "oral"
+            ],
+            "answer_index": 0,
+            "explanation": "craft.",
+            "id": "a4e727ba-9a9b-5e0e-b338-928b25f8aa7c",
+            "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "29596a57-1cf0-5a07-8a81-dff0eff71cdc",
+      "slug": "khurja-pottery",
+      "type": "craft",
+      "title": "Khurja pottery",
+      "summary": "Ceramic cluster of Khurja, Uttar Pradesh — GI craft distinct from Jaipur blue pottery.",
+      "body": "Khurja pottery is a large ceramic cluster in Uttar Pradesh, often GI-mapped. Distinct from Jaipur blue pottery (different body, glaze, and place). This card will not invent lead-test certificates. Banarasi weaving and Chikankari are textile neighbours in UP, not ceramics.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "a53ed266-be27-53cb-b4f3-9989113a8cad",
+      "region_slug": "uttar-pradesh",
+      "calendar_note": "Workshop / market calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "ceramics",
+        "khurja"
+      ],
+      "languages": [
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+          "title": "Mapping arts and crafts through GI tags",
+          "publisher": "Memeraki",
+          "accessed_on": "2026-09-03",
+          "id": "7d64f1c8-10a2-5d6d-a61b-c4505dba0d91"
+        },
+        {
+          "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+          "title": "GI-tagged handicrafts and artisans",
+          "publisher": "Presidency University",
+          "accessed_on": "2026-09-03",
+          "id": "66784b39-893b-5d0a-8ff5-4b87a335ea46"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "ICP",
+          "accessed_on": "2026-09-03",
+          "id": "22afbdb7-8cd3-5179-85c0-3346a0b37c09"
+        },
+        {
+          "url": "https://www.sahapedia.org/",
+          "title": "Sahapedia",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "48ef3b2f-a768-5f51-98c9-b8dd12304944"
+        },
+        {
+          "url": "https://map.sahapedia.org/",
+          "title": "Sahapedia Map",
+          "publisher": "Sahapedia",
+          "accessed_on": "2026-09-03",
+          "id": "45f0474c-069c-5d37-bfd2-f5f40e5baf31"
+        }
+      ],
+      "quiz": {
+        "id": "add30af4-57de-58b8-a208-3f3010b32396",
+        "item_id": "29596a57-1cf0-5a07-8a81-dff0eff71cdc",
+        "title": "Khurja pottery — checks",
+        "questions": [
+          {
+            "prompt": "Khurja vs Jaipur blue pottery…",
+            "options": [
+              "Forced identical",
+              "Different ceramic traditions",
+              "Both UNESCO Kalbelia"
+            ],
+            "answer_index": 1,
+            "explanation": "Precision.",
+            "id": "f0830c67-e53e-515b-ae40-f62bdd20b9ac",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Lead-test certificates…",
+            "options": [
+              "Hallucinated",
+              "Refused unless sourced",
+              "AR"
+            ],
+            "answer_index": 1,
+            "explanation": "Refuse.",
+            "id": "8d7ef8ee-8658-5516-abec-71176be6b08a",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Region…",
+            "options": [
+              "Uttar Pradesh",
+              "Ladakh",
+              "Manipur"
+            ],
+            "answer_index": 0,
+            "explanation": "UP.",
+            "id": "4c030fff-74c2-5191-9e1a-1881542850e9",
+            "sort_order": 2
+          }
+        ]
+      }
+    }
+  ]
+}

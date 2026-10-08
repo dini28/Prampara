@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Parampara Path
 
-## Getting Started
+Living Heritage Compass — student MVP for AICTE / SIH Heritage & Culture.
 
-First, run the development server:
+Unofficial learner tool. Not affiliated with the Ministry of Culture, UNESCO, AICTE, or Sahapedia.
+
+## Loop
+
+Discover → attributed card → grounded Ask (cite or refuse) → quiz → contribution that stays pending until a human accepts it.
+
+## Stack (this phase)
+
+- Next.js 15 App Router + Tailwind v4
+- **40** team-written cards in [`src/data/catalogue.json`](src/data/catalogue.json)
+- Spreadsheet seed: [`data/seed-heritage-cards.csv`](data/seed-heritage-cards.csv)
+- Local JSON store: `data/runtime-queue.json` (contributions, ask log, quiz scores)
+- Local learner cookie + admin secret (`parampara-demo`)
+- **Supabase is not installed.** See [`docs/supabase-later.md`](docs/supabase-later.md)
+
+## Run
 
 ```bash
+cd parampara-path
+cp .env.example .env.local
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`. Demo path: **Jaipur / Rajasthan → Kalbelia → Ask → Quiz → Contribute**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Admin: `/admin` with secret `parampara-demo`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Demo reset
 
-## Learn More
+Delete `data/runtime-queue.json` to clear Ask logs, quiz scores, and the contribution queue.
 
-To learn more about Next.js, take a look at the following resources:
+## Regenerating cards
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+python scripts/generate_seed.py
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Scope lock (do not add)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+AR/VR, native apps, social feed, payments, scraping ICP/Sahapedia wholesale, billed Google Maps.
