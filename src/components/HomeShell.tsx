@@ -34,7 +34,6 @@ export function HomeShell({ children }: { children: React.ReactNode }) {
       <div
         className={`transition-opacity duration-500 ${ready ? "opacity-100" : "opacity-0"}`}
         aria-hidden={!ready}
-        inert={!ready ? true : undefined}
       >
         {children}
       </div>

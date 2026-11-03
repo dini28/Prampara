@@ -1,7 +1,11 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import path from "path";
+import { tmpdir } from "os";
 
-const dir = path.join(process.cwd(), "data");
+/** Local: ./data. On Vercel the FS is read-only except /tmp. */
+const dir = process.env.VERCEL
+  ? path.join(tmpdir(), "parampara-path")
+  : path.join(process.cwd(), "data");
 const file = path.join(dir, "runtime-queue.json");
 
 export type RuntimeContribution = {
