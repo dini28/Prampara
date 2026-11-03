@@ -9,32 +9,39 @@ export function ItemCard({
   item: HeritageItem;
   region?: Region;
 }) {
+  const sourceCount = item.sources.length;
   return (
     <Link
       href={`/items/${item.slug}`}
-      className="group block rounded-[28px] bg-[var(--paper-2)] p-5 shadow-[var(--shadow)] outline outline-1 outline-[var(--line)] transition-[transform,box-shadow] duration-200 hover:-translate-y-0.5"
+      className="group flex flex-col rounded-2xl bg-[var(--bg)] p-5 shadow-[var(--shadow)] outline outline-1 outline-[var(--line)] transition-[outline-color] duration-200 hover:outline-[var(--primary)]"
     >
-      <div className="flex items-center justify-between gap-3 text-[11px] uppercase tracking-[0.18em] text-[var(--terracotta)]">
-        <span>{TYPE_LABEL[item.type]}</span>
-        <span className="text-[var(--ink-soft)]">{region?.name ?? item.region_slug}</span>
+      <div className="flex items-center justify-between gap-3 text-xs text-[var(--ink-soft)]">
+        <span className="font-medium text-[var(--ink)]">{TYPE_LABEL[item.type]}</span>
+        <span>{region?.name ?? item.region_slug}</span>
       </div>
-      <h3 className="serif mt-3 text-2xl leading-tight text-[var(--ink)] group-hover:text-[var(--indigo)]">
+      <h3 className="serif mt-3 text-2xl leading-tight text-[var(--ink)] group-hover:text-[var(--primary)]">
         {item.title}
       </h3>
       <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-[var(--ink-soft)]">
         {item.summary}
       </p>
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-auto flex flex-wrap items-center gap-2 pt-4 text-[11px] font-medium">
         {item.unesco_id ? (
-          <span className="rounded-full bg-[var(--indigo)] px-2 py-0.5 text-[10px] uppercase tracking-wider text-[var(--paper)]">
-            UNESCO
+          <span className="rounded-full bg-[var(--primary-tint)] px-2.5 py-0.5 text-[var(--primary-deep)]">
+            UNESCO listed
           </span>
         ) : null}
         {item.gi_flag ? (
-          <span className="rounded-full bg-[var(--gold)] px-2 py-0.5 text-[10px] uppercase tracking-wider text-[var(--ink)]">
-            GI frame
+          <span className="rounded-full bg-[var(--surface)] px-2.5 py-0.5 text-[var(--ink)] outline outline-1 outline-[var(--line)]">
+            GI tag
           </span>
         ) : null}
+        <span className="ml-auto inline-flex items-center gap-1 text-[var(--verified)]">
+          <svg viewBox="0 0 16 16" className="size-3" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+            <path d="M3.5 8.5l3 3 6-7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          {sourceCount} {sourceCount === 1 ? "source" : "sources"}
+        </span>
       </div>
     </Link>
   );

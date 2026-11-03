@@ -20,9 +20,10 @@ export function ContributeForm({ slug }: { slug: string }) {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
-      <p className="text-sm text-[var(--ink-soft)]">
-        Family or field notes stay <strong>unpublished</strong> until a reviewer accepts them. Do not
-        include closed/sacred instructions or other people’s photos without consent.
+      <p className="text-sm leading-relaxed text-[var(--ink-soft)]">
+        Family or field notes stay <strong className="text-[var(--ink)]">unpublished</strong> until a
+        reviewer accepts them in Admin. Do not include closed or sacred instructions, or other
+        people’s photos without consent.
       </p>
       <textarea
         required
@@ -30,13 +31,20 @@ export function ContributeForm({ slug }: { slug: string }) {
         rows={8}
         value={body}
         onChange={(e) => setBody(e.target.value)}
-        className="w-full rounded-3xl bg-[var(--paper-2)] p-4 outline outline-1 outline-[var(--line)]"
+        className="w-full rounded-xl bg-[var(--surface)] p-4 outline outline-1 outline-[var(--line)]"
         placeholder="A memory tied to this practice, with place and year if you have them…"
       />
-      <button className="btn rounded-full bg-[var(--indigo)] px-5 py-2 text-[var(--paper)]" type="submit">
+      <button
+        className="btn min-h-11 rounded-full bg-[var(--primary)] px-5 text-sm text-[var(--on-primary)] hover:bg-[var(--primary-hover)]"
+        type="submit"
+      >
         Queue for review
       </button>
-      {status ? <p className="text-sm">{status}</p> : null}
+      {status ? (
+        <p className="text-sm text-[var(--verified)]" role="status">
+          {status}
+        </p>
+      ) : null}
     </form>
   );
 }

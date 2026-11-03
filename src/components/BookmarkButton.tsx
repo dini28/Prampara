@@ -30,7 +30,12 @@ export function BookmarkButton({ slug }: { slug: string }) {
     <button
       type="button"
       onClick={() => toggle(slug)}
-      className="btn rounded-full border border-[var(--line)] px-4 py-1.5 text-sm"
+      aria-pressed={on}
+      className={`btn inline-flex min-h-11 items-center rounded-full border px-5 text-sm ${
+        on
+          ? "border-[var(--primary)] bg-[var(--primary-tint)] text-[var(--primary-deep)]"
+          : "border-[var(--line-strong)] hover:border-[var(--primary)]"
+      }`}
     >
       {on ? "Bookmarked" : "Bookmark"}
     </button>

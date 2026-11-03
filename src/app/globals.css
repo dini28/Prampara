@@ -1,23 +1,34 @@
 @import "tailwindcss";
 
 :root {
-  --bg: oklch(1 0 0);
-  --surface: oklch(0.965 0.008 200);
-  --ink: oklch(0.22 0.028 220);
-  --muted: oklch(0.45 0.018 220);
-  --primary: oklch(0.42 0.074 200);
-  --primary-deep: oklch(0.32 0.07 220);
-  --accent: oklch(0.48 0.13 48);
+  --bg: oklch(0.995 0.002 250);
+  --bg-veil: oklch(0.995 0.002 250 / 0.92);
+  --surface: oklch(0.967 0.006 250);
+  --ink: oklch(0.21 0.02 255);
+  --muted: oklch(0.44 0.02 255);
+
+  --primary: oklch(0.42 0.11 255);
+  --primary-hover: oklch(0.37 0.11 255);
+  --primary-deep: oklch(0.28 0.06 255);
+  --primary-tint: oklch(0.95 0.025 255);
+  --verified: oklch(0.45 0.09 155);
+  --verified-tint: oklch(0.95 0.035 155);
   --on-primary: oklch(1 0 0);
-  --line: oklch(0.22 0.028 220 / 0.12);
-  --shadow: 0 16px 36px oklch(0.22 0.028 220 / 0.08);
+  --danger: oklch(0.5 0.17 27);
+
+  --line: oklch(0.21 0.02 255 / 0.12);
+  --line-strong: oklch(0.21 0.02 255 / 0.22);
+  --shadow: 0 1px 2px oklch(0.21 0.02 255 / 0.06), 0 8px 24px oklch(0.21 0.02 255 / 0.06);
+
+  --accent: var(--verified);
   --paper: var(--bg);
   --paper-2: var(--surface);
   --ink-soft: var(--muted);
   --terracotta: var(--primary);
-  --clay: var(--accent);
+  --clay: var(--verified);
   --indigo: var(--primary-deep);
-  --gold: var(--accent);
+  --gold: var(--verified-tint);
+  --gold-ink: var(--verified);
 }
 
 @theme inline {
@@ -33,49 +44,134 @@
   --font-sans: var(--font-figtree);
 }
 
-* {
-  box-sizing: border-box;
+/* @theme inline values are not emitted as CSS variables, so base styles read the next/font variables directly */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background:
+      radial-gradient(1200px 480px at 12% -10%, oklch(0.95 0.025 255 / 0.55), transparent 55%),
+      radial-gradient(900px 420px at 88% 0%, oklch(0.96 0.02 155 / 0.25), transparent 50%),
+      var(--bg);
+    color: var(--ink);
+    font-family: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  button,
+  a.btn {
+    transition-property: transform, background-color, color, border-color;
+    transition-duration: 160ms;
+    transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  button:active,
+  a.btn:active {
+    transform: scale(0.97);
+  }
+
+  img {
+    outline: 1px solid oklch(0 0 0 / 0.1);
+  }
 }
 
-html,
-body {
-  min-height: 100%;
-}
+@layer components {
+  .serif {
+    font-family: var(--font-fraunces), ui-serif, Georgia, serif;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
 
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
-}
+  .atmosphere {
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 20% 0%, oklch(0.95 0.03 255 / 0.7), transparent 60%),
+      radial-gradient(ellipse 50% 40% at 90% 20%, oklch(0.96 0.025 155 / 0.35), transparent 55%);
+  }
 
-h1,
-h2,
-h3,
-.serif {
-  font-family: var(--font-serif), ui-serif, Georgia, serif;
-  letter-spacing: -0.03em;
-  text-wrap: balance;
-}
+  .loop-stepper {
+    scroll-margin-top: 5rem;
+  }
 
-a {
-  color: inherit;
-}
+  .india-map-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+  }
 
-button,
-a.btn {
-  transition-property: transform, background-color, color;
-  transition-duration: 160ms;
-  transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
-}
+  .india-state {
+    fill: oklch(0.92 0.02 255);
+    stroke: oklch(0.42 0.11 255 / 0.35);
+    stroke-width: 0.6;
+    transition:
+      fill 280ms ease,
+      stroke 280ms ease,
+      filter 280ms ease;
+  }
 
-button:active,
-a.btn:active {
-  transform: scale(0.96);
-}
+  .india-state--lit {
+    fill: oklch(0.55 0.12 255);
+    stroke: oklch(0.72 0.08 255);
+    filter: drop-shadow(0 0 6px oklch(0.55 0.14 255 / 0.55));
+  }
 
-img {
-  outline: 1px solid oklch(0 0 0 / 0.1);
+  .india-map-svg--complete .india-state {
+    fill: oklch(0.48 0.11 255);
+    stroke: oklch(0.78 0.06 255);
+    filter: drop-shadow(0 0 8px oklch(0.55 0.12 255 / 0.45));
+  }
+
+  .visual-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    outline: 1px solid var(--line);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    transition:
+      outline-color 200ms ease,
+      transform 200ms ease;
+  }
+
+  .visual-card:hover {
+    outline-color: var(--primary);
+    transform: translateY(-2px);
+  }
+
+  .visual-card img {
+    outline: none;
+  }
+
+  .visual-card-overlay {
+    background: linear-gradient(
+      to top,
+      oklch(0.18 0.03 255 / 0.88) 0%,
+      oklch(0.18 0.03 255 / 0.35) 45%,
+      transparent 100%
+    );
+  }
 }
 
 :focus-visible {

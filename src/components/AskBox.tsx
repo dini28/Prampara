@@ -38,11 +38,11 @@ export function AskBox({ slug }: { slug: string }) {
   }
 
   return (
-    <div className="rounded-[32px] bg-[var(--indigo)] p-6 text-[var(--paper)] shadow-[var(--shadow)]">
-      <p className="text-[11px] uppercase tracking-[0.2em] text-[var(--gold)]">Grounded Ask</p>
-      <h2 className="serif mt-2 text-3xl">Cite or refuse</h2>
-      <p className="mt-2 text-sm text-[oklch(0.93_0.03_80)]">
-        Answers come only from retrieved cards. Weak retrieval returns a refuse template.
+    <div className="rounded-2xl bg-[var(--bg)] p-6 shadow-[var(--shadow)] outline outline-1 outline-[var(--line)]">
+      <h2 className="serif text-3xl">Ask this card</h2>
+      <p className="mt-2 text-sm leading-relaxed text-[var(--ink-soft)]">
+        Answers come only from the cards and link to their sources. If the cards don’t cover your
+        question, you’ll be told so rather than given a guess.
       </p>
       <form onSubmit={onSubmit} className="mt-5 space-y-3">
         <textarea
@@ -51,7 +51,7 @@ export function AskBox({ slug }: { slug: string }) {
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
           rows={4}
-          className="w-full rounded-2xl border-0 bg-[oklch(0.98_0.02_80)] p-4 text-[var(--ink)] outline-none"
+          className="w-full rounded-xl bg-[var(--bg)] p-4 text-[var(--ink)] outline outline-1 outline-[var(--line-strong)] placeholder:text-[var(--muted)]"
           placeholder="Ask about this card…"
         />
         <div className="flex flex-wrap gap-2">
@@ -59,7 +59,7 @@ export function AskBox({ slug }: { slug: string }) {
             <button
               key={d}
               type="button"
-              className="rounded-full bg-[oklch(1_0_0_/_0.08)] px-3 py-1 text-left text-xs"
+              className="min-h-9 rounded-full bg-[var(--surface)] px-3 py-1 text-left text-xs text-[var(--ink)] outline outline-1 outline-[var(--line)] hover:outline-[var(--primary)]"
               onClick={() => setQuestion(d)}
             >
               {d}
@@ -68,23 +68,31 @@ export function AskBox({ slug }: { slug: string }) {
         </div>
         <button
           disabled={loading}
-          className="btn rounded-full bg-[var(--accent)] px-5 py-2 text-sm text-[var(--on-primary)]"
+          className="btn min-h-11 rounded-full bg-[var(--primary)] px-5 text-sm font-medium text-[var(--on-primary)] hover:bg-[var(--primary-hover)] disabled:opacity-70"
           type="submit"
         >
           {loading ? "Retrieving…" : "Ask from cards"}
         </button>
       </form>
       {result ? (
-        <div className="mt-5 rounded-2xl bg-[oklch(1_0_0_/_0.08)] p-4">
-          <p className="text-xs uppercase tracking-[0.16em] text-[var(--gold)]">
-            {result.refused ? "Refused" : "Grounded"}
+        <div
+          className={`mt-5 rounded-xl p-4 outline outline-1 outline-[var(--line)] ${
+            result.refused ? "bg-[var(--surface)]" : "bg-[var(--verified-tint)]"
+          }`}
+        >
+          <p
+            className={`text-xs font-medium ${
+              result.refused ? "text-[var(--ink-soft)]" : "text-[var(--verified)]"
+            }`}
+          >
+            {result.refused ? "Not covered by the cards" : "Answered from the cards"}
           </p>
           <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed">{result.answer}</p>
           {result.sources?.length ? (
             <ul className="mt-3 space-y-1 text-xs">
               {result.sources.map((s) => (
                 <li key={s.url}>
-                  <a className="underline" href={s.url} target="_blank" rel="noreferrer">
+                  <a className="text-[var(--primary)] underline" href={s.url} target="_blank" rel="noreferrer">
                     {s.title}
                   </a>
                 </li>
