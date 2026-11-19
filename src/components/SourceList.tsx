@@ -10,8 +10,7 @@ export function SourceList({ sources }: { sources: Source[] }) {
             {s.title}
           </a>
           <span className="text-[var(--ink-soft)]">
-            {" "}
-            — {s.publisher} · accessed {s.accessed_on}
+            {s.publisher ? ` · ${s.publisher}` : ""} · accessed {s.accessed_on}
           </span>
         </li>
       ))}

@@ -101,7 +101,7 @@ export async function reviewContribution(formData: FormData) {
 }
 
 /**
- * Validates a place/card draft for accuracy — used by the staff catalogue check form.
+ * Validates a place/card draft for accuracy , used by the staff catalogue check form.
  * Does not mutate the published catalogue JSON in this MVP (read-only seed);
  * records an audit entry when validation passes.
  */

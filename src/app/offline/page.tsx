@@ -1,7 +1,7 @@
 import { PageShell } from "@/components/PageShell";
 
 export const metadata = {
-  title: "Offline — Parampara Path",
+  title: "Offline , Parampara Path",
   robots: { index: false, follow: false },
 };
 

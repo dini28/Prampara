@@ -127,7 +127,7 @@ export function HeritageMap({ places }: Props) {
         setGeoError(null);
         sessionStorage.setItem(GEO_CACHE_KEY, JSON.stringify(coords));
         haptic(10);
-        // Coords stay on-device only — never posted to our API
+        // Coords stay on-device only , never posted to our API
       },
       () => {
         setGeoError("Location denied. Use the state picker to explore nearby heritage.");
@@ -229,7 +229,7 @@ export function HeritageMap({ places }: Props) {
         <div className="rounded-2xl bg-[var(--primary-tint)] p-4 outline outline-1 outline-[var(--primary)]/20">
           <p className="font-medium text-[var(--primary-deep)]">Use your location?</p>
           <p className="mt-1 text-sm text-[var(--ink-soft)]">
-            We stay on your device — coordinates are not sent to our servers. Deny anytime and pick
+            We stay on your device , coordinates are not sent to our servers. Deny anytime and pick
             a state instead.
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -314,7 +314,7 @@ export function HeritageMap({ places }: Props) {
         </h2>
         <p className="mt-1 text-sm text-[var(--ink-soft)]">
           Heritage sites, festivals, crafts, folk arts, temples, myths, and off-the-beaten-path
-          villages — teal markers highlight lesser-known practices.
+          villages , teal markers highlight lesser-known practices.
         </p>
         <ul className="mt-4 space-y-3">
           {nearby.map((p) => {

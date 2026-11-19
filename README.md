@@ -1,6 +1,6 @@
 # Parampara Path
 
-Living Heritage Compass — student MVP for AICTE / SIH Heritage & Culture.
+Living Heritage Compass , student MVP for AICTE / SIH Heritage & Culture.
 
 Unofficial learner tool. Not affiliated with the Ministry of Culture, UNESCO, AICTE, or Sahapedia.
 

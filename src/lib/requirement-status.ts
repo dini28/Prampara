@@ -74,7 +74,7 @@ export function analyseUserRequirements(learner?: string | null): RequirementSta
           detail: reviewed
             ? "At least one contribution accepted or rejected"
             : pending
-              ? "Pending item waiting in Admin — accept or reject to close UR-09"
+              ? "Pending item waiting in Admin , accept or reject to close UR-09"
               : "Submit then review a contribution in Admin",
         };
       case "manual":

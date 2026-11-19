@@ -29,7 +29,7 @@ export function InstallPrompt() {
     };
     window.addEventListener("beforeinstallprompt", onBip);
 
-    // Sensible moment: not first load — after 3 navigations or 45s engagement
+    // Sensible moment: not first load , after 3 navigations or 45s engagement
     const ready = views >= 3;
     const timer = window.setTimeout(() => {
       if (ready || views >= 2) setShow(true);
@@ -52,7 +52,7 @@ export function InstallPrompt() {
     >
       <p className="serif text-lg text-[var(--ink)]">Add to Home Screen</p>
       <p className="mt-1 text-sm text-[var(--ink-soft)]">
-        Open instantly, even offline — like a native app on your phone.
+        Open instantly, even offline , like a native app on your phone.
       </p>
       <div className="mt-3 flex gap-2">
         <button

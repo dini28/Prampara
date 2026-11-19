@@ -42,6 +42,6 @@ export function nearbyPlaces(origin: LatLng, limit = 12): NearbyPlace[] {
   return rows.sort((a, b) => a.distanceKm - b.distanceKm).slice(0, limit);
 }
 
-/** Client-side consent flag — never send raw coords to the server without this. */
+/** Client-side consent flag , never send raw coords to the server without this. */
 export const GEO_CONSENT_KEY = "pp_geo_consent";
 export const GEO_CACHE_KEY = "pp_geo_last";

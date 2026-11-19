@@ -11,7 +11,7 @@ function adminSalt(): Buffer {
   return createHash("sha256").update(`pp-salt:${getSessionSecret()}`).digest();
 }
 
-/** Hash a password/secret with scrypt (Node-only — use in Server Actions / Route Handlers). */
+/** Hash a password/secret with scrypt (Node-only , use in Server Actions / Route Handlers). */
 export function hashSecret(plain: string): string {
   const hash = scryptSync(plain, adminSalt(), SCRYPT_KEYLEN);
   return hash.toString("hex");

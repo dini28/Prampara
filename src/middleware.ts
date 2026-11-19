@@ -35,7 +35,7 @@ export async function middleware(request: NextRequest) {
     return new NextResponse(null, { status: 404 });
   }
 
-  // Legacy /admin — hard 404 (no links, no discovery)
+  // Legacy /admin , hard 404 (no links, no discovery)
   if (pathname === "/admin" || pathname.startsWith("/admin/")) {
     return new NextResponse(null, { status: 404 });
   }

@@ -1,6 +1,6 @@
 import type { HeritageType } from "@/lib/types";
 
-/** Atmosphere photographs (Unsplash) paired with category intent — captions stay place-accurate. */
+/** Atmosphere photographs (Unsplash) paired with category intent , captions stay place-accurate. */
 export type VisualCategory = {
   type: HeritageType;
   label: string;
@@ -18,7 +18,7 @@ export const VISUAL_CATEGORIES: VisualCategory[] = [
   {
     type: "festival",
     label: "Festivals",
-    blurb: "Seasonal gatherings — from city pujas to regional harvest rites.",
+    blurb: "Seasonal gatherings , from city pujas to regional harvest rites.",
     href: "/explore?type=festival",
     image: u("photo-1587474260584-136574528ed5"),
     credit: "Photo · Unsplash",
@@ -54,7 +54,7 @@ export const VISUAL_CATEGORIES: VisualCategory[] = [
   {
     type: "ritual",
     label: "Rituals",
-    blurb: "Practices tied to place, season, and community — including lesser-known ones.",
+    blurb: "Practices tied to place, season, and community , including lesser-known ones.",
     href: "/explore?type=ritual",
     image: u("photo-1605649487212-47bdab064df7"),
     credit: "Photo · Unsplash",
@@ -81,7 +81,7 @@ export type RegionVisual = {
   alt: string;
 };
 
-/** Regional atmospheres — equal weight to North-East, coasts, desert, and Deccan. */
+/** Regional atmospheres , equal weight to North-East, coasts, desert, and Deccan. */
 export const REGION_VISUALS: RegionVisual[] = [
   {
     title: "Rajasthan & desert craft",
@@ -122,7 +122,7 @@ export const REGION_VISUALS: RegionVisual[] = [
   {
     title: "Karnataka & Deccan craft",
     place: "South / Deccan",
-    blurb: "Channapatna toys and Mysore rosewood inlay — living maker traditions.",
+    blurb: "Channapatna toys and Mysore rosewood inlay , living maker traditions.",
     href: "/explore?region=karnataka",
     image: u("photo-1564507592333-c60657eea523"),
     credit: "Photo · Unsplash",
@@ -131,7 +131,7 @@ export const REGION_VISUALS: RegionVisual[] = [
   {
     title: "North-East highlands",
     place: "North-East",
-    blurb: "Sankirtana, Bihu, and Muga silk — Assam and Manipur on equal footing.",
+    blurb: "Sankirtana, Bihu, and Muga silk , Assam and Manipur on equal footing.",
     href: "/explore?q=northeast",
     image: u("photo-1578662996442-48f60103fc96"),
     credit: "Photo · Unsplash",
@@ -141,7 +141,7 @@ export const REGION_VISUALS: RegionVisual[] = [
 
 export const HERO_IMAGE = {
   src: u("photo-1524492412937-b28074a5d7da", 1600),
-  alt: "Taj Mahal and reflecting pool at Agra — a widely recognised landmark used here as atmosphere, not as a living-heritage claim",
+  alt: "Taj Mahal and reflecting pool at Agra , a widely recognised landmark used here as atmosphere, not as a living-heritage claim",
   credit: "Photo · Unsplash",
 };
 

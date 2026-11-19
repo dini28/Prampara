@@ -28,7 +28,7 @@ export function getAdminSecretPlain(): string {
   return process.env.PARAMPARA_ADMIN_SECRET ?? "parampara-demo";
 }
 
-/** Cookie names — not guessable from "admin" alone. */
+/** Cookie names , not guessable from "admin" alone. */
 export const STAFF_SESSION_COOKIE = "pp_sess";
 export const CSRF_COOKIE = "pp_csrf";
 export const CSRF_FIELD = "pp_csrf_token";

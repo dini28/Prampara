@@ -7,9 +7,10 @@
   },
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "node scripts/check-dashes.mjs && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:dashes": "node scripts/check-dashes.mjs"
   },
   "dependencies": {
     "next": "15.5.9",

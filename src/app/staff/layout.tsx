@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Reviewer desk — Parampara Path",
+  title: "Reviewer desk , Parampara Path",
   robots: {
     index: false,
     follow: false,

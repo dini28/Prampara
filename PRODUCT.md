@@ -10,7 +10,7 @@ web
 A last-mile learner loop for Indian living heritage: place or theme → source-attributed card → grounded Q&A that can refuse → short quiz → contribution that stays unpublished until a human accepts it.
 
 ## Users
-Primary: 18–24 Indian students on laptop or mid-range Android Chrome.
+Primary: 18 to 24 Indian students on laptop or mid-range Android Chrome.
 Secondary: curious travellers using the same responsive web app.
 
 ## Positioning

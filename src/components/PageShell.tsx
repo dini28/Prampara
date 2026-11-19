@@ -5,7 +5,7 @@ export type PageCrumb = { href?: string; label: string };
 type Props = {
   /** narrow ≈ reading (cards, ask); wide ≈ browse (explore, map, about) */
   width?: "narrow" | "wide";
-  /** Short label above the title — where the user is in the product */
+  /** Short label above the title , where the user is in the product */
   eyebrow?: string;
   title: string;
   /** One sentence: what this page is for */

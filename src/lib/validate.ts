@@ -61,7 +61,7 @@ export function validatePlaceDraft(
   if (lat === null || lng === null || Number.isNaN(lat) || Number.isNaN(lng)) {
     issues.push({
       field: "coordinates",
-      message: "Coordinates (lat/lng) are required — set on the place or its region.",
+      message: "Coordinates (lat/lng) are required , set on the place or its region.",
     });
   } else if (lat < -90 || lat > 90 || lng < -180 || lng > 180) {
     issues.push({ field: "coordinates", message: "Coordinates out of valid range." });
