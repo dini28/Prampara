@@ -43,15 +43,25 @@ export type AuditEntry = {
   createdAt: string;
 };
 
+/** Photo feedback only: never store the image bytes. */
+export type LookFeedback = {
+  id: string;
+  meaningSlug: string;
+  feedback: "yes" | "no" | "not_sure";
+  destinationSlug?: string;
+  createdAt: string;
+};
+
 type Store = {
   contributions: RuntimeContribution[];
   asks: AskLog[];
   quizzes: QuizProgress[];
   audit: AuditEntry[];
+  lookFeedback: LookFeedback[];
 };
 
 function empty(): Store {
-  return { contributions: [], asks: [], quizzes: [], audit: [] };
+  return { contributions: [], asks: [], quizzes: [], audit: [], lookFeedback: [] };
 }
 
 function load(): Store {
@@ -62,6 +72,7 @@ function load(): Store {
     asks: parsed.asks ?? [],
     quizzes: parsed.quizzes ?? [],
     audit: parsed.audit ?? [],
+    lookFeedback: parsed.lookFeedback ?? [],
   };
 }
 
@@ -144,4 +155,21 @@ export function appendAudit(row: Omit<AuditEntry, "id" | "createdAt">) {
 
 export function listAudit(limit = 100) {
   return load().audit.slice(0, limit);
+}
+
+export function appendLookFeedback(row: Omit<LookFeedback, "id" | "createdAt">) {
+  const store = load();
+  const full: LookFeedback = {
+    ...row,
+    id: crypto.randomUUID(),
+    createdAt: new Date().toISOString(),
+  };
+  store.lookFeedback.unshift(full);
+  store.lookFeedback = store.lookFeedback.slice(0, 500);
+  save(store);
+  return full;
+}
+
+export function listLookFeedback(limit = 100) {
+  return load().lookFeedback.slice(0, limit);
 }
