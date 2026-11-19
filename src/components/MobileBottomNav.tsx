@@ -6,7 +6,15 @@ import { haptic } from "@/lib/haptics";
 
 const tabs = [
   { href: "/", label: "Home", match: (p: string) => p === "/" },
-  { href: "/explore", label: "Explore", match: (p: string) => p.startsWith("/explore") || p.startsWith("/regions") || p.startsWith("/items") },
+  {
+    href: "/explore",
+    label: "Explore",
+    match: (p: string) =>
+      p.startsWith("/explore") ||
+      p.startsWith("/regions") ||
+      p.startsWith("/items") ||
+      p.startsWith("/places"),
+  },
   { href: "/map", label: "Map", match: (p: string) => p.startsWith("/map") },
   { href: "/bookmarks", label: "Saved", match: (p: string) => p.startsWith("/bookmarks") },
   { href: "/me", label: "Profile", match: (p: string) => p.startsWith("/me") || p.startsWith("/login") },
@@ -61,7 +69,7 @@ function Icon({ name, active }: { name: (typeof tabs)[number]["label"]; active: 
 
 export function MobileBottomNav() {
   const pathname = usePathname() || "/";
-  // Hide on staff desk (rewritten URLs still show as obscure path — detect /staff never reaches client)
+  // Hide on staff desk (rewritten URLs still show as obscure path , detect /staff never reaches client)
   // Also hide when path looks like desk (no public links anyway)
 
   return (

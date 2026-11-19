@@ -17,9 +17,9 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Parampara Path — Living Heritage Compass",
+  title: "Parampara Path: Living Heritage Compass",
   description:
-    "Unofficial learner tool for Indian living heritage: attributed cards, grounded Q&A, quizzes, and a human-reviewed contribution queue.",
+    "Visit any place in India and understand it deeply: the culture of the whole state, the heritage of your city, the meaning behind what you see, the best food and travel, and the modern India growing beside it.",
   applicationName: "Parampara Path",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#2f4f8a",
+  themeColor: "#4a3d7a",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",

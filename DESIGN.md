@@ -1,39 +1,37 @@
 # DESIGN.md
 
 ## Product
-Parampara Path — Living Heritage Compass (web app UI).
+Parampara Path: Living Heritage Compass (web app UI). Place first culture and travel guide with a cited 8 minute learning loop.
 
 ## Visual theme
-**Light theme only** (forced; no OS dark-mode switch). Neutral, credible reference tool. Near-white field, cool neutral surfaces, one deep blue for actions and links. Green is reserved for verification signals (sources, grounded answers). No cultural ornament; the content carries the heritage.
+**Light theme only** (forced; no OS dark-mode switch). Warm cream field, saffron/marigold accents, terracotta secondary, indigo primary actions. Soft jali-style accents. Content carries heritage; ornament stays subtle.
 
 ## Page layout
-Every content page uses `PageShell`: breadcrumb → eyebrow → title → one-line purpose → optional next actions → body. Narrow width for reading (cards, Ask, Quiz); wide for browse (Explore, Map, About).
+Every content page uses `PageShell`: breadcrumb → eyebrow → title → one-line purpose → optional next actions → body. Narrow width for reading (cards, Ask, Quiz); wide for browse (Explore, Places, Map, About).
 
 ## Color
-Strategy: Restrained.
+Strategy: Warm cultural, WCAG AA.
 
 ```css
---bg: oklch(0.995 0.002 250);
---surface: oklch(0.967 0.006 250);
---ink: oklch(0.210 0.020 255);
---muted: oklch(0.440 0.020 255);
---primary: oklch(0.420 0.110 255);
---primary-tint: oklch(0.950 0.025 255);
---verified: oklch(0.450 0.090 155);
---verified-tint: oklch(0.950 0.035 155);
---danger: oklch(0.500 0.170 27);
+--bg: oklch(0.975 0.015 85);
+--surface: oklch(0.955 0.02 75);
+--ink: oklch(0.25 0.04 275);
+--muted: oklch(0.42 0.03 275);
+--primary: oklch(0.4 0.1 275);
+--saffron / terracotta accents
+--verified: oklch(0.42 0.09 155);
 ```
 
-Text on primary is white. Green only means "backed by sources". Red only for errors. Refused Ask answers are neutral ("Not covered by the cards"), not alarming.
+Text on primary is near-white. Green only means "backed by sources". Red only for errors. Refused Ask answers are neutral ("Not covered by the cards"), not alarming.
 
 ## Trust signals
-Cards show source count. Item pages show "N sources · checked <date>" linking to the source list. Home explains the three safeguards: cited sources, answers only from cards, human-reviewed contributions. `/about` and the five-step loop stepper make aims and requirement coverage visible for viva demos.
+Cards show source count. Item pages show "N sources · checked date" linking to the source list. Places show last verified dates. Home explains cited sources, Ask from cards only, and human-reviewed contributions. Unofficial chip near logo; disclaimer in footer strip and About.
 
 ## Typography
-Figtree for body, labels, nav. Fraunces for h1–h3 only. Fixed rem scale. Body max ~70ch.
+Figtree for body, labels, nav. Fraunces for h1 to h3 only. Fixed rem scale. Body max ~70ch.
 
 ## Components
-Rounded-full actions, 44px hit targets, outline-1 panels, soft two-layer shadow. One primary (filled blue) action per group; others outlined.
+Rounded-full actions, 44px hit targets, outline-1 panels, soft two-layer shadow. One primary (filled indigo) action per group; others outlined. Loop stepper with done ticks.
 
 ## Layout
-Max width 72rem. Top nav (sticky from md up). Explore filters as a single toolbar, not nested cards.
+Max width 72rem. Top nav (sticky from md up): Home, Explore, Places, Map, Saved, Profile. Explore filters as sticky instant toolbar.

@@ -1,28 +1,37 @@
 import Image from "next/image";
 import Link from "next/link";
 import { HomeShell } from "@/components/HomeShell";
+import { InfoTip } from "@/components/InfoTip";
 import { ItemCard } from "@/components/ItemCard";
-import { getDisclaimer, getItemBySlug, getRegionBySlug } from "@/lib/catalogue";
-import {
-  GALLERY_STRIP,
-  HERO_IMAGE,
-  REGION_VISUALS,
-  VISUAL_CATEGORIES,
-} from "@/lib/home-visuals";
+import { OnboardingSlides } from "@/components/OnboardingSlides";
+import { PhotoUnderstand } from "@/components/PhotoUnderstand";
+import { WhereAreYou } from "@/components/WhereAreYou";
+import { getItemBySlug, getRegionBySlug } from "@/lib/catalogue";
+import { getDestinations } from "@/lib/destinations";
+import { HERO_IMAGE } from "@/lib/home-visuals";
 import { LEARNER_LOOP } from "@/lib/project";
 
-const safeguards = [
+const PURPOSE =
+  "Visit any place in India and understand it deeply: the culture of the whole state, the heritage of your city, the meaning behind what you see, the best food and travel, and the modern India growing beside it.";
+
+const HOW = [
   {
-    title: "Every card cites its sources",
-    body: "UNESCO, Ministry of Culture, and open scholarship, with the date each was checked.",
+    step: "1",
+    title: "Choose a place",
+    body: "Allow approximate location or search a city or state.",
+    href: "/places",
   },
   {
-    title: "Answers come only from the cards",
-    body: "If the cards don't support an answer, Ask says so instead of guessing.",
+    step: "2",
+    title: "Read the layers",
+    body: "State story, city heritage route, food, travel, then modern India.",
+    href: "/places/udaipur",
   },
   {
-    title: "A person reviews every contribution",
-    body: "Stories you submit stay hidden until a reviewer accepts them.",
+    step: "3",
+    title: "Learn in 8 minutes",
+    body: "Open a cited card, Ask, Quiz, and optionally Contribute.",
+    href: "/items/kalbelia",
   },
 ];
 
@@ -32,9 +41,11 @@ export default function HomePage() {
   const thathera = getItemBySlug("thathera-jandiala-guru");
   const theyyam = getItemBySlug("theyyam");
   const featured = [kalbelia, theyyam, durga, thathera].filter(Boolean);
+  const pilotCities = getDestinations().filter((d) => d.kind === "city");
 
   return (
     <HomeShell>
+      <OnboardingSlides />
       <main>
         <section className="relative overflow-hidden border-b border-[var(--line)]">
           <div className="absolute inset-0">
@@ -47,25 +58,36 @@ export default function HomePage() {
               className="object-cover"
             />
             <div
-              className="absolute inset-0 bg-gradient-to-r from-[oklch(0.16_0.03_255/0.88)] via-[oklch(0.16_0.03_255/0.55)] to-[oklch(0.16_0.03_255/0.25)]"
+              className="absolute inset-0 bg-gradient-to-r from-[oklch(0.22_0.05_275/0.9)] via-[oklch(0.28_0.06_40/0.55)] to-[oklch(0.22_0.05_275/0.25)]"
               aria-hidden="true"
             />
           </div>
           <div className="relative mx-auto max-w-6xl px-5 py-16 md:py-24">
-            <p className="text-sm font-medium tracking-[0.16em] text-white/80 uppercase">
-              Parampara Path
-            </p>
-            <h1 className="serif mt-4 max-w-[16ch] text-5xl leading-[1.02] text-white md:text-6xl lg:text-7xl">
+            <div className="flex flex-wrap items-center gap-2">
+              <p className="text-sm font-medium tracking-[0.16em] text-white/80 uppercase">
+                Parampara Path
+              </p>
+              <span className="unofficial-chip bg-white/15 text-white outline-white/30">
+                Unofficial
+              </span>
+            </div>
+            <h1 className="serif mt-4 max-w-[18ch] text-5xl leading-[1.02] text-white md:text-6xl lg:text-7xl">
               Living Heritage Compass
             </h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/85">
-              Explore India&apos;s living culture through place, craft, festival, and voice —
-              cited cards first, then a short learner loop that refuses to invent.
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/90">{PURPOSE}</p>
+            <p className="mt-3 max-w-xl text-sm text-white/75">
+              For students and curious travellers. Cited cards first. Ask answers only from the card.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                href="/explore"
+                href="/places"
                 className="btn inline-flex min-h-12 items-center rounded-full bg-white px-6 text-[var(--primary-deep)] hover:bg-white/90"
+              >
+                Where are you?
+              </Link>
+              <Link
+                href="/map"
+                className="btn inline-flex min-h-12 items-center rounded-full border border-white/40 bg-white/10 px-6 text-white backdrop-blur-sm hover:bg-white/20"
               >
                 Explore the map of practices
               </Link>
@@ -73,165 +95,108 @@ export default function HomePage() {
                 href="/items/kalbelia"
                 className="btn inline-flex min-h-12 items-center rounded-full border border-white/40 bg-white/10 px-6 text-white backdrop-blur-sm hover:bg-white/20"
               >
-                Demo: Kalbelia loop
+                Try the 8 minute demo
               </Link>
             </div>
             <p className="mt-6 text-[10px] tracking-wide text-white/55">{HERO_IMAGE.credit}</p>
           </div>
         </section>
 
-        <div className="mx-auto max-w-6xl px-5 py-6">
-          <p className="rounded-xl bg-[var(--bg)] px-4 py-3 text-sm leading-relaxed text-[var(--ink-soft)] outline outline-1 outline-[var(--line)]">
-            {getDisclaimer()}
-          </p>
-          <nav
-            className="mt-4 grid gap-3 sm:grid-cols-3"
-            aria-label="How to use Parampara Path"
-          >
-            <Link
-              href="/explore"
-              className="page-panel flex min-h-14 flex-col justify-center px-4 py-3 hover:outline-[var(--primary)]"
-            >
-              <span className="text-xs font-medium text-[var(--primary)]">1 · Discover</span>
-              <span className="mt-0.5 text-sm font-medium text-[var(--ink)]">Explore cards by place</span>
-            </Link>
-            <Link
-              href="/map"
-              className="page-panel flex min-h-14 flex-col justify-center px-4 py-3 hover:outline-[var(--primary)]"
-            >
-              <span className="text-xs font-medium text-[var(--primary)]">2 · Nearby</span>
-              <span className="mt-0.5 text-sm font-medium text-[var(--ink)]">Map villages & practices</span>
-            </Link>
-            <Link
-              href="/items/kalbelia"
-              className="page-panel flex min-h-14 flex-col justify-center px-4 py-3 hover:outline-[var(--primary)]"
-            >
-              <span className="text-xs font-medium text-[var(--primary)]">3 · Learn</span>
-              <span className="mt-0.5 text-sm font-medium text-[var(--ink)]">Try the Kalbelia loop</span>
-            </Link>
-          </nav>
-        </div>
+        <div className="mx-auto max-w-6xl px-5 py-10">
+          <section aria-labelledby="how-works">
+            <h2 id="how-works" className="serif text-3xl">
+              How it works
+            </h2>
+            <ol className="mt-6 grid gap-4 md:grid-cols-3">
+              {HOW.map((h) => (
+                <li key={h.step}>
+                  <Link
+                    href={h.href}
+                    className="page-panel flex h-full flex-col p-5 hover:outline-[var(--primary)]"
+                  >
+                    <span className="grid size-10 place-items-center rounded-full bg-[var(--saffron-tint)] text-sm font-bold text-[var(--saffron-ink)]">
+                      {h.step}
+                    </span>
+                    <span className="serif mt-3 text-xl">{h.title}</span>
+                    <span className="mt-2 text-sm leading-relaxed text-[var(--ink-soft)]">
+                      {h.body}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ol>
+          </section>
 
-        <section className="border-b border-[var(--line)] py-4" aria-label="Visual themes">
-          <div className="flex gap-3 overflow-x-auto px-5 pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            {GALLERY_STRIP.map((shot) => (
-              <figure
-                key={shot.src}
-                className="relative h-36 w-56 shrink-0 overflow-hidden rounded-xl outline outline-1 outline-[var(--line)]"
-              >
-                <Image
-                  src={shot.src}
-                  alt={shot.alt}
-                  fill
-                  sizes="224px"
-                  className="object-cover"
-                />
-                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent px-3 py-2 text-xs font-medium text-white">
-                  {shot.label}
-                </figcaption>
-              </figure>
-            ))}
+          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+            <WhereAreYou />
+            <PhotoUnderstand destinationSlug="udaipur" compact />
           </div>
-        </section>
 
-        <div className="mx-auto max-w-6xl px-5 py-14">
-          <section aria-labelledby="categories">
-            <div className="max-w-2xl">
-              <h2 id="categories" className="serif text-3xl md:text-4xl">
-                See the culture, then open a card
-              </h2>
-              <p className="mt-3 text-[var(--ink-soft)]">
-                Six living-heritage lenses — festivals, performance, craft, oral traditions,
-                ritual, and knowledge — including regional practices that rarely make tourist lists.
-              </p>
-            </div>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {VISUAL_CATEGORIES.map((cat) => (
-                <Link key={cat.type} href={cat.href} className="visual-card group block aspect-[4/5]">
-                  <Image
-                    src={cat.image}
-                    alt={cat.alt}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
-                  <div className="visual-card-overlay absolute inset-0" />
-                  <div className="absolute inset-x-0 bottom-0 p-5 text-white">
-                    <p className="text-xs font-medium tracking-wide text-white/70 uppercase">
-                      {cat.type}
-                    </p>
-                    <h3 className="serif mt-1 text-2xl">{cat.label}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-white/80">{cat.blurb}</p>
-                    <p className="mt-3 text-[10px] text-white/50">{cat.credit}</p>
-                  </div>
-                </Link>
+          <section className="mt-14" aria-labelledby="pilot">
+            <h2 id="pilot" className="serif text-3xl">
+              Pilot places
+            </h2>
+            <p className="mt-2 max-w-2xl text-[var(--ink-soft)]">
+              Rajasthan and Udaipur are built end to end. Jaipur, Jodhpur, and Jaisalmer share the same
+              data shape so new cities load from files without code changes.
+            </p>
+            <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {pilotCities.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/places/${c.slug}`} className="visual-card group block">
+                    <div className="relative aspect-[4/3]">
+                      <Image
+                        src={c.hero_image.src}
+                        alt={c.hero_image.alt}
+                        fill
+                        sizes="25vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                      />
+                      <div className="visual-card-overlay absolute inset-0" />
+                      <div className="absolute inset-x-0 bottom-0 p-4 text-white">
+                        <p className="text-xs uppercase tracking-wide text-white/70">{c.state_ut}</p>
+                        <h3 className="serif text-xl">{c.name}</h3>
+                      </div>
+                    </div>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
 
-          <section className="mt-20" aria-labelledby="regions">
-            <div className="flex flex-wrap items-end justify-between gap-4">
-              <div className="max-w-2xl">
-                <h2 id="regions" className="serif text-3xl md:text-4xl">
-                  Across regions — not only the famous few
-                </h2>
-                <p className="mt-3 text-[var(--ink-soft)]">
-                  Desert, coast, Deccan, Himalaya, and the North-East share the frame. Images set
-                  place; cards carry the cited practices.
-                </p>
-              </div>
-              <Link
-                href="/explore"
-                className="min-h-11 content-center text-sm text-[var(--primary)] underline underline-offset-4 hover:text-[var(--primary-hover)]"
-              >
-                Browse by place
-              </Link>
-            </div>
-            <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-              {REGION_VISUALS.map((region) => (
-                <Link key={region.title} href={region.href} className="visual-card group block">
-                  <div className="relative aspect-[16/10] overflow-hidden">
-                    <Image
-                      src={region.image}
-                      alt={region.alt}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                    />
-                  </div>
-                  <div className="p-4">
-                    <p className="text-xs font-medium tracking-wide text-[var(--primary)] uppercase">
-                      {region.place}
-                    </p>
-                    <h3 className="serif mt-1 text-xl">{region.title}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-[var(--ink-soft)]">
-                      {region.blurb}
-                    </p>
-                    <p className="mt-2 text-[10px] text-[var(--muted)]">{region.credit}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
+          <section className="mt-14" aria-labelledby="jargon">
+            <h2 id="jargon" className="serif text-2xl">
+              Plain language
+            </h2>
+            <ul className="mt-4 flex flex-wrap gap-4 text-sm">
+              <li className="page-panel px-4 py-3">
+                <InfoTip label="UNESCO Intangible Cultural Heritage">
+                  Living practices recognised on UNESCO lists for intangible cultural heritage, not
+                  only monuments.
+                </InfoTip>
+              </li>
+              <li className="page-panel px-4 py-3">
+                <InfoTip label="Geographical Indication (protected craft name)">
+                  A GI tag is a protected name for a craft or product tied to a place, under Indian
+                  intellectual property law.
+                </InfoTip>
+              </li>
+              <li className="page-panel px-4 py-3">
+                <InfoTip label="Ask (answers only from the card)">
+                  Formerly called Grounded Ask. The answer must come from the cited card text and
+                  sources, or the app refuses.
+                </InfoTip>
+              </li>
+            </ul>
           </section>
 
-          <section className="mt-20" aria-labelledby="loop">
-            <div className="flex flex-wrap items-end justify-between gap-4">
-              <div>
-                <h2 id="loop" className="serif text-3xl">
-                  The learner loop
-                </h2>
-                <p className="mt-2 max-w-xl text-[var(--ink-soft)]">
-                  One job per step — place or theme, cited card, grounded Ask, quiz, then a
-                  contribution that stays unpublished until a human accepts it.
-                </p>
-              </div>
-              <Link
-                href="/about#requirements"
-                className="min-h-11 content-center text-sm text-[var(--primary)] underline underline-offset-4 hover:text-[var(--primary-hover)]"
-              >
-                Analyse UR-01…UR-12
-              </Link>
-            </div>
+          <section className="mt-14" aria-labelledby="loop">
+            <h2 id="loop" className="serif text-3xl">
+              The 8 minute learning loop
+            </h2>
+            <p className="mt-2 max-w-xl text-[var(--ink-soft)]">
+              Still the heart of the product, now inside a place first journey.
+            </p>
             <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
               {LEARNER_LOOP.map((step) => (
                 <li key={step.id}>
@@ -255,65 +220,15 @@ export default function HomePage() {
             </ol>
           </section>
 
-          <section className="mt-20 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
-            <div>
-              <h2 className="serif text-3xl">Start with a cited card</h2>
-              <p className="mt-2 text-[var(--ink-soft)]">
-                Lesser-known and better-known practices sit side by side — each with sources before
-                Ask or Quiz.
-              </p>
-              <div className="mt-6 grid gap-5 sm:grid-cols-2">
-                {featured.map((item) =>
-                  item ? (
-                    <ItemCard
-                      key={item.id}
-                      item={item}
-                      region={getRegionBySlug(item.region_slug)}
-                    />
-                  ) : null,
-                )}
-              </div>
+          <section className="mt-14">
+            <h2 className="serif text-3xl">Start with a cited card</h2>
+            <div className="mt-6 grid gap-5 sm:grid-cols-2">
+              {featured.map((item) =>
+                item ? (
+                  <ItemCard key={item.id} item={item} region={getRegionBySlug(item.region_slug)} />
+                ) : null,
+              )}
             </div>
-            <section
-              aria-labelledby="reliability"
-              className="rounded-2xl bg-[var(--surface)] p-6 shadow-[var(--shadow)] outline outline-1 outline-[var(--line)] lg:sticky lg:top-24"
-            >
-              <h2 id="reliability" className="serif text-2xl">
-                How we keep it reliable
-              </h2>
-              <ul className="mt-5 space-y-4">
-                {safeguards.map((s) => (
-                  <li key={s.title} className="flex gap-3">
-                    <span
-                      className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full bg-[var(--verified-tint)] text-[var(--verified)]"
-                      aria-hidden="true"
-                    >
-                      <svg
-                        viewBox="0 0 16 16"
-                        className="size-3.5"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                      >
-                        <path d="M3.5 8.5l3 3 6-7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
-                    <div>
-                      <p className="font-medium text-[var(--ink)]">{s.title}</p>
-                      <p className="mt-0.5 text-sm leading-relaxed text-[var(--ink-soft)]">
-                        {s.body}
-                      </p>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/explore"
-                className="btn mt-6 inline-flex min-h-11 w-full items-center justify-center rounded-full bg-[var(--primary)] px-5 text-[var(--on-primary)] hover:bg-[var(--primary-hover)]"
-              >
-                Open all 40 cards
-              </Link>
-            </section>
           </section>
         </div>
       </main>
