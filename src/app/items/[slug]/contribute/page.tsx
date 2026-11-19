@@ -30,11 +30,11 @@ export default async function ContributePage({
         { href: `/items/${slug}`, label: item.title },
         { label: "Contribute" },
       ]}
-      eyebrow="Step 5 · Human review gate"
+      eyebrow="Contribute · human review gate"
       title="Contribute a note"
-      lead="Your note stays unpublished until a reviewer accepts it. That gate is part of the project — the desk is not linked from the public site."
+      lead="Your note stays unpublished until a reviewer accepts it. That gate is part of the product. The desk is not linked from the public nav."
       nextHref="/me"
-      nextLabel="View your Path"
+      nextLabel="Open Profile"
       secondaryHref={`/items/${slug}`}
       secondaryLabel="Back to card"
     >

@@ -5,15 +5,15 @@ export const LEARNER_LOOP = [
     id: "discover",
     step: 1,
     title: "Discover",
-    short: "Place or theme",
-    body: "Open a region or filter by practice type — not a national encyclopedia dump.",
-    href: "/explore",
+    short: "Place first",
+    body: "Open a place journey or filter by practice type. Not a national encyclopedia dump.",
+    href: "/places",
     needIds: ["UR-01", "UR-02"],
   },
   {
     id: "card",
     step: 2,
-    title: "Read card",
+    title: "Read",
     short: "Cited sources",
     body: "Each card shows source count, check dates, and links to official or scholarly pages.",
     href: "/items/kalbelia",
@@ -23,8 +23,8 @@ export const LEARNER_LOOP = [
     id: "ask",
     step: 3,
     title: "Ask",
-    short: "Ground or refuse",
-    body: "Q&A retrieves only from the card. Unsupported questions are refused — no invention.",
+    short: "From the card only",
+    body: "Ask (answers only from the card). Unsupported questions are refused. No invention.",
     href: "/items/kalbelia/ask",
     needIds: ["UR-04", "UR-05"],
   },
@@ -54,7 +54,7 @@ export const PERSONAS = [
   {
     id: "student",
     role: "Primary user",
-    title: "College student (18–24)",
+    title: "College student (18 to 24)",
     context: "Laptop or mid-range Android Chrome; short study or assignment break.",
     goals: [
       "Find a practice by place or theme in under two minutes",
@@ -264,7 +264,7 @@ export const PROJECT_AIMS = [
   },
   {
     title: "Make trust inspectable",
-    body: "Source counts, access dates, grounded vs not-covered labels, and a human review gate are visible in the product — not claimed in marketing copy alone.",
+    body: "Source counts, access dates, grounded vs not-covered labels, and a human review gate are visible in the product , not claimed in marketing copy alone.",
   },
   {
     title: "Stay in honest scope",
@@ -280,11 +280,11 @@ export const REQUIREMENT_COVERAGE = USER_REQUIREMENTS.map((ur) => ({
 }));
 
 export const DEMO_PATH = [
-  "Explore → Rajasthan (or open Kalbelia directly) — UR-01",
-  "Read the card and open Sources — UR-03",
-  "Ask a grounded question, then a refuse probe — UR-04 · UR-05",
-  "Complete the quiz — UR-06",
-  "Submit a contribution and accept/reject it in Admin — UR-07 · UR-09",
+  "Places: Rajasthan then Udaipur (or open Kalbelia directly). UR-01",
+  "Read the card and open Sources. UR-03",
+  "Ask a grounded question, then a refuse probe. UR-04 · UR-05",
+  "Complete the quiz. UR-06",
+  "Submit a contribution and accept or reject it in the reviewer desk. UR-07 · UR-09",
 ] as const;
 
 export const OUT_OF_SCOPE = [

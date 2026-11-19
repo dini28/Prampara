@@ -4,8 +4,8 @@ import { getItems, getRegionBySlug } from "@/lib/catalogue";
 import { enrichPlace } from "@/lib/place-enrichment";
 
 export const metadata = {
-  title: "Map — Parampara Path",
-  description: "Nearby living heritage across India — villages, crafts, festivals, and cited cards.",
+  title: "Map , Parampara Path",
+  description: "Nearby living heritage across India , villages, crafts, festivals, and cited cards.",
 };
 
 export default function MapPage() {
@@ -37,7 +37,7 @@ export default function MapPage() {
       crumbs={[{ href: "/", label: "Home" }, { label: "Map" }]}
       eyebrow="Location-aware discovery"
       title="Map & nearby heritage"
-      lead="Allow location (kept on your device) or pick a state. Teal markers highlight lesser-known practices — not only famous cities."
+      lead="Allow location (kept on your device) or pick a state. Teal markers highlight lesser-known practices , not only famous cities."
       nextHref="/explore"
       nextLabel="Explore as a list"
       secondaryHref="/bookmarks"

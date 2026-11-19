@@ -1,7 +1,6 @@
 import { LoopStepper } from "@/components/LoopStepper";
 import { PageShell } from "@/components/PageShell";
 import { QuizForm } from "@/components/QuizForm";
-import { UserNeedBanner } from "@/components/UserNeedBanner";
 import { getItemBySlug } from "@/lib/catalogue";
 import { notFound } from "next/navigation";
 
@@ -18,23 +17,20 @@ export default async function QuizPage({
     <PageShell
       width="narrow"
       before={
-        <>
+        <div className="sticky-mini-header -mx-5 px-5 py-3 md:static md:mx-0 md:bg-transparent md:p-0">
           <LoopStepper current="quiz" itemSlug={slug} />
-          <div className="mt-4">
-            <UserNeedBanner ids={["UR-06"]} />
-          </div>
-        </>
+        </div>
       }
       crumbs={[
         { href: "/", label: "Home" },
         { href: `/items/${slug}`, label: item.title },
         { label: "Quiz" },
       ]}
-      eyebrow="Step 4 · Learning check"
+      eyebrow="Quiz · check recall"
       title={item.quiz.title}
-      lead="Questions are written from this card’s text — not from an open web model. Scores appear on your Path."
+      lead="Questions are written from this card’s text, not from an open web model. Scores stay on this device with your profile name."
       nextHref={`/items/${slug}/contribute`}
-      nextLabel="Next: Contribute"
+      nextLabel="Finish: Share a note"
       secondaryHref={`/items/${slug}/ask`}
       secondaryLabel="Back to Ask"
     >
