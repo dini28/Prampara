@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { PassportStamps } from "@/components/PassportStamps";
 import { computeBadges, dailyDiscoverSlug } from "@/lib/badges";
 import { getStateBySlug } from "@/lib/india-states";
 import { readProgress, type LearnerProgress } from "@/lib/learner-progress";
@@ -106,6 +107,8 @@ export function PassportDashboard({
         </section>
       ) : null}
 
+      <PassportStamps />
+
       <section aria-labelledby="unlocked-states">
         <h2 id="unlocked-states" className="serif text-2xl">
           Unlocked states
@@ -143,12 +146,15 @@ export function PassportDashboard({
       <section aria-labelledby="badges-heading">
         <div className="flex flex-wrap items-end justify-between gap-2">
           <h2 id="badges-heading" className="serif text-2xl">
-            Badges
+            Badge legends
           </h2>
           <p className="text-sm tabular-nums text-[var(--muted)]">
             {earnedCount} / {badges.length}
           </p>
         </div>
+        <p className="mt-2 max-w-2xl text-sm text-[var(--ink-soft)]">
+          Soft goals that feed your stamp page. Locked badges stay invitational, never shaming.
+        </p>
         <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {badges.map((b) => (
             <li

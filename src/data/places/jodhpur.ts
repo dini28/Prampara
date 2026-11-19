@@ -13,8 +13,8 @@ export const jodhpurBundle: DestinationBundle = {
     summary:
       "Jodhpur sits under Mehrangarh with blue-washed lanes and craft markets. Place layers will expand from this data file without route code changes.",
     hero_image: {
-      src: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=1600&q=80",
-      alt: "Blue houses and fort hill in Jodhpur",
+      src: "https://images.unsplash.com/photo-1686825780583-8be7c349a4b4?auto=format&fit=crop&w=1600&q=80",
+      alt: "Aerial view of blue-washed houses in Jodhpur, Rajasthan",
       credit: "Photo via Unsplash",
     },
     related_card_slugs: ["kalbelia"],

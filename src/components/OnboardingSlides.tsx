@@ -11,12 +11,12 @@ const SLIDES = [
     body: "Say where you are, or search a city. We open the state culture story first, then your city.",
   },
   {
-    title: "Read layers, not a dump",
-    body: "Heritage route, food, travel, and a Heritage | Modern toggle. Every item cites sources.",
+    title: "See hidden gems, then look closer",
+    body: "Browse living crafts and rituals across states, or use the camera to match what you see to cited meanings.",
   },
   {
-    title: "Finish the 8 minute loop",
-    body: "Open a cited card, Ask (answers only from the card), take a quiz, optionally contribute a note for human review.",
+    title: "Stamp your passport",
+    body: "Open a cited card, Ask from the card only, take a quiz, and collect ink seals on this device.",
   },
 ];
 

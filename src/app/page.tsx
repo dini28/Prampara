@@ -2,10 +2,12 @@ import { HomeLocale } from "@/components/HomeLocale";
 import { HomeShell } from "@/components/HomeShell";
 import { OnboardingSlides } from "@/components/OnboardingSlides";
 import { getItemBySlug, getRegionBySlug } from "@/lib/catalogue";
+import { getHiddenGems } from "@/lib/hidden-gems";
 import { getCatalogueCoverage } from "@/lib/india-states";
 
 export default function HomePage() {
   const coverage = getCatalogueCoverage();
+  const gems = getHiddenGems(12);
   const featuredSlugs = [
     "kalbelia",
     "theyyam",
@@ -18,13 +20,20 @@ export default function HomePage() {
       if (!item) return null;
       return { item, region: getRegionBySlug(item.region_slug) };
     })
-    .filter(Boolean) as { item: NonNullable<ReturnType<typeof getItemBySlug>>; region: ReturnType<typeof getRegionBySlug> }[];
+    .filter(Boolean) as {
+    item: NonNullable<ReturnType<typeof getItemBySlug>>;
+    region: ReturnType<typeof getRegionBySlug>;
+  }[];
 
   return (
     <HomeShell>
       <OnboardingSlides />
       <main id="main-content">
-        <HomeLocale catalogueCovered={coverage.coveredCount} featured={featured} />
+        <HomeLocale
+          catalogueCovered={coverage.coveredCount}
+          featured={featured}
+          gems={gems}
+        />
       </main>
     </HomeShell>
   );

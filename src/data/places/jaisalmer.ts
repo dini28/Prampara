@@ -13,8 +13,8 @@ export const jaisalmerBundle: DestinationBundle = {
     summary:
       "Jaisalmer’s living fort and desert edge frame craft and music routes. Heritage stops will be added in data, not hardcoded pages.",
     hero_image: {
-      src: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=1600&q=80",
-      alt: "Sandstone fort architecture in Rajasthan desert",
+      src: "https://images.unsplash.com/photo-1544616751-eea58efccec4?auto=format&fit=crop&w=1600&q=80",
+      alt: "Jaisalmer Fort sandstone walls on Trikuta Hill, Rajasthan",
       credit: "Photo via Unsplash",
     },
     related_card_slugs: ["kalbelia"],

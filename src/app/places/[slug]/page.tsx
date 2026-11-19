@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { OfficialHelpPanel } from "@/components/OfficialHelpPanel";
 import { PageShell } from "@/components/PageShell";
+import { PhotoUnderstand } from "@/components/PhotoUnderstand";
 import { TreasureChests } from "@/components/TreasureChests";
 import { getBundle, getChildCities } from "@/lib/destinations";
 import { getAllPlaceHubSlugs, resolvePlaceHub } from "@/lib/place-hub";
@@ -91,6 +92,13 @@ export default async function PlaceHubPage({
         <div className="mt-6">
           <TreasureChests stateSlug={hub.stateSlug} treasures={chests} />
         </div>
+      </section>
+
+      <section className="mt-12" aria-labelledby="look-at-place">
+        <h2 id="look-at-place" className="sr-only">
+          Camera look at this place
+        </h2>
+        <PhotoUnderstand destinationSlug={hub.slug} compact />
       </section>
 
       <section className="mt-12" aria-labelledby="etiquette-heading">
