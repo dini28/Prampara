@@ -5,10 +5,8 @@ const TILE_CACHE = "pp-tiles-v1";
 
 const SHELL = [
   "/",
-  "/explore",
   "/map",
-  "/bookmarks",
-  "/me",
+  "/passport",
   "/offline",
   "/manifest.webmanifest",
   "/icons/icon-192.png",

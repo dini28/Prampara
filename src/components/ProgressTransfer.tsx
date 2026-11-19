@@ -1,16 +1,18 @@
 "use client";
 
 import { useState } from "react";
+import { PROGRESS_KEY } from "@/lib/learner-progress";
 
-/** Export / import bookmarks and quiz metadata stored on this device. */
+/** Export / import bookmarks and progress stored on this device. */
 export function ProgressTransfer() {
   const [msg, setMsg] = useState<string | null>(null);
 
   function exportData() {
     const payload = {
-      version: 1,
+      version: 2,
       exportedAt: new Date().toISOString(),
       bookmarks: safeParse("pp_bookmarks"),
+      progress: safeParse(PROGRESS_KEY),
       itineraries: safeParse("pp_saved_itineraries"),
       itineraryMeta: safeParse("pp_saved_itinerary_meta"),
       photoJournal: safeParse("pp_photo_journal"),
@@ -35,6 +37,10 @@ export function ProgressTransfer() {
         if (data.bookmarks != null) {
           window.localStorage.setItem("pp_bookmarks", JSON.stringify(data.bookmarks));
         }
+        if (data.progress != null) {
+          window.localStorage.setItem(PROGRESS_KEY, JSON.stringify(data.progress));
+          window.dispatchEvent(new CustomEvent("pp-progress"));
+        }
         if (data.itineraries != null) {
           window.localStorage.setItem("pp_saved_itineraries", JSON.stringify(data.itineraries));
         }
@@ -47,7 +53,7 @@ export function ProgressTransfer() {
         if (data.lang === "en" || data.lang === "hi") {
           window.localStorage.setItem("pp_lang", data.lang);
         }
-        setMsg("Imported onto this device. Reload to refresh lists.");
+        setMsg("Imported onto this device. Lists refresh automatically.");
       } catch {
         setMsg("Could not import that file.");
       }
@@ -61,8 +67,8 @@ export function ProgressTransfer() {
         Export or import progress
       </h2>
       <p className="mt-2 text-sm text-[var(--ink-soft)]">
-        Move bookmarks and saved itineraries between devices. Quiz scores on the server remain tied
-        to your local name when set.
+        Move stamps, unlocked states, bookmarks, and saved itineraries between devices. Server quiz
+        scores stay tied to your local name when set.
       </p>
       <div className="mt-4 flex flex-wrap gap-3">
         <button

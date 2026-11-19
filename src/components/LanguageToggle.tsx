@@ -9,7 +9,16 @@ export function useLang(): [Lang, (l: Lang) => void] {
   const [lang, setLangState] = useState<Lang>("en");
   useEffect(() => {
     const stored = window.localStorage.getItem(KEY);
-    if (stored === "hi" || stored === "en") setLangState(stored);
+    if (stored === "hi" || stored === "en") {
+      setLangState(stored);
+      document.documentElement.lang = stored === "hi" ? "hi" : "en";
+    }
+    const onLang = (e: Event) => {
+      const detail = (e as CustomEvent<Lang>).detail;
+      if (detail === "hi" || detail === "en") setLangState(detail);
+    };
+    window.addEventListener("pp-lang", onLang as EventListener);
+    return () => window.removeEventListener("pp-lang", onLang as EventListener);
   }, []);
   function setLang(l: Lang) {
     setLangState(l);
@@ -26,7 +35,7 @@ export function LanguageToggle({ className = "" }: { className?: string }) {
     <div
       className={`inline-flex rounded-full outline outline-1 outline-[var(--line)] ${className}`}
       role="group"
-      aria-label="Language"
+      aria-label={lang === "hi" ? "भाषा" : "Language"}
     >
       <button
         type="button"

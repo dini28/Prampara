@@ -95,9 +95,20 @@ export function HeritageMap({ places }: Props) {
   const [sheetPlace, setSheetPlace] = useState<MapPlace | null>(null);
   const [manualRegion, setManualRegion] = useState("");
 
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get("type");
+    const region = params.get("region");
+    if (type) setFilter(type);
+    if (region) setManualRegion(region);
+  }, []);
+
   const filtered = useMemo(() => {
     let list = places;
     if (filter !== "all") list = list.filter((p) => p.type === filter);
+    if (manualRegion) {
+      list = list.filter((p) => p.regionSlug === manualRegion);
+    }
     if (userPos) {
       list = [...list].sort(
         (a, b) =>
@@ -106,7 +117,7 @@ export function HeritageMap({ places }: Props) {
       );
     }
     return list;
-  }, [places, filter, userPos]);
+  }, [places, filter, manualRegion, userPos]);
 
   const nearby = useMemo(() => {
     if (!userPos) return filtered.slice(0, 8);

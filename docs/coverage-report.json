@@ -1,0 +1,570 @@
+{
+  "generated_on": "2026-11-19",
+  "published_cards": 56,
+  "regions_in_catalogue": 36,
+  "states_uts_total": 36,
+  "states_uts_covered": 36,
+  "states_uts_missing": [],
+  "by_state": {
+    "andaman-and-nicobar": {
+      "name": "Andaman and Nicobar Islands",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "padauk-wood-craft-andaman"
+      ]
+    },
+    "andhra-pradesh": {
+      "name": "Andhra Pradesh",
+      "count": 2,
+      "types": {
+        "festival": 0,
+        "craft": 2,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "kalamkari",
+        "kondapalli-toys"
+      ]
+    },
+    "arunachal-pradesh": {
+      "name": "Arunachal Pradesh",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "apatani-textile-arunachal"
+      ]
+    },
+    "assam": {
+      "name": "Assam",
+      "count": 2,
+      "types": {
+        "festival": 1,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "muga-silk",
+        "bihu"
+      ]
+    },
+    "bihar": {
+      "name": "Bihar",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "madhubani-painting"
+      ]
+    },
+    "chandigarh": {
+      "name": "Chandigarh",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 1
+      },
+      "slugs": [
+        "chandigarh-capitol-complex"
+      ]
+    },
+    "chhattisgarh": {
+      "name": "Chhattisgarh",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "dhokra"
+      ]
+    },
+    "dadra-daman-diu": {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "warli-painting-dnhdd"
+      ]
+    },
+    "delhi": {
+      "name": "Delhi",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 1
+      },
+      "slugs": [
+        "basmati-delhi-ncr"
+      ]
+    },
+    "goa": {
+      "name": "Goa",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 1
+      },
+      "slugs": [
+        "feni-goa"
+      ]
+    },
+    "gujarat": {
+      "name": "Gujarat",
+      "count": 2,
+      "types": {
+        "festival": 1,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "garba-of-gujarat",
+        "ajrakh"
+      ]
+    },
+    "haryana": {
+      "name": "Haryana",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 0,
+        "oral": 1,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "jangam-gayan-haryana"
+      ]
+    },
+    "himachal-pradesh": {
+      "name": "Himachal Pradesh",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "kangra-painting"
+      ]
+    },
+    "jharkhand": {
+      "name": "Jharkhand",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "sohrai-khovar-jharkhand"
+      ]
+    },
+    "jammu-kashmir": {
+      "name": "Jammu and Kashmir",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "kashmir-pashmina"
+      ]
+    },
+    "karnataka": {
+      "name": "Karnataka",
+      "count": 2,
+      "types": {
+        "festival": 0,
+        "craft": 2,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "channapatna-toys",
+        "mysore-rosewood-inlay"
+      ]
+    },
+    "kerala": {
+      "name": "Kerala",
+      "count": 4,
+      "types": {
+        "festival": 1,
+        "craft": 0,
+        "performing": 1,
+        "oral": 0,
+        "ritual": 2,
+        "knowledge": 0
+      },
+      "slugs": [
+        "kutiyattam",
+        "mudiyettu",
+        "onam",
+        "theyyam"
+      ]
+    },
+    "ladakh": {
+      "name": "Ladakh",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 0,
+        "oral": 1,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "buddhist-chanting-ladakh"
+      ]
+    },
+    "lakshadweep": {
+      "name": "Lakshadweep",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 1,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "kolkali-lakshadweep"
+      ]
+    },
+    "maharashtra": {
+      "name": "Maharashtra",
+      "count": 3,
+      "types": {
+        "festival": 2,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "warli-painting",
+        "ganesh-utsav",
+        "nawrouz-mumbai-parsi"
+      ]
+    },
+    "meghalaya": {
+      "name": "Meghalaya",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "lyrnai-pottery-meghalaya"
+      ]
+    },
+    "manipur": {
+      "name": "Manipur",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 1,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "sankirtana"
+      ]
+    },
+    "madhya-pradesh": {
+      "name": "Madhya Pradesh",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "gond-painting-madhya-pradesh"
+      ]
+    },
+    "mizoram": {
+      "name": "Mizoram",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "mizo-puanchei"
+      ]
+    },
+    "nagaland": {
+      "name": "Nagaland",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "chakhesang-shawl-nagaland"
+      ]
+    },
+    "odisha": {
+      "name": "Odisha",
+      "count": 2,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 1,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "chhau-dance",
+        "pattachitra"
+      ]
+    },
+    "punjab": {
+      "name": "Punjab",
+      "count": 2,
+      "types": {
+        "festival": 0,
+        "craft": 2,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "thathera-jandiala-guru",
+        "phulkari"
+      ]
+    },
+    "puducherry": {
+      "name": "Puducherry",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "villianur-terracotta-puducherry"
+      ]
+    },
+    "rajasthan": {
+      "name": "Rajasthan",
+      "count": 2,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 1,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "kalbelia",
+        "jaipur-blue-pottery"
+      ]
+    },
+    "sikkim": {
+      "name": "Sikkim",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 0,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 1,
+        "knowledge": 0
+      },
+      "slugs": [
+        "lama-dances-sikkim"
+      ]
+    },
+    "telangana": {
+      "name": "Telangana",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "bidriware"
+      ]
+    },
+    "tamil-nadu": {
+      "name": "Tamil Nadu",
+      "count": 3,
+      "types": {
+        "festival": 2,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "deepavali",
+        "kanchipuram-silk",
+        "pongal"
+      ]
+    },
+    "tripura": {
+      "name": "Tripura",
+      "count": 1,
+      "types": {
+        "festival": 0,
+        "craft": 1,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "tripura-risa-textile"
+      ]
+    },
+    "uttar-pradesh": {
+      "name": "Uttar Pradesh",
+      "count": 6,
+      "types": {
+        "festival": 1,
+        "craft": 3,
+        "performing": 1,
+        "oral": 1,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "kumbh-mela",
+        "ramlila",
+        "vedic-chanting",
+        "banarasi-brocade",
+        "chikankari",
+        "khurja-pottery"
+      ]
+    },
+    "uttarakhand": {
+      "name": "Uttarakhand",
+      "count": 2,
+      "types": {
+        "festival": 1,
+        "craft": 0,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 1
+      },
+      "slugs": [
+        "yoga",
+        "ramman"
+      ]
+    },
+    "west-bengal": {
+      "name": "West Bengal",
+      "count": 1,
+      "types": {
+        "festival": 1,
+        "craft": 0,
+        "performing": 0,
+        "oral": 0,
+        "ritual": 0,
+        "knowledge": 0
+      },
+      "slugs": [
+        "durga-puja-kolkata"
+      ]
+    }
+  }
+}

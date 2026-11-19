@@ -1,0 +1,1323 @@
+{
+  "data_locations": {
+    "heritage_cards": "src/data/catalogue.json",
+    "schema_types": "src/lib/types.ts",
+    "regions_in_catalogue": true,
+    "places": "src/data/places/*.ts (Rajasthan only MVP)",
+    "runtime_queue": "data/runtime-queue.json",
+    "supabase": "auth/session only (no heritage CMS)"
+  },
+  "generated_on": "2026-09-03",
+  "regionCount": 20,
+  "itemsTotal": 40,
+  "itemsPublished": 40,
+  "itemsUnpublished": 0,
+  "unpublishedSlugs": [],
+  "typeTotals": {
+    "festival": 10,
+    "craft": 20,
+    "performing": 5,
+    "oral": 2,
+    "ritual": 2,
+    "knowledge": 1
+  },
+  "coveredStates": [
+    "Andhra Pradesh",
+    "Assam",
+    "Bihar",
+    "Chhattisgarh",
+    "Gujarat",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Karnataka",
+    "Kerala",
+    "Ladakh",
+    "Maharashtra",
+    "Manipur",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Tamil Nadu",
+    "Telangana",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "West Bengal"
+  ],
+  "coveredStatesCount": 20,
+  "missingStates": [
+    "Andaman and Nicobar Islands",
+    "Arunachal Pradesh",
+    "Chandigarh",
+    "Dadra and Nagar Haveli and Daman and Diu",
+    "Delhi",
+    "Goa",
+    "Haryana",
+    "Jharkhand",
+    "Lakshadweep",
+    "Madhya Pradesh",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Puducherry",
+    "Sikkim",
+    "Tripura"
+  ],
+  "missingStatesCount": 16,
+  "regionsWithZeroPublishedItems": [],
+  "matrix": {
+    "Rajasthan": {
+      "festival": 0,
+      "craft": 1,
+      "performing": 1,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "West Bengal": {
+      "festival": 1,
+      "craft": 0,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Gujarat": {
+      "festival": 1,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Uttarakhand": {
+      "festival": 1,
+      "craft": 0,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 1
+    },
+    "Uttar Pradesh": {
+      "festival": 1,
+      "craft": 3,
+      "performing": 1,
+      "oral": 1,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Kerala": {
+      "festival": 1,
+      "craft": 0,
+      "performing": 1,
+      "oral": 0,
+      "ritual": 2,
+      "knowledge": 0
+    },
+    "Odisha": {
+      "festival": 0,
+      "craft": 1,
+      "performing": 1,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Manipur": {
+      "festival": 0,
+      "craft": 0,
+      "performing": 1,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Punjab": {
+      "festival": 0,
+      "craft": 2,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Ladakh": {
+      "festival": 0,
+      "craft": 0,
+      "performing": 0,
+      "oral": 1,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Tamil Nadu": {
+      "festival": 2,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Karnataka": {
+      "festival": 0,
+      "craft": 2,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Telangana": {
+      "festival": 0,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Bihar": {
+      "festival": 0,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Maharashtra": {
+      "festival": 2,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Andhra Pradesh": {
+      "festival": 0,
+      "craft": 2,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Chhattisgarh": {
+      "festival": 0,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Jammu and Kashmir": {
+      "festival": 0,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Assam": {
+      "festival": 1,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    },
+    "Himachal Pradesh": {
+      "festival": 0,
+      "craft": 1,
+      "performing": 0,
+      "oral": 0,
+      "ritual": 0,
+      "knowledge": 0
+    }
+  },
+  "citationStats": {
+    "noSourcesPublished": 0,
+    "sourceRowsMissingAccessed": 0,
+    "itemsWithAnyCitationIssue": 20,
+    "topRepeatedUrls": [
+      {
+        "url": "https://www.sahapedia.org/",
+        "count": 43
+      },
+      {
+        "url": "https://www.indianculture.gov.in/",
+        "count": 42
+      },
+      {
+        "url": "https://map.sahapedia.org/",
+        "count": 24
+      },
+      {
+        "url": "https://culture.gov.in/intangible-cultural-heritage",
+        "count": 22
+      },
+      {
+        "url": "https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags",
+        "count": 20
+      },
+      {
+        "url": "https://presidencyuniversity.in/blog-details/safeguarding-traditional-art-forms-the-role-of-gi-tagged-handicrafts-and-artisans-in-sustainable-development",
+        "count": 20
+      },
+      {
+        "url": "https://ich.unesco.org/en/state/india-IN",
+        "count": 16
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/kalbelia-folk-songs-and-dances-of-rajasthan-00340",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703",
+        "count": 1
+      },
+      {
+        "url": "https://indianculture.gov.in/intangible-cultural-heritage",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/garba-of-gujarat-01962",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/yoga-01186",
+        "count": 1
+      },
+      {
+        "url": "https://www.un.org/en/observances/yoga-day",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/kumbh-mela-01258",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/kutiyattam-sanskrit-theatre-00010",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/chhau-dance-00337",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/sankirtana-ritual-singing-drumming-and-dancing-of-manipur-00508",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/traditional-brass-and-copper-craft-of-utensil-making-among-the-thatheras-of-jandiala-guru-punjab-india-00865",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/ramman-religious-festival-and-ritual-theatre-of-the-garhwal-himalayas-india-00281",
+        "count": 1
+      },
+      {
+        "url": "https://ich.unesco.org/en/RL/ramlila-the-traditional-performance-of-the-ramayana-00110",
+        "count": 1
+      }
+    ]
+  },
+  "officialPortalUrlsInSources": [
+    "https://culture.gov.in/intangible-cultural-heritage",
+    "https://ich.unesco.org/en/RL/buddhist-chanting-of-ladakh-recitation-of-sacred-buddhist-texts-in-the-trans-himalayan-ladakh-region-jammu-and-kashmir-india-00265",
+    "https://ich.unesco.org/en/RL/chhau-dance-00337",
+    "https://ich.unesco.org/en/RL/deepavali-02312",
+    "https://ich.unesco.org/en/RL/durga-puja-in-kolkata-00703",
+    "https://ich.unesco.org/en/RL/garba-of-gujarat-01962",
+    "https://ich.unesco.org/en/RL/kalbelia-folk-songs-and-dances-of-rajasthan-00340",
+    "https://ich.unesco.org/en/RL/kumbh-mela-01258",
+    "https://ich.unesco.org/en/RL/kutiyattam-sanskrit-theatre-00010",
+    "https://ich.unesco.org/en/RL/mudiyettu-ritual-theatre-and-dance-drama-of-kerala-00345",
+    "https://ich.unesco.org/en/RL/ramlila-the-traditional-performance-of-the-ramayana-00110",
+    "https://ich.unesco.org/en/RL/ramman-religious-festival-and-ritual-theatre-of-the-garhwal-himalayas-india-00281",
+    "https://ich.unesco.org/en/RL/sankirtana-ritual-singing-drumming-and-dancing-of-manipur-00508",
+    "https://ich.unesco.org/en/RL/tradition-of-vedic-chanting-00062",
+    "https://ich.unesco.org/en/RL/traditional-brass-and-copper-craft-of-utensil-making-among-the-thatheras-of-jandiala-guru-punjab-india-00865",
+    "https://ich.unesco.org/en/RL/yoga-01186",
+    "https://ich.unesco.org/en/state/india-IN",
+    "https://indianculture.gov.in/intangible-cultural-heritage",
+    "https://map.sahapedia.org/",
+    "https://www.indianculture.gov.in/",
+    "https://www.sahapedia.org/"
+  ],
+  "perCard": [
+    {
+      "slug": "kalbelia",
+      "title": "Kalbelia folk songs and dances",
+      "state_ut": "Rajasthan",
+      "region_slug": "rajasthan",
+      "type": "performing",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "00340",
+      "published": true
+    },
+    {
+      "slug": "durga-puja-kolkata",
+      "title": "Durga Puja in Kolkata",
+      "state_ut": "West Bengal",
+      "region_slug": "west-bengal",
+      "type": "festival",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "00703",
+      "published": true
+    },
+    {
+      "slug": "garba-of-gujarat",
+      "title": "Garba of Gujarat",
+      "state_ut": "Gujarat",
+      "region_slug": "gujarat",
+      "type": "festival",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "01962",
+      "published": true
+    },
+    {
+      "slug": "yoga",
+      "title": "Yoga",
+      "state_ut": "Uttarakhand",
+      "region_slug": "uttarakhand",
+      "type": "knowledge",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "01186",
+      "published": true
+    },
+    {
+      "slug": "kumbh-mela",
+      "title": "Kumbh Mela",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "festival",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "01258",
+      "published": true
+    },
+    {
+      "slug": "kutiyattam",
+      "title": "Kutiyattam, Sanskrit theatre",
+      "state_ut": "Kerala",
+      "region_slug": "kerala",
+      "type": "performing",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "00010",
+      "published": true
+    },
+    {
+      "slug": "chhau-dance",
+      "title": "Chhau dance",
+      "state_ut": "Odisha",
+      "region_slug": "odisha",
+      "type": "performing",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "00337",
+      "published": true
+    },
+    {
+      "slug": "sankirtana",
+      "title": "Sankirtana of Manipur",
+      "state_ut": "Manipur",
+      "region_slug": "manipur",
+      "type": "performing",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "00508",
+      "published": true
+    },
+    {
+      "slug": "thathera-jandiala-guru",
+      "title": "Thathera metal craft of Jandiala Guru",
+      "state_ut": "Punjab",
+      "region_slug": "punjab",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": "00865",
+      "published": true
+    },
+    {
+      "slug": "ramman",
+      "title": "Ramman, religious festival and ritual theatre of the Garhwal Himalayas",
+      "state_ut": "Uttarakhand",
+      "region_slug": "uttarakhand",
+      "type": "festival",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "00281",
+      "published": true
+    },
+    {
+      "slug": "ramlila",
+      "title": "Ramlila, traditional performance of the Ramayana",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "performing",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "00110",
+      "published": true
+    },
+    {
+      "slug": "mudiyettu",
+      "title": "Mudiyettu",
+      "state_ut": "Kerala",
+      "region_slug": "kerala",
+      "type": "ritual",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": true,
+      "gi_flag": false,
+      "unesco_id": "00345",
+      "published": true
+    },
+    {
+      "slug": "vedic-chanting",
+      "title": "Tradition of Vedic chanting",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "oral",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": true,
+      "gi_flag": false,
+      "unesco_id": "00062",
+      "published": true
+    },
+    {
+      "slug": "buddhist-chanting-ladakh",
+      "title": "Buddhist chanting of Ladakh",
+      "state_ut": "Ladakh",
+      "region_slug": "ladakh",
+      "type": "oral",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": true,
+      "gi_flag": false,
+      "unesco_id": "00265",
+      "published": true
+    },
+    {
+      "slug": "deepavali",
+      "title": "Deepavali",
+      "state_ut": "Tamil Nadu",
+      "region_slug": "tamil-nadu",
+      "type": "festival",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": "02312",
+      "published": true
+    },
+    {
+      "slug": "jaipur-blue-pottery",
+      "title": "Jaipur blue pottery",
+      "state_ut": "Rajasthan",
+      "region_slug": "rajasthan",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "banarasi-brocade",
+      "title": "Banarasi brocade weaving",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "channapatna-toys",
+      "title": "Channapatna lacquer toys",
+      "state_ut": "Karnataka",
+      "region_slug": "karnataka",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kanchipuram-silk",
+      "title": "Kanchipuram silk weaving",
+      "state_ut": "Tamil Nadu",
+      "region_slug": "tamil-nadu",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "bidriware",
+      "title": "Bidriware",
+      "state_ut": "Telangana",
+      "region_slug": "telangana",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "madhubani-painting",
+      "title": "Madhubani / Mithila painting",
+      "state_ut": "Bihar",
+      "region_slug": "bihar",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "warli-painting",
+      "title": "Warli painting",
+      "state_ut": "Maharashtra",
+      "region_slug": "maharashtra",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "pattachitra",
+      "title": "Pattachitra",
+      "state_ut": "Odisha",
+      "region_slug": "odisha",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "chikankari",
+      "title": "Lucknow Chikankari",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kalamkari",
+      "title": "Kalamkari",
+      "state_ut": "Andhra Pradesh",
+      "region_slug": "andhra-pradesh",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "dhokra",
+      "title": "Dhokra / bell-metal casting",
+      "state_ut": "Chhattisgarh",
+      "region_slug": "chhattisgarh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "phulkari",
+      "title": "Phulkari embroidery",
+      "state_ut": "Punjab",
+      "region_slug": "punjab",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kashmir-pashmina",
+      "title": "Kashmir Pashmina",
+      "state_ut": "Jammu and Kashmir",
+      "region_slug": "jammu-kashmir",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "mysore-rosewood-inlay",
+      "title": "Mysore rosewood inlay",
+      "state_ut": "Karnataka",
+      "region_slug": "karnataka",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kondapalli-toys",
+      "title": "Kondapalli toys",
+      "state_ut": "Andhra Pradesh",
+      "region_slug": "andhra-pradesh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "ajrakh",
+      "title": "Ajrakh printing",
+      "state_ut": "Gujarat",
+      "region_slug": "gujarat",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "muga-silk",
+      "title": "Muga silk of Assam",
+      "state_ut": "Assam",
+      "region_slug": "assam",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "onam",
+      "title": "Onam",
+      "state_ut": "Kerala",
+      "region_slug": "kerala",
+      "type": "festival",
+      "source_count": 4,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "bihu",
+      "title": "Bihu",
+      "state_ut": "Assam",
+      "region_slug": "assam",
+      "type": "festival",
+      "source_count": 4,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "pongal",
+      "title": "Pongal",
+      "state_ut": "Tamil Nadu",
+      "region_slug": "tamil-nadu",
+      "type": "festival",
+      "source_count": 4,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "ganesh-utsav",
+      "title": "Ganesh Utsav",
+      "state_ut": "Maharashtra",
+      "region_slug": "maharashtra",
+      "type": "festival",
+      "source_count": 4,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "theyyam",
+      "title": "Theyyam",
+      "state_ut": "Kerala",
+      "region_slug": "kerala",
+      "type": "ritual",
+      "source_count": 4,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": true,
+      "gi_flag": false,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "nawrouz-mumbai-parsi",
+      "title": "Nawrouz (Parsi New Year in Indian cities)",
+      "state_ut": "Maharashtra",
+      "region_slug": "maharashtra",
+      "type": "festival",
+      "source_count": 4,
+      "lastChecked": "2026-09-03",
+      "needs_verification": false,
+      "issues": [],
+      "sensitivity_flag": false,
+      "gi_flag": false,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kangra-painting",
+      "title": "Kangra painting",
+      "state_ut": "Himachal Pradesh",
+      "region_slug": "himachal-pradesh",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "khurja-pottery",
+      "title": "Khurja pottery",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    }
+  ],
+  "sampleCitationIssues": [
+    {
+      "slug": "thathera-jandiala-guru",
+      "title": "Thathera metal craft of Jandiala Guru",
+      "state_ut": "Punjab",
+      "region_slug": "punjab",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": "00865",
+      "published": true
+    },
+    {
+      "slug": "jaipur-blue-pottery",
+      "title": "Jaipur blue pottery",
+      "state_ut": "Rajasthan",
+      "region_slug": "rajasthan",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "banarasi-brocade",
+      "title": "Banarasi brocade weaving",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "channapatna-toys",
+      "title": "Channapatna lacquer toys",
+      "state_ut": "Karnataka",
+      "region_slug": "karnataka",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kanchipuram-silk",
+      "title": "Kanchipuram silk weaving",
+      "state_ut": "Tamil Nadu",
+      "region_slug": "tamil-nadu",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "bidriware",
+      "title": "Bidriware",
+      "state_ut": "Telangana",
+      "region_slug": "telangana",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "madhubani-painting",
+      "title": "Madhubani / Mithila painting",
+      "state_ut": "Bihar",
+      "region_slug": "bihar",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "warli-painting",
+      "title": "Warli painting",
+      "state_ut": "Maharashtra",
+      "region_slug": "maharashtra",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "pattachitra",
+      "title": "Pattachitra",
+      "state_ut": "Odisha",
+      "region_slug": "odisha",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "chikankari",
+      "title": "Lucknow Chikankari",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kalamkari",
+      "title": "Kalamkari",
+      "state_ut": "Andhra Pradesh",
+      "region_slug": "andhra-pradesh",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "dhokra",
+      "title": "Dhokra / bell-metal casting",
+      "state_ut": "Chhattisgarh",
+      "region_slug": "chhattisgarh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "phulkari",
+      "title": "Phulkari embroidery",
+      "state_ut": "Punjab",
+      "region_slug": "punjab",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kashmir-pashmina",
+      "title": "Kashmir Pashmina",
+      "state_ut": "Jammu and Kashmir",
+      "region_slug": "jammu-kashmir",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "mysore-rosewood-inlay",
+      "title": "Mysore rosewood inlay",
+      "state_ut": "Karnataka",
+      "region_slug": "karnataka",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kondapalli-toys",
+      "title": "Kondapalli toys",
+      "state_ut": "Andhra Pradesh",
+      "region_slug": "andhra-pradesh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "ajrakh",
+      "title": "Ajrakh printing",
+      "state_ut": "Gujarat",
+      "region_slug": "gujarat",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "muga-silk",
+      "title": "Muga silk of Assam",
+      "state_ut": "Assam",
+      "region_slug": "assam",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "kangra-painting",
+      "title": "Kangra painting",
+      "state_ut": "Himachal Pradesh",
+      "region_slug": "himachal-pradesh",
+      "type": "craft",
+      "source_count": 6,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    },
+    {
+      "slug": "khurja-pottery",
+      "title": "Khurja pottery",
+      "state_ut": "Uttar Pradesh",
+      "region_slug": "uttar-pradesh",
+      "type": "craft",
+      "source_count": 5,
+      "lastChecked": "2026-09-03",
+      "needs_verification": true,
+      "issues": [
+        "non-official blog: https://www.memeraki.com/blogs/posts/mapping-india-s-arts-and-crafts-heritage-through-g-i-tags"
+      ],
+      "sensitivity_flag": false,
+      "gi_flag": true,
+      "unesco_id": null,
+      "published": true
+    }
+  ]
+}

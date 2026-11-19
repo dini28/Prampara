@@ -1,19 +1,29 @@
 import type { Metadata, Viewport } from "next";
-import { Figtree, Fraunces } from "next/font/google";
+import { Figtree, Fraunces, Noto_Sans_Devanagari } from "next/font/google";
 import { Suspense } from "react";
 import { AppProviders } from "@/components/AppProviders";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
+import { SkipToContent } from "@/components/SkipToContent";
 import "./globals.css";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const figtree = Figtree({
   variable: "--font-figtree",
   subsets: ["latin"],
+  display: "swap",
+});
+
+const notoDevanagari = Noto_Sans_Devanagari({
+  variable: "--font-deva",
+  subsets: ["devanagari"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -24,7 +34,7 @@ export const metadata: Metadata = {
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
-    statusBarStyle: "default",
+    statusBarStyle: "black-translucent",
     title: "Parampara Path",
   },
   icons: {
@@ -40,7 +50,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#4a3d7a",
+  themeColor: "#f7f1e6",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
@@ -58,9 +68,13 @@ export default function RootLayout({
         <meta name="color-scheme" content="light" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="format-detection" content="telephone=no, email=no, address=no" />
       </head>
-      <body className={`${fraunces.variable} ${figtree.variable} antialiased`}>
+      <body
+        className={`${fraunces.variable} ${figtree.variable} ${notoDevanagari.variable} ios-root antialiased`}
+      >
+        <SkipToContent />
         <SiteHeader />
         <Suspense fallback={null}>
           <AppProviders>{children}</AppProviders>

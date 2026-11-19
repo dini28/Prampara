@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-03",
+  "generated_on": "2026-11-20",
   "disclaimer": "Unofficial student learner tool. Not affiliated with the Ministry of Culture, UNESCO, AICTE, or Sahapedia.",
   "regions": [
     {
@@ -201,6 +201,166 @@
       "lng": 81.6296,
       "blurb": "Dhokra/bell-metal casting belts.",
       "id": "9e8d1521-3224-5624-b1dd-1d13d5c6c261"
+    },
+    {
+      "slug": "andaman-and-nicobar",
+      "name": "Andaman and Nicobar Islands",
+      "state_ut": "Andaman and Nicobar Islands",
+      "zone": "Island",
+      "lat": 11.7401,
+      "lng": 92.6586,
+      "blurb": "Island craft traditions registered under India's GI system, with careful community respect.",
+      "id": "32167bbf-037c-56cb-93f2-4020ae30a94a"
+    },
+    {
+      "slug": "arunachal-pradesh",
+      "name": "Arunachal Pradesh",
+      "state_ut": "Arunachal Pradesh",
+      "zone": "Northeast",
+      "lat": 27.1004,
+      "lng": 93.6167,
+      "blurb": "Highland textiles and craft knowledge, including Apatani weaving with GI protection.",
+      "id": "31a043d1-1d6f-5c59-beb6-3be7d0c5c950"
+    },
+    {
+      "slug": "chandigarh",
+      "name": "Chandigarh",
+      "state_ut": "Chandigarh",
+      "zone": "North",
+      "lat": 30.7333,
+      "lng": 76.7794,
+      "blurb": "Planned capital with the Capitol Complex recognised in a UNESCO World Heritage serial nomination.",
+      "id": "61bf88af-838e-56df-8d38-4fac0fe4cd38"
+    },
+    {
+      "slug": "dadra-daman-diu",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "state_ut": "Dadra and Nagar Haveli and Daman and Diu",
+      "zone": "West",
+      "lat": 20.1809,
+      "lng": 73.0169,
+      "blurb": "Warli painting geography includes this UT under the registered GI area.",
+      "id": "d5db0e18-8b06-5125-ab95-abd7a8f96ff5"
+    },
+    {
+      "slug": "delhi",
+      "name": "Delhi",
+      "state_ut": "Delhi",
+      "zone": "North",
+      "lat": 28.6139,
+      "lng": 77.209,
+      "blurb": "Capital region living arts and agricultural GIs that name Delhi in their registered area.",
+      "id": "032c2b8e-0b48-5ae5-bdcd-872e47769b2c"
+    },
+    {
+      "slug": "goa",
+      "name": "Goa",
+      "state_ut": "Goa",
+      "zone": "West",
+      "lat": 15.2993,
+      "lng": 74.124,
+      "blurb": "Coastal craft and food GIs including Feni, with Portuguese-era and Konkani living culture.",
+      "id": "62cb2b46-045f-546e-9dda-774f6b9da0d7"
+    },
+    {
+      "slug": "haryana",
+      "name": "Haryana",
+      "state_ut": "Haryana",
+      "zone": "North",
+      "lat": 29.0588,
+      "lng": 76.0856,
+      "blurb": "North Indian oral and craft traditions, including Jangam Gayan in the national ICH inventory.",
+      "id": "0cf03572-d921-50e1-a1d4-cdf158bf558e"
+    },
+    {
+      "slug": "jharkhand",
+      "name": "Jharkhand",
+      "state_ut": "Jharkhand",
+      "zone": "East",
+      "lat": 23.3441,
+      "lng": 85.3096,
+      "blurb": "Sohrai-Khovar mural painting and other tribal-linked crafts with GI recognition.",
+      "id": "e6ee89ab-effa-5b8b-96b8-89d951ea7803"
+    },
+    {
+      "slug": "lakshadweep",
+      "name": "Lakshadweep",
+      "state_ut": "Lakshadweep",
+      "zone": "Island",
+      "lat": 10.5667,
+      "lng": 72.6417,
+      "blurb": "Island folk arts described by the UT administration, approached with visitor restraint.",
+      "id": "7ca2e952-0d37-59d8-8362-b9979f384d1a"
+    },
+    {
+      "slug": "meghalaya",
+      "name": "Meghalaya",
+      "state_ut": "Meghalaya",
+      "zone": "Northeast",
+      "lat": 25.5788,
+      "lng": 91.8933,
+      "blurb": "Hill craft GIs including Lyrnai / Larnai pottery traditions.",
+      "id": "120b339e-eca0-548c-8ec9-5538ba13a8e5"
+    },
+    {
+      "slug": "madhya-pradesh",
+      "name": "Madhya Pradesh",
+      "state_ut": "Madhya Pradesh",
+      "zone": "Central",
+      "lat": 23.2599,
+      "lng": 77.4126,
+      "blurb": "Central Indian arts including Gond painting with a registered GI.",
+      "id": "b4881645-1c70-5c23-8b5a-77c46c9a039e"
+    },
+    {
+      "slug": "mizoram",
+      "name": "Mizoram",
+      "state_ut": "Mizoram",
+      "zone": "Northeast",
+      "lat": 23.7271,
+      "lng": 92.7176,
+      "blurb": "Mizo handloom textiles with several registered GI names including Puanchei.",
+      "id": "8e81967f-7f66-59a5-8605-46a193d8fd0f"
+    },
+    {
+      "slug": "nagaland",
+      "name": "Nagaland",
+      "state_ut": "Nagaland",
+      "zone": "Northeast",
+      "lat": 25.6751,
+      "lng": 94.1086,
+      "blurb": "Naga textile knowledge including Chakhesang shawls under GI protection.",
+      "id": "ec523952-ccc3-5aa9-9480-65a6ff08991d"
+    },
+    {
+      "slug": "puducherry",
+      "name": "Puducherry",
+      "state_ut": "Puducherry",
+      "zone": "South",
+      "lat": 11.9416,
+      "lng": 79.8083,
+      "blurb": "Terracotta and papier-mache crafts registered for the former Pondicherry territory.",
+      "id": "3cecb668-93da-51df-849a-8f943b358046"
+    },
+    {
+      "slug": "sikkim",
+      "name": "Sikkim",
+      "state_ut": "Sikkim",
+      "zone": "Northeast",
+      "lat": 27.533,
+      "lng": 88.5122,
+      "blurb": "Himalayan Buddhist monastic dances listed in India's national ICH inventory.",
+      "id": "9866348e-d314-591c-bd41-e4d560eba8a2"
+    },
+    {
+      "slug": "tripura",
+      "name": "Tripura",
+      "state_ut": "Tripura",
+      "zone": "Northeast",
+      "lat": 23.9408,
+      "lng": 91.9882,
+      "blurb": "Tripura Risa textile and related handloom knowledge with GI registration.",
+      "id": "bebe76ce-3208-56f6-8a0e-dcbb98225e31"
     }
   ],
   "languages": [
@@ -4636,6 +4796,2042 @@
             "explanation": "UP.",
             "id": "4c030fff-74c2-5191-9e1a-1881542850e9",
             "sort_order": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "f2b6d5dd-cd39-52ac-91f1-11f30a15a86f",
+      "slug": "padauk-wood-craft-andaman",
+      "type": "craft",
+      "title": "Padauk wood craft of the Andaman and Nicobar Islands",
+      "summary": "Padauk wood craft is a registered Geographical Indication handicraft of the Andaman and Nicobar Islands. This card explains the GI fact and respectful visiting, without inventing tribal ritual detail.",
+      "body": "Padauk wood craft of Andaman & Nicobar appears on India's state-wise list of registered Geographical Indications as a handicraft (application noted in Intellectual Property India materials). A GI tag protects a place-linked product name under Indian IP law. It does not turn island communities into exhibits.\n\nFor learners: use the GI registry and Ministry of Culture pages as outbound sources. Do not invent “secret” meanings for motifs. Indigenous communities of the islands have histories of contact restrictions; this app will not give trespass tips or precise coordinates for restricted settlements.\n\nRespectful engagement means buying only through legitimate artisan channels when available, asking before photographs of people, and treating gaps in sources as unknown rather than filling them with fiction.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "32167bbf-037c-56cb-93f2-4020ae30a94a",
+      "region_slug": "andaman-and-nicobar",
+      "calendar_note": "Workshop craft year-round. Island travel needs permits and local rules.",
+      "sensitivity_flag": true,
+      "published": true,
+      "tags": [
+        "gi",
+        "craft",
+        "andaman",
+        "wood"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (lists Padauk Wood Craft)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "63aac971-7813-5d6f-838f-1324aff1cf01",
+        "item_id": "f2b6d5dd-cd39-52ac-91f1-11f30a15a86f",
+        "title": "Padauk craft. five checks",
+        "questions": [
+          {
+            "prompt": "Padauk wood craft is described here mainly as…",
+            "options": [
+              "A UNESCO dance",
+              "A registered GI handicraft of the Andaman and Nicobar Islands",
+              "A hotel loyalty club",
+              "An AI-generated myth"
+            ],
+            "answer_index": 1,
+            "explanation": "The card cites the GI registration listing.",
+            "id": "2be291e7-45f6-5326-b7dc-d940fc2ef386",
+            "sort_order": 0
+          },
+          {
+            "prompt": "A Geographical Indication primarily protects…",
+            "options": [
+              "Any social media hashtag",
+              "A place-linked product name under Indian IP law",
+              "A private app trademark only",
+              "A tourist tip jar"
+            ],
+            "answer_index": 1,
+            "explanation": "GI is an IP protection for place-linked goods.",
+            "id": "c447105c-9314-5ff9-b2ee-3ddc4d103bca",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Why does this card set a sensitivity flag?",
+            "options": [
+              "To invent secret rituals",
+              "Because island Indigenous contexts need care and no trespass framing",
+              "To block all reading",
+              "Because wood is illegal everywhere"
+            ],
+            "answer_index": 1,
+            "explanation": "Restricted contact and community dignity matter.",
+            "id": "fdf5a282-3e87-5e7b-a61f-f35e833dfbe3",
+            "sort_order": 2
+          },
+          {
+            "prompt": "If a motif meaning is not in the sources, you should…",
+            "options": [
+              "Invent a story",
+              "Treat it as unknown",
+              "Copy a random reel",
+              "Scrape private chats"
+            ],
+            "answer_index": 1,
+            "explanation": "Grounded answers only.",
+            "id": "c196b94e-7485-5f01-875e-ff89acaf1c69",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Which outbound official search helps verify GI status?",
+            "options": [
+              "Intellectual Property India GI public search",
+              "A fashion marketplace alone",
+              "A meme page",
+              "This student app as registrar"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India hosts the GI registry search.",
+            "id": "6bf2579b-de1c-5bc7-9374-316d3dc9d664",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "37ff26ec-cf02-51e3-81f7-3903fd8a9bd5",
+      "slug": "apatani-textile-arunachal",
+      "type": "craft",
+      "title": "Apatani textile of Arunachal Pradesh",
+      "summary": "Apatani textile is a registered Geographical Indication handicraft of Arunachal Pradesh. The card sticks to GI facts and respectful craft learning.",
+      "body": "Arunachal Pradesh Apatani Textile is listed among registered Geographical Indications for the state (handicraft class in Intellectual Property India materials). The GI framework recognises textile knowledge linked to Apatani communities and place.\n\nThis learner card does not invent weave diagrams or sacred rules. Use the GI registry entry and culture portals to verify claims. Tourist shops may sell related textiles; a shop label is not automatic proof of GI-authorised production.\n\nRespectful visiting: ask before photographing weavers, credit makers when you share, and avoid treating community dress as costume for outsiders.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "31a043d1-1d6f-5c59-beb6-3be7d0c5c950",
+      "region_slug": "arunachal-pradesh",
+      "calendar_note": "Handloom practice year-round; festival displays vary by community calendar.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "textile",
+        "arunachal",
+        "apatani"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Apatani Textile)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "764a4b13-1353-5c8b-ae30-7e413990803a",
+        "item_id": "37ff26ec-cf02-51e3-81f7-3903fd8a9bd5",
+        "title": "Apatani textile. five checks",
+        "questions": [
+          {
+            "prompt": "Apatani textile is tied in this card to which state?",
+            "options": [
+              "Goa",
+              "Arunachal Pradesh",
+              "Kerala",
+              "Punjab"
+            ],
+            "answer_index": 1,
+            "explanation": "The GI listing is for Arunachal Pradesh.",
+            "id": "3856391f-8de7-5c5c-8776-cfc352fc3e09",
+            "sort_order": 0
+          },
+          {
+            "prompt": "GI status means…",
+            "options": [
+              "The app owns the weave",
+              "A registered place-linked product name exists under Indian IP law",
+              "UNESCO automatically inscribed it",
+              "Anyone may invent a new GI online"
+            ],
+            "answer_index": 1,
+            "explanation": "GI is an IP registration.",
+            "id": "8dc9dbc1-ea9f-5ac3-a32d-9356260d9c67",
+            "sort_order": 1
+          },
+          {
+            "prompt": "A shop label alone…",
+            "options": [
+              "Always proves GI-authorised production",
+              "Is not automatic proof of GI-authorised production",
+              "Replaces the registry",
+              "Bans photography forever"
+            ],
+            "answer_index": 1,
+            "explanation": "The card warns against assuming shop labels equal GI proof.",
+            "id": "37d71949-4eed-5d57-a91e-236d442ab9d3",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful visiting includes…",
+            "options": [
+              "Grabbing looms for selfies",
+              "Asking before photographing weavers",
+              "Demanding secret patterns",
+              "Ignoring makers' names"
+            ],
+            "answer_index": 1,
+            "explanation": "Consent and credit matter.",
+            "id": "1606a9e5-ea07-50bd-92a4-b60ee808b419",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Primary verification link class cited here includes…",
+            "options": [
+              "Intellectual Property India GI materials",
+              "Only anonymous chats",
+              "Pirate PDFs with no publisher",
+              "Hotel menus"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India is cited.",
+            "id": "649527ab-5a7f-5b37-8d6f-f7243b5b32c9",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "f3f8c6e5-7e36-57cb-bcf2-e54928ca090d",
+      "slug": "chandigarh-capitol-complex",
+      "type": "knowledge",
+      "title": "Chandigarh Capitol Complex (Le Corbusier World Heritage)",
+      "summary": "Chandigarh's Capitol Complex is part of the UNESCO World Heritage serial property for the Architectural Work of Le Corbusier. This card is a cited learning path, not a ticket office.",
+      "body": "The Architectural Work of Le Corbusier is a UNESCO World Heritage serial nomination that includes the Capitol Complex at Chandigarh. Official UNESCO pages describe the property and its outstanding universal value. This student app is not the Archaeological Survey of India and does not invent opening hours.\n\nLearners should treat the complex as protected modern heritage: follow posted rules, prefer official guides, and do not climb or mark surfaces. Living craft of the wider region (for example Phulkari GI applicants historically linked to Chandigarh addresses) is a neighbour topic, not the same card.\n\nIf you need current ticket or photography rules, use ASI or UT tourism notices, not a language model.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "61bf88af-838e-56df-8d38-4fac0fe4cd38",
+      "region_slug": "chandigarh",
+      "calendar_note": "Public monumental site; access rules and ticketed zones follow official notices.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "unesco-wh",
+        "modern",
+        "chandigarh",
+        "architecture"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://whc.unesco.org/en/list/1321/",
+          "title": "The Architectural Work of Le Corbusier (World Heritage List)",
+          "publisher": "UNESCO World Heritage Centre",
+          "accessed_on": "2026-11-20",
+          "id": "f6b2a6ad-d284-566e-9141-ca1fa2e112be"
+        },
+        {
+          "url": "https://asi.nic.in/",
+          "title": "Archaeological Survey of India",
+          "publisher": "ASI",
+          "accessed_on": "2026-11-20",
+          "id": "e45f944d-dcef-5f03-9772-1c5e8bc1b568"
+        },
+        {
+          "url": "https://asi.paygov.org.in/",
+          "title": "ASI ticketing (Indian Heritage)",
+          "publisher": "ASI / PayGov",
+          "accessed_on": "2026-11-20",
+          "id": "190932a1-7295-51f5-a987-756b7bc0fa16"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "3b7485c7-7b29-5d3a-b65e-ed9df4da4026",
+        "item_id": "f3f8c6e5-7e36-57cb-bcf2-e54928ca090d",
+        "title": "Capitol Complex. five checks",
+        "questions": [
+          {
+            "prompt": "The Capitol Complex is discussed here as part of…",
+            "options": [
+              "A GI chilli",
+              "A UNESCO World Heritage serial property for Le Corbusier's work",
+              "A private mall brand",
+              "An unofficial meme"
+            ],
+            "answer_index": 1,
+            "explanation": "UNESCO WH list entry is cited.",
+            "id": "62ba3e12-4342-59d5-9a2b-c3ba8ff1c0b3",
+            "sort_order": 0
+          },
+          {
+            "prompt": "This app's role is…",
+            "options": [
+              "Official ticket seller",
+              "A cited learner path, not a ticket office",
+              "UNESCO headquarters",
+              "A demolition crew"
+            ],
+            "answer_index": 1,
+            "explanation": "The card disclaims official ticketing.",
+            "id": "326fe39a-a478-5b63-be31-cdf50a2aa187",
+            "sort_order": 1
+          },
+          {
+            "prompt": "For current photography rules you should…",
+            "options": [
+              "Invent them",
+              "Check official ASI or UT notices",
+              "Trust a random chat bot alone",
+              "Ignore all signs"
+            ],
+            "answer_index": 1,
+            "explanation": "Official notices beat guesses.",
+            "id": "b1553dbe-a4f7-5324-ba17-ab0a6986abb6",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Phulkari appears here as…",
+            "options": [
+              "The same as the Capitol Complex",
+              "A neighbour regional craft topic, not this card",
+              "Banned forever",
+              "A UNESCO dance"
+            ],
+            "answer_index": 1,
+            "explanation": "Neighbour topic only.",
+            "id": "f9604e02-96a7-5ec3-a0f4-0853b3926302",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Which body hosts the World Heritage List page cited?",
+            "options": [
+              "UNESCO World Heritage Centre",
+              "A fashion blog alone",
+              "This student app",
+              "A ride-hailing company"
+            ],
+            "answer_index": 0,
+            "explanation": "whc.unesco.org is cited.",
+            "id": "9272a223-5eeb-536f-90d3-4d18a8589f35",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "9a5ebf49-cfe9-52f9-b826-39540eac4171",
+      "slug": "warli-painting-dnhdd",
+      "type": "craft",
+      "title": "Warli painting (Dadra and Nagar Haveli & Daman and Diu geography)",
+      "summary": "Warli painting is a registered GI whose geographical area includes Dadra & Nagar Haveli and Daman & Diu along with Maharashtra and Gujarat. This card centres the UT link without inventing ritual rules.",
+      "body": "Warli Painting is registered as a Geographical Indication handicraft with a multi-state geographical area that Intellectual Property India materials list as Maharashtra, Gujarat, Dadara & Nagar Haveli, and Daman Diu. The practice is associated with Warli communities' visual vocabulary of human, animal, and harvest scenes.\n\nThis card for the Dadra and Nagar Haveli and Daman and Diu hub does not replace Maharashtra-focused cards elsewhere; it documents that the registered GI geography includes this UT. Do not invent sacred meanings for motifs. Prefer GI and culture-portal sources over souvenir myths.\n\nRespectful engagement: credit painters, ask before photographing people at work, and buy through fair channels when possible.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "d5db0e18-8b06-5125-ab95-abd7a8f96ff5",
+      "region_slug": "dadra-daman-diu",
+      "calendar_note": "Living mural and portable painting practice; festival seasons vary by community.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "warli",
+        "painting",
+        "dnhdd"
+      ],
+      "languages": [
+        "en",
+        "hi",
+        "mr"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Warli Painting geography)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "c96fae30-2b77-52d7-add6-65cbcbc93a68",
+        "item_id": "9a5ebf49-cfe9-52f9-b826-39540eac4171",
+        "title": "Warli (DNHDD). five checks",
+        "questions": [
+          {
+            "prompt": "The GI geography for Warli painting includes…",
+            "options": [
+              "Only Kerala",
+              "Maharashtra, Gujarat, and Dadra & Nagar Haveli / Daman Diu as listed",
+              "Only Ladakh",
+              "Only foreign museums"
+            ],
+            "answer_index": 1,
+            "explanation": "IP India materials list the multi-state area.",
+            "id": "4bba0dae-fe76-5678-8dde-cfbfe20d8c52",
+            "sort_order": 0
+          },
+          {
+            "prompt": "This UT card exists to…",
+            "options": [
+              "Invent new rituals",
+              "Document that the registered GI area includes this UT",
+              "Replace all Maharashtra cards",
+              "Sell paint"
+            ],
+            "answer_index": 1,
+            "explanation": "Breadth coverage for the UT hub.",
+            "id": "6111dac2-7215-547f-a18b-f4fdbf6d4722",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Motif meanings not in sources should be…",
+            "options": [
+              "Invented freely",
+              "Treated as unknown",
+              "Sold as secrets",
+              "Forced on children"
+            ],
+            "answer_index": 1,
+            "explanation": "No fabrication.",
+            "id": "a4257047-bdfc-58b3-ba18-8c249258784d",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful engagement includes…",
+            "options": [
+              "Crediting painters",
+              "Stealing sketches",
+              "Demanding free murals",
+              "Ignoring consent"
+            ],
+            "answer_index": 0,
+            "explanation": "Credit and consent.",
+            "id": "5a91a1f5-4716-5846-a897-a43a063b8266",
+            "sort_order": 3
+          },
+          {
+            "prompt": "GI here means…",
+            "options": [
+              "A registered place-linked product name",
+              "A hotel star rating",
+              "A traffic fine",
+              "An app badge only"
+            ],
+            "answer_index": 0,
+            "explanation": "GI is IP protection.",
+            "id": "974ed228-e8e8-5792-baf9-1a47bd9e78a4",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "5d0eea49-a316-5dfa-af78-d40dcd55e1fd",
+      "slug": "basmati-delhi-ncr",
+      "type": "knowledge",
+      "title": "Basmati rice (Delhi in the registered GI area)",
+      "summary": "Basmati is a registered Geographical Indication whose area includes Delhi among other north Indian states/UTs. This card explains the GI fact for the Delhi hub.",
+      "body": "Basmati (GI application materials associated with APEDA) is registered with a geographical area that Intellectual Property India details list as including Punjab, Haryana, Himachal Pradesh, Delhi, Uttarakhand, Uttar Pradesh, and Jammu & Kashmir. The protection concerns aromatic rice linked to that geography.\n\nThis Delhi hub card does not invent farm recipes or export prices. It teaches that Delhi appears in the registered area and that GI claims should be checked on Intellectual Property India / APEDA materials. Street food using basmati is not automatically GI-authorised product.\n\nFor travellers: markets may label “basmati” loosely; the registry, not a menu, is the authority for GI status.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "032c2b8e-0b48-5ae5-bdcd-872e47769b2c",
+      "region_slug": "delhi",
+      "calendar_note": "Agricultural season follows cropping cycles; not a tourist show.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "basmati",
+        "delhi",
+        "agriculture"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/145",
+          "title": "Basmati. GI application details (area includes Delhi)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "5fb725e7-03d3-58f9-9306-8101c2a1bc65"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://apeda.gov.in/",
+          "title": "APEDA (Basmati GI applicant organisation)",
+          "publisher": "APEDA",
+          "accessed_on": "2026-11-20",
+          "id": "33cf0928-d519-5703-9af2-27f2ed4cd7f4"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "b4fc73cd-ad61-577a-b6c3-080b317660d7",
+        "item_id": "5d0eea49-a316-5dfa-af78-d40dcd55e1fd",
+        "title": "Basmati (Delhi). five checks",
+        "questions": [
+          {
+            "prompt": "Delhi appears in this card because…",
+            "options": [
+              "It grows coffee only",
+              "It is listed in the Basmati GI geographical area",
+              "UNESCO inscribed a Delhi dance under this slug",
+              "The app invented a rice myth"
+            ],
+            "answer_index": 1,
+            "explanation": "GI details list Delhi in the area.",
+            "id": "85c97c90-50c7-5239-824a-5a1a3edf5d1f",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Who is noted as connected to the Basmati GI applicant side?",
+            "options": [
+              "APEDA",
+              "A random cafe",
+              "This student app",
+              "A ride share firm"
+            ],
+            "answer_index": 0,
+            "explanation": "APEDA is cited.",
+            "id": "bbd784df-17f7-54b6-9f34-751e1bb4cd43",
+            "sort_order": 1
+          },
+          {
+            "prompt": "A restaurant label “basmati”…",
+            "options": [
+              "Always equals GI-authorised product",
+              "Is not automatic proof of GI-authorised status",
+              "Bans the GI",
+              "Is a UNESCO inscription"
+            ],
+            "answer_index": 1,
+            "explanation": "Registry beats menus.",
+            "id": "23fa92c6-c0ef-573b-a03a-0e521a15d5b6",
+            "sort_order": 2
+          },
+          {
+            "prompt": "This card type is…",
+            "options": [
+              "knowledge about a GI agricultural product",
+              "A temple timetable",
+              "A hacking guide",
+              "A sports league"
+            ],
+            "answer_index": 0,
+            "explanation": "Knowledge / GI agriculture.",
+            "id": "4f768161-2638-5c5e-810b-1bac199c6f8b",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Primary verification source class includes…",
+            "options": [
+              "Intellectual Property India GI details",
+              "Only anonymous forwards",
+              "Pirate streams",
+              "Fake certificates"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India details page is linked.",
+            "id": "c986967a-ebeb-5c0c-a803-78b29befabd0",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "d2b9ce56-07c9-511c-8f22-0a487614f1ad",
+      "slug": "feni-goa",
+      "type": "knowledge",
+      "title": "Feni of Goa",
+      "summary": "Feni is a registered Geographical Indication manufactured product of Goa. The card covers the GI fact and responsible learning, not drinking advice for minors.",
+      "body": "Feni is listed among Goa's registered Geographical Indications (manufactured goods) in Intellectual Property India state-wise materials. Cashew and coconut feni traditions are part of Goan food knowledge; this card does not invent cocktail myths or medical claims.\n\nLearners should verify GI status via Intellectual Property India search pages. Tourism promotions are not the GI certificate. Responsible adults follow local law; this unofficial student app does not sell alcohol or encourage unsafe drinking.\n\nRespectful travel: treat distillery visits as workspaces, ask before photos of workers, and keep sacred or family ceremonies out of collectible “quest” framing.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "62cb2b46-045f-546e-9dda-774f6b9da0d7",
+      "region_slug": "goa",
+      "calendar_note": "Distillation and tasting follow local licensed contexts; not a public binge sport.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "feni",
+        "goa",
+        "food"
+      ],
+      "languages": [
+        "en",
+        "kok",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Feni, Goa)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/120",
+          "title": "Feni. GI application details",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "ea3e1540-9da4-5480-a6a4-839bfead95d8"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "eb23e6a7-9cc9-5693-8edf-26cce6655f37",
+        "item_id": "d2b9ce56-07c9-511c-8f22-0a487614f1ad",
+        "title": "Feni. five checks",
+        "questions": [
+          {
+            "prompt": "Feni is registered as a GI associated with…",
+            "options": [
+              "Ladakh only",
+              "Goa",
+              "Sikkim only",
+              "A fictional island"
+            ],
+            "answer_index": 1,
+            "explanation": "Goa GI listing.",
+            "id": "9641c6fb-e3df-58fb-9771-677b39a9d007",
+            "sort_order": 0
+          },
+          {
+            "prompt": "This card refuses to…",
+            "options": [
+              "Cite IP India",
+              "Invent medical claims or sell alcohol",
+              "Mention cashew",
+              "Link the GI search"
+            ],
+            "answer_index": 1,
+            "explanation": "No medical invention; no sales.",
+            "id": "7fdcd1da-e428-5842-9448-0b6eefad1018",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Tourism ads alone…",
+            "options": [
+              "Replace the GI certificate",
+              "Are not the GI certificate",
+              "Ban Feni forever",
+              "Are UNESCO inscriptions"
+            ],
+            "answer_index": 1,
+            "explanation": "Registry is authority.",
+            "id": "94332549-e160-53bc-8050-27a07466fb5d",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful distillery visits include…",
+            "options": [
+              "Asking before photographing workers",
+              "Climbing stills",
+              "Forcing tastings on minors",
+              "Ignoring local law"
+            ],
+            "answer_index": 0,
+            "explanation": "Consent and law.",
+            "id": "d5211349-5fcd-583b-af2c-9fdc74eba751",
+            "sort_order": 3
+          },
+          {
+            "prompt": "GI class for Feni in state lists is described as…",
+            "options": [
+              "Manufactured",
+              "A dance form",
+              "A temple",
+              "A river"
+            ],
+            "answer_index": 0,
+            "explanation": "Manufactured goods GI.",
+            "id": "8331b3c4-31b3-501f-9022-b89ec7564166",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "d84e97ee-70e5-536a-bc39-8005d8e63837",
+      "slug": "jangam-gayan-haryana",
+      "type": "oral",
+      "title": "Jangam Gayan",
+      "summary": "Jangam Gayan appears in Sangeet Natak Akademi's national inventory of intangible cultural heritage elements. This card points to that inventory rather than inventing lyrics.",
+      "body": "Jangam Gayan is listed in the National Inventory maintained via Sangeet Natak Akademi as nodal agency for India's ICH inventory work under the Ministry of Culture framework. Inventory listing is not the same as a UNESCO Representative List inscription.\n\nThis learner card does not invent verses, caste myths, or performance fees. Use the national inventory and Ministry of Culture pages to verify. If a touring show claims a fixed “original” text, ask for a source.\n\nRespectful listening: do not interrupt ritual contexts, ask before recording, and avoid treating singers as photo props.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "0cf03572-d921-50e1-a1d4-cdf158bf558e",
+      "region_slug": "haryana",
+      "calendar_note": "Oral performance calendars vary; confirm local events through community or official notices.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "oral",
+        "haryana",
+        "sna",
+        "jangam"
+      ],
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://indiaich-sna.in/national-inventory",
+          "title": "National Inventory of ICH (Sangeet Natak Akademi)",
+          "publisher": "Sangeet Natak Akademi / Ministry of Culture framework",
+          "accessed_on": "2026-11-20",
+          "id": "fbf5daaa-304b-5f0d-acb2-cfd50d887507"
+        },
+        {
+          "url": "https://indiaich-sna.in/",
+          "title": "ICH nodal information (Sangeet Natak Akademi)",
+          "publisher": "Sangeet Natak Akademi",
+          "accessed_on": "2026-11-20",
+          "id": "2a750ca7-a6de-55b7-9aad-44756b035264"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "aae6b95c-8f5b-5e35-b421-0ea6308f52ed",
+        "item_id": "d84e97ee-70e5-536a-bc39-8005d8e63837",
+        "title": "Jangam Gayan. five checks",
+        "questions": [
+          {
+            "prompt": "Jangam Gayan is cited here via…",
+            "options": [
+              "A national ICH inventory listing",
+              "A random meme",
+              "A GI for rice only",
+              "A hotel playlist"
+            ],
+            "answer_index": 0,
+            "explanation": "SNA national inventory is cited.",
+            "id": "d5cec93b-667d-5433-b978-208019cf940a",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Inventory listing equals UNESCO RL inscription?",
+            "options": [
+              "Always",
+              "Not automatically; the card distinguishes them",
+              "Never related to culture",
+              "Only if this app says so"
+            ],
+            "answer_index": 1,
+            "explanation": "Inventory ≠ automatic UNESCO RL.",
+            "id": "74c474e6-d147-5eec-80e3-34e90df43541",
+            "sort_order": 1
+          },
+          {
+            "prompt": "The card refuses to…",
+            "options": [
+              "Cite MoC",
+              "Invent verses or caste myths",
+              "Link SNA",
+              "Mention Haryana"
+            ],
+            "answer_index": 1,
+            "explanation": "No fabrication of lyrics/myths.",
+            "id": "d50b8bb2-c1f2-53c8-a200-775c4a560cad",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful listening includes…",
+            "options": [
+              "Asking before recording",
+              "Forcing encores",
+              "Mocking singers",
+              "Secret taping in sacred spaces"
+            ],
+            "answer_index": 0,
+            "explanation": "Consent.",
+            "id": "e0f80312-1636-54d6-9d3f-e282a9b14d1f",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Sangeet Natak Akademi is described as…",
+            "options": [
+              "Nodal agency context for India's ICH inventory work",
+              "A ride-hailing firm",
+              "UNESCO HQ in Paris only",
+              "A private NFT marketplace"
+            ],
+            "answer_index": 0,
+            "explanation": "Nodal ICH role cited.",
+            "id": "2778daae-18af-578b-a81c-49b564b70cd4",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "a65dac5d-8b03-592f-9a21-382a9270cf63",
+      "slug": "sohrai-khovar-jharkhand",
+      "type": "craft",
+      "title": "Sohrai-Khovar painting of Jharkhand",
+      "summary": "Sohrai-Khovar painting is a registered Geographical Indication handicraft of Jharkhand. The card explains GI status and respectful viewing of mural traditions.",
+      "body": "Sohrai-Khovar Painting is registered as a Geographical Indication handicraft associated with Jharkhand (Intellectual Property India materials). The tradition is widely described as mural art connected to harvest and domestic celebration contexts in regions such as Hazaribagh, without this app inventing ritual law.\n\nCivic spaces in Jharkhand have displayed related motifs; public murals are not a license to enter private homes uninvited. Verify GI claims through Intellectual Property India search tools.\n\nRespectful visiting: ask before photographing people painting, do not scrape wet mud walls, and credit artists when sharing images.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "e6ee89ab-effa-5b8b-96b8-89d951ea7803",
+      "region_slug": "jharkhand",
+      "calendar_note": "Traditionally linked to harvest and domestic mural seasons; public displays also appear in civic spaces.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "sohrai",
+        "khovar",
+        "jharkhand"
+      ],
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Sohrai-Khovar Painting)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "b7780797-f8d6-54e0-87b5-9a5e09128b2e",
+        "item_id": "a65dac5d-8b03-592f-9a21-382a9270cf63",
+        "title": "Sohrai-Khovar. five checks",
+        "questions": [
+          {
+            "prompt": "Sohrai-Khovar painting is tied here to…",
+            "options": [
+              "Goa beaches",
+              "Jharkhand GI handicraft registration",
+              "Only foreign auctions",
+              "A coding bootcamp"
+            ],
+            "answer_index": 1,
+            "explanation": "Jharkhand GI listing.",
+            "id": "9ad834aa-2f04-5ce5-8a30-1ef71913df59",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Public murals mean you may…",
+            "options": [
+              "Enter any private home uninvited",
+              "Still need consent and respect for private spaces",
+              "Ignore artists",
+              "Remove wall sections"
+            ],
+            "answer_index": 1,
+            "explanation": "No trespass.",
+            "id": "f23f97ca-3a69-585d-b6cd-391a79b73c96",
+            "sort_order": 1
+          },
+          {
+            "prompt": "GI verification should use…",
+            "options": [
+              "Intellectual Property India tools",
+              "Only WhatsApp forwards",
+              "Fake certificates",
+              "Hotel menus"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India.",
+            "id": "92f26820-d776-50c5-a3d0-e5fc35c326f2",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful visiting includes…",
+            "options": [
+              "Asking before photographing painters",
+              "Touching wet murals",
+              "Scraping samples",
+              "Demanding free paintings"
+            ],
+            "answer_index": 0,
+            "explanation": "Consent.",
+            "id": "47750476-0da7-529f-a7e0-21045a7efb8f",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Harvest-linked timing in this card is…",
+            "options": [
+              "A fixed Gregorian showtime invented here",
+              "Described as traditional seasonality without inventing ritual law",
+              "A sports season",
+              "Irrelevant forever"
+            ],
+            "answer_index": 1,
+            "explanation": "Seasonality without invented law.",
+            "id": "a5e0da25-c7f0-5bd1-8cf1-9042cf288f51",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "19dbb500-3773-5547-bcf0-5c92b06cdbcd",
+      "slug": "kolkali-lakshadweep",
+      "type": "performing",
+      "title": "Kolkali of Lakshadweep",
+      "summary": "Kolkali is described by the Lakshadweep administration as a popular folk art form of the Territory. This card cites that official page and insists on permit-aware, non-trespass travel.",
+      "body": "The Lakshadweep Administration's Culture & Heritage page states that Kolkali and Parichakali are popular folk art forms in the Territory (with LAVA noted for Minicoy). This unofficial learner card quotes that administrative description; it does not invent choreography or sacred rules.\n\nIsland travel is regulated. This app will not provide ways to bypass permits or enter restricted spaces. Watch performances only in contexts open to visitors, and ask before recording people.\n\nIf a detail is missing from official pages, the honest answer is unknown, not a generated island myth.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "7ca2e952-0d37-59d8-8362-b9979f384d1a",
+      "region_slug": "lakshadweep",
+      "calendar_note": "Folk performance contexts vary by island; confirm local guidance. Travel to Lakshadweep is permit-regulated.",
+      "sensitivity_flag": true,
+      "published": true,
+      "tags": [
+        "performing",
+        "lakshadweep",
+        "kolkali",
+        "folk"
+      ],
+      "languages": [
+        "en",
+        "ml"
+      ],
+      "sources": [
+        {
+          "url": "https://lakshadweep.gov.in/about-lakshadweep/culture-heritage/",
+          "title": "Culture & Heritage (Lakshadweep Administration)",
+          "publisher": "Lakshadweep Administration",
+          "accessed_on": "2026-11-20",
+          "id": "1b0e0720-9a24-5fd1-9d13-99e2214046c1"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        },
+        {
+          "url": "https://ich.unesco.org/en/state/india-IN",
+          "title": "India. elements on the Lists of ICH",
+          "publisher": "UNESCO",
+          "accessed_on": "2026-11-20",
+          "id": "c84ab290-f61d-5005-9ccd-a5b89d684d82"
+        }
+      ],
+      "quiz": {
+        "id": "74a77261-2791-5313-ac86-7bd2857d5449",
+        "item_id": "19dbb500-3773-5547-bcf0-5c92b06cdbcd",
+        "title": "Kolkali. five checks",
+        "questions": [
+          {
+            "prompt": "Kolkali is cited from…",
+            "options": [
+              "Lakshadweep Administration culture pages",
+              "A pirate stream only",
+              "This app inventing a dance",
+              "A GI rice tag"
+            ],
+            "answer_index": 0,
+            "explanation": "Official UT page.",
+            "id": "2b180d3f-ba47-5d7d-84c7-595cf7d12f47",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Why is sensitivity flagged?",
+            "options": [
+              "To ban reading",
+              "Because island travel and community contexts need care and no permit bypass tips",
+              "Because dance is illegal",
+              "Because English is forbidden"
+            ],
+            "answer_index": 1,
+            "explanation": "Permits and respect.",
+            "id": "b0ed43e9-22c0-5743-a75e-e897a9098e6b",
+            "sort_order": 1
+          },
+          {
+            "prompt": "This app will not…",
+            "options": [
+              "Cite MoC",
+              "Help bypass island entry permits",
+              "Link UNESCO India ICH state page",
+              "Mention Parichakali as also listed by the administration"
+            ],
+            "answer_index": 1,
+            "explanation": "No trespass/permit bypass.",
+            "id": "12e3552a-6e8e-505b-a821-b8079d5e6729",
+            "sort_order": 2
+          },
+          {
+            "prompt": "If choreography detail is missing…",
+            "options": [
+              "Invent steps",
+              "Say unknown",
+              "Sell a fake certificate",
+              "Force a tourist show"
+            ],
+            "answer_index": 1,
+            "explanation": "Honesty.",
+            "id": "6cf7cdce-fef1-54dc-87cf-1a23a8196a58",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Parichakali appears in the official page as…",
+            "options": [
+              "Another popular folk art form of the Territory",
+              "A GI metal craft",
+              "A World Heritage fort",
+              "A coding language"
+            ],
+            "answer_index": 0,
+            "explanation": "Admin page pairs Kolkali and Parichakali.",
+            "id": "b01194af-23d3-5a9a-bd2a-68b42dab8ad3",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4dc5fd1-3f6d-5b3a-8ed6-18155e1b4375",
+      "slug": "lyrnai-pottery-meghalaya",
+      "type": "craft",
+      "title": "Lyrnai pottery of Meghalaya",
+      "summary": "Meghalaya Lyrnai pottery is listed among registered Geographical Indication handicrafts for Meghalaya. The card sticks to GI verification and respectful craft visits.",
+      "body": "Meghalaya Lyrnai Pottery appears in Intellectual Property India state-wise registered GI lists as a handicraft of Meghalaya (alongside related spellings such as Larnai in public GI search indexes). GI status protects a place-linked craft name; it does not authorise trespass into private workshops.\n\nVerify claims with Intellectual Property India search. Souvenir stalls may sell clay ware that is related but not automatically GI-authorised.\n\nRespectful visiting: ask before photos, do not handle unfired work without permission, and credit potters.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "120b339e-eca0-548c-8ec9-5538ba13a8e5",
+      "region_slug": "meghalaya",
+      "calendar_note": "Studio and village craft year-round; market seasons vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "pottery",
+        "meghalaya",
+        "lyrnai"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Meghalaya Lyrnai Pottery)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "ea7acc87-f7e1-5229-a5cb-6f2f648077ee",
+        "item_id": "f4dc5fd1-3f6d-5b3a-8ed6-18155e1b4375",
+        "title": "Lyrnai pottery. five checks",
+        "questions": [
+          {
+            "prompt": "Lyrnai pottery is associated here with…",
+            "options": [
+              "Meghalaya",
+              "Goa only",
+              "Lakshadweep only",
+              "A fictional state"
+            ],
+            "answer_index": 0,
+            "explanation": "Meghalaya GI list.",
+            "id": "9f147ee3-f14d-5d98-9180-00a84f4ae6dd",
+            "sort_order": 0
+          },
+          {
+            "prompt": "GI authorises…",
+            "options": [
+              "Trespass into any workshop",
+              "A protected place-linked craft name, not trespass",
+              "Free shipping worldwide",
+              "UNESCO automatic inscription"
+            ],
+            "answer_index": 1,
+            "explanation": "Name protection ≠ trespass rights.",
+            "id": "cd70d62d-03d6-54ec-9456-1d435336ae66",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Souvenir clay ware…",
+            "options": [
+              "Always equals GI-authorised production",
+              "Is not automatic proof of GI-authorised production",
+              "Bans pottery",
+              "Is a dance"
+            ],
+            "answer_index": 1,
+            "explanation": "Registry vs stall.",
+            "id": "049bf055-d9ea-5112-abd8-85d3fd50b167",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful visits include…",
+            "options": [
+              "Asking before photos",
+              "Grabbing wet pots",
+              "Secret filming",
+              "Ignoring potters"
+            ],
+            "answer_index": 0,
+            "explanation": "Consent.",
+            "id": "458fa2b1-12cf-5000-94a7-c29985acbb96",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Verification should include…",
+            "options": [
+              "Intellectual Property India materials",
+              "Only memes",
+              "Fake stamps",
+              "Anonymous tips alone"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India.",
+            "id": "bcbfbee8-d89b-53d9-b6a0-1c25eb84e5b3",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "05fa2f0c-6deb-5e25-af0e-1361332ed857",
+      "slug": "gond-painting-madhya-pradesh",
+      "type": "craft",
+      "title": "Gond painting of Madhya Pradesh",
+      "summary": "Gond Painting of Madhya Pradesh is a registered Geographical Indication handicraft. The card cites IP India details and refuses invented myth summaries.",
+      "body": "Gond Painting of Madhya Pradesh is registered as a Geographical Indication (handicraft). Intellectual Property India application details list Madhya Pradesh as the geographical area and record registration metadata for public verification.\n\nContemporary Gond artists work in many styles. This card will not collapse all work into one “tribal myth” script. Use GI and culture portals; credit living artists.\n\nRespectful engagement: buy fairly, ask before photos, and do not treat community stories as free content to remix without consent.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "b4881645-1c70-5c23-8b5a-77c46c9a039e",
+      "region_slug": "madhya-pradesh",
+      "calendar_note": "Studio practice year-round; exhibition calendars vary.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "gond",
+        "painting",
+        "madhya-pradesh"
+      ],
+      "languages": [
+        "hi",
+        "en"
+      ],
+      "sources": [
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/701",
+          "title": "Gond Painting of Madhya Pradesh. GI details",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "f4bef4a0-043f-5eb3-a9b1-dbe469c17f6c"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "53ac088f-67f6-5df7-9555-fbf7c6d5ed56",
+        "item_id": "05fa2f0c-6deb-5e25-af0e-1361332ed857",
+        "title": "Gond painting. five checks",
+        "questions": [
+          {
+            "prompt": "Gond painting GI details are cited from…",
+            "options": [
+              "Intellectual Property India",
+              "A meme page only",
+              "This app as registrar",
+              "A sports league"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India details.",
+            "id": "adafe4f0-ea18-5baf-9d1a-cf83fb05700f",
+            "sort_order": 0
+          },
+          {
+            "prompt": "The registered geographical area named here is…",
+            "options": [
+              "Madhya Pradesh",
+              "Only Goa",
+              "Only Andaman",
+              "Only foreign museums"
+            ],
+            "answer_index": 0,
+            "explanation": "MP geography.",
+            "id": "c54b602f-e2ab-5794-b274-16abd906b5f2",
+            "sort_order": 1
+          },
+          {
+            "prompt": "This card refuses to…",
+            "options": [
+              "Cite MoC",
+              "Invent a single myth script for all Gond art",
+              "Link GI search",
+              "Mention artists"
+            ],
+            "answer_index": 1,
+            "explanation": "No collapsed myth invention.",
+            "id": "80432683-432a-5abf-8ec2-7ae67a9291a0",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful engagement includes…",
+            "options": [
+              "Crediting living artists",
+              "Tracing without consent",
+              "Demanding free originals",
+              "Erasing signatures"
+            ],
+            "answer_index": 0,
+            "explanation": "Credit.",
+            "id": "f7dc49cb-104e-516d-be02-098e54d7c78e",
+            "sort_order": 3
+          },
+          {
+            "prompt": "GI handicraft status means…",
+            "options": [
+              "A place-linked registered product name",
+              "Automatic UNESCO dance inscription",
+              "A hotel rating",
+              "A traffic rule"
+            ],
+            "answer_index": 0,
+            "explanation": "GI meaning.",
+            "id": "df94e976-1b68-523a-bcd6-c49863d54c7d",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "c012656a-cb70-5499-a9b7-7b41ea2817f6",
+      "slug": "mizo-puanchei",
+      "type": "craft",
+      "title": "Mizo Puanchei",
+      "summary": "Mizo Puanchei is a registered Geographical Indication handicraft of Mizoram. The card covers GI verification and respectful textile learning.",
+      "body": "Mizo Puanchei is listed among Mizoram's registered Geographical Indication handicrafts in Intellectual Property India state-wise materials, alongside related Mizo textile GIs. The puan traditions are living handloom knowledge; this card does not invent pattern charts.\n\nVerify with Intellectual Property India search. Ceremonial textiles deserve care: do not treat them as costumes for outsiders without guidance.\n\nRespectful visiting: ask before photographing weavers and credit makers.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "8e81967f-7f66-59a5-8605-46a193d8fd0f",
+      "region_slug": "mizoram",
+      "calendar_note": "Handloom year-round; ceremonial wear follows community occasions.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "mizo",
+        "textile",
+        "mizoram"
+      ],
+      "languages": [
+        "en",
+        "lus"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Mizo Puanchei)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "4d234eb4-7c4e-5cfb-a9be-a984a0d7aa21",
+        "item_id": "c012656a-cb70-5499-a9b7-7b41ea2817f6",
+        "title": "Mizo Puanchei. five checks",
+        "questions": [
+          {
+            "prompt": "Mizo Puanchei is associated with…",
+            "options": [
+              "Mizoram",
+              "Only Goa",
+              "Only Delhi",
+              "A fictional UT"
+            ],
+            "answer_index": 0,
+            "explanation": "Mizoram GI.",
+            "id": "c7fe8751-470c-540d-bb3b-52ba5bcfdbd5",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Ceremonial textiles…",
+            "options": [
+              "Are free costumes for any tourist",
+              "Deserve care and guidance before use as costume",
+              "Are banned from museums",
+              "Are GI rice"
+            ],
+            "answer_index": 1,
+            "explanation": "Respect.",
+            "id": "689e3eac-82d9-543c-927b-4e090382839a",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Pattern charts not in sources should be…",
+            "options": [
+              "Invented",
+              "Left unknown",
+              "Sold as secrets by this app",
+              "Forced"
+            ],
+            "answer_index": 1,
+            "explanation": "No invention.",
+            "id": "cfe1f8d7-ba31-585d-aff1-13c733d838a2",
+            "sort_order": 2
+          },
+          {
+            "prompt": "GI lists also mention related Mizo textiles?",
+            "options": [
+              "Yes, the card notes related Mizo textile GIs exist",
+              "No other textiles exist in India",
+              "Only in Brazil",
+              "Only in Antarctica"
+            ],
+            "answer_index": 0,
+            "explanation": "Related GIs noted.",
+            "id": "dce45cb1-cbce-5414-9e3d-e031c4907b5b",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Verification uses…",
+            "options": [
+              "Intellectual Property India materials",
+              "Only anonymous blogs",
+              "Fake tags",
+              "Hotel flyers alone"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India.",
+            "id": "7395d1ab-780b-50bb-aafc-d2eed4b5f671",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "d17c674d-1a62-5737-9054-bd08351becff",
+      "slug": "chakhesang-shawl-nagaland",
+      "type": "craft",
+      "title": "Chakhesang shawl",
+      "summary": "Chakhesang Shawl is a registered Geographical Indication handicraft associated with Nagaland. The card cites GI materials and respectful textile learning.",
+      "body": "Chakhesang Shawl appears as a registered Geographical Indication handicraft in Intellectual Property India materials linked with Nagaland. Shawl designs carry community meaning that this app will not invent or flatten into a tourist slogan.\n\nVerify GI status through official search pages. Festival tourism in Nagaland is not a substitute for community consent when photographing people or ceremonial cloth.\n\nRespectful engagement: ask before photos, credit weavers, and avoid bargaining that demeans skilled labour.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "ec523952-ccc3-5aa9-9480-65a6ff08991d",
+      "region_slug": "nagaland",
+      "calendar_note": "Handloom year-round; ceremonial use follows community practice.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "chakhesang",
+        "shawl",
+        "nagaland"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Chakhesang Shawl)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "848f4e1a-f93c-5ab9-9253-97858a80ab13",
+        "item_id": "d17c674d-1a62-5737-9054-bd08351becff",
+        "title": "Chakhesang shawl. five checks",
+        "questions": [
+          {
+            "prompt": "Chakhesang shawl GI is associated here with…",
+            "options": [
+              "Nagaland",
+              "Only Goa",
+              "Only Kerala",
+              "A fictional state"
+            ],
+            "answer_index": 0,
+            "explanation": "Nagaland.",
+            "id": "3d37b54e-8d96-51f5-a3c4-d0f64d75c8cd",
+            "sort_order": 0
+          },
+          {
+            "prompt": "This card will not…",
+            "options": [
+              "Cite IP India",
+              "Invent community design meanings",
+              "Link MoC",
+              "Mention weaving"
+            ],
+            "answer_index": 1,
+            "explanation": "No invented meanings.",
+            "id": "dd8c3d66-a416-5271-a67a-61e881fe9a9f",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Festival tourism…",
+            "options": [
+              "Replaces consent for photographs",
+              "Does not replace community consent for photos of people or ceremonial cloth",
+              "Bans all travel",
+              "Is a GI certificate"
+            ],
+            "answer_index": 1,
+            "explanation": "Consent.",
+            "id": "2600b099-b000-5018-a202-3d30cdebb0c2",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Respectful engagement includes…",
+            "options": [
+              "Crediting weavers",
+              "Demanding free shawls",
+              "Secret filming",
+              "Mocking labour"
+            ],
+            "answer_index": 0,
+            "explanation": "Credit.",
+            "id": "75c53a52-ace6-5236-b609-ce0dad0ab4e1",
+            "sort_order": 3
+          },
+          {
+            "prompt": "GI verification tool cited includes…",
+            "options": [
+              "Intellectual Property India public search",
+              "Only memes",
+              "Pirate torrents",
+              "Fake QR codes"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India.",
+            "id": "5dc2c3e0-5ad8-5f8b-bfab-865226b2ef5b",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "248455aa-62e2-5a22-9317-ff6b5eddf9d6",
+      "slug": "villianur-terracotta-puducherry",
+      "type": "craft",
+      "title": "Villianur terracotta works",
+      "summary": "Villianur Terracotta Works is a registered Geographical Indication handicraft for the Pondicherry / Puducherry territory. The card sticks to GI facts.",
+      "body": "Villianur Terracotta Works is listed among registered Geographical Indications for Pondicherry (now Puducherry UT) in Intellectual Property India materials. Terracotta making is a living craft; this card does not invent kiln “secrets.”\n\nVerify via Intellectual Property India search. Temple-linked objects deserve respectful handling; do not treat sacred images as toys.\n\nRespectful visiting: ask before photographing artisans at work and support fair purchase channels when available.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "3cecb668-93da-51df-849a-8f943b358046",
+      "region_slug": "puducherry",
+      "calendar_note": "Workshop craft year-round; temple and market demand may be seasonal.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "terracotta",
+        "puducherry",
+        "villianur"
+      ],
+      "languages": [
+        "ta",
+        "en",
+        "fr"
+      ],
+      "sources": [
+        {
+          "url": "https://ipindia.gov.in/frontend/pdf/gi/registered/State_wise_Registered_GI_of_India.pdf",
+          "title": "State wise Registered GI of India (Villianur Terracotta Works)",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "b7bf3cf5-e8f5-50af-b54c-7d2a491017a4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "13b80f8b-9fd7-5dd2-a2bb-25a9ae2682b5",
+        "item_id": "248455aa-62e2-5a22-9317-ff6b5eddf9d6",
+        "title": "Villianur terracotta. five checks",
+        "questions": [
+          {
+            "prompt": "Villianur terracotta GI is listed for…",
+            "options": [
+              "Pondicherry / Puducherry territory",
+              "Only Ladakh",
+              "Only Assam",
+              "A fictional city"
+            ],
+            "answer_index": 0,
+            "explanation": "Pondicherry listing.",
+            "id": "5b8f494a-950a-51ed-a401-a4bb3167a58c",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Sacred terracotta images…",
+            "options": [
+              "Are toys for any tourist",
+              "Deserve respectful handling",
+              "May be broken for souvenirs",
+              "Are GI rice"
+            ],
+            "answer_index": 1,
+            "explanation": "Respect.",
+            "id": "1c628ea4-cfc6-51f7-9e47-dd3fc0c6c61a",
+            "sort_order": 1
+          },
+          {
+            "prompt": "The card refuses to…",
+            "options": [
+              "Cite GI lists",
+              "Invent kiln secrets",
+              "Link MoC",
+              "Mention craft"
+            ],
+            "answer_index": 1,
+            "explanation": "No invented secrets.",
+            "id": "e8f48bbf-6c68-52c4-bbd4-e95f956277c8",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Verification uses…",
+            "options": [
+              "Intellectual Property India materials",
+              "Only anonymous tips",
+              "Fake stamps",
+              "Hotel ads alone"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India.",
+            "id": "90d7f961-4dc2-54e5-972c-68bb1d359f21",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Respectful visiting includes…",
+            "options": [
+              "Asking before photographing artisans",
+              "Grabbing wet clay",
+              "Secret filming",
+              "Ignoring makers"
+            ],
+            "answer_index": 0,
+            "explanation": "Consent.",
+            "id": "af6a5a6d-c9d3-506c-b382-5a6b8ec82a2e",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "9ab7ef1c-1409-582d-a3ba-7e19150488fb",
+      "slug": "lama-dances-sikkim",
+      "type": "ritual",
+      "title": "Lama dances of Sikkim",
+      "summary": "Lama dances of Sikkim appear in Sangeet Natak Akademi's national ICH inventory as Buddhist monastic dances. The card emphasises respectful watching, not capture-the-temple play.",
+      "body": "Lama Dances Of Sikkim: Buddhist Monastic Dances appear in the National Inventory associated with Sangeet Natak Akademi's ICH nodal role. Inventory listing supports learning; it is not a ticket to interrupt ritual.\n\nVisitors should follow monastery rules, keep distance when asked, and avoid flash photography if prohibited. This app will not gamify sacred spaces or invent mask meanings.\n\nUse inventory and culture ministry pages; treat gaps as unknown.",
+      "unesco_id": null,
+      "gi_flag": false,
+      "region_id": "9866348e-d314-591c-bd41-e4d560eba8a2",
+      "region_slug": "sikkim",
+      "calendar_note": "Monastic calendars vary; public festival timings follow monastery and state notices.",
+      "sensitivity_flag": true,
+      "published": true,
+      "tags": [
+        "ritual",
+        "sikkim",
+        "buddhist",
+        "sna"
+      ],
+      "languages": [
+        "en",
+        "hi",
+        "bo"
+      ],
+      "sources": [
+        {
+          "url": "https://indiaich-sna.in/national-inventory",
+          "title": "National Inventory of ICH (includes Lama Dances of Sikkim)",
+          "publisher": "Sangeet Natak Akademi / Ministry of Culture framework",
+          "accessed_on": "2026-11-20",
+          "id": "fbf5daaa-304b-5f0d-acb2-cfd50d887507"
+        },
+        {
+          "url": "https://indiaich-sna.in/",
+          "title": "ICH nodal information (Sangeet Natak Akademi)",
+          "publisher": "Sangeet Natak Akademi",
+          "accessed_on": "2026-11-20",
+          "id": "2a750ca7-a6de-55b7-9aad-44756b035264"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "9e4c445c-2b43-5f84-9270-986d9aedefce",
+        "item_id": "9ab7ef1c-1409-582d-a3ba-7e19150488fb",
+        "title": "Lama dances. five checks",
+        "questions": [
+          {
+            "prompt": "Lama dances of Sikkim are cited via…",
+            "options": [
+              "National ICH inventory listing",
+              "A GI for Feni",
+              "A hotel disco",
+              "This app inventing masks"
+            ],
+            "answer_index": 0,
+            "explanation": "SNA inventory.",
+            "id": "6ebb6d18-422e-52c6-a5ca-056fdcf46df0",
+            "sort_order": 0
+          },
+          {
+            "prompt": "Sensitivity is flagged to…",
+            "options": [
+              "Ban all learning",
+              "Avoid capture-the-temple gamification and respect monastic rules",
+              "Hide the state forever",
+              "Sell tickets"
+            ],
+            "answer_index": 1,
+            "explanation": "Respect sacred contexts.",
+            "id": "e5f56eb9-7e89-52a0-b35e-96ca781cc059",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Flash photography…",
+            "options": [
+              "Is always required",
+              "Should follow monastery rules and prohibitions",
+              "Replaces consent",
+              "Is a GI rule"
+            ],
+            "answer_index": 1,
+            "explanation": "Follow rules.",
+            "id": "9ad4993c-8cda-5412-9b64-211f720fb2d0",
+            "sort_order": 2
+          },
+          {
+            "prompt": "Missing mask meanings should be…",
+            "options": [
+              "Invented",
+              "Left unknown",
+              "Sold as NFTs by this app",
+              "Forced on monks"
+            ],
+            "answer_index": 1,
+            "explanation": "Honesty.",
+            "id": "d36cd668-8356-5c83-b5dc-50bd7d59da42",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Inventory listing means…",
+            "options": [
+              "Automatic right to interrupt ritual",
+              "A documented ICH element for learning, not a trespass pass",
+              "A sports trophy",
+              "A rice GI"
+            ],
+            "answer_index": 1,
+            "explanation": "Learning ≠ trespass.",
+            "id": "5ca099a0-5a89-53b9-b544-f5fa58912e39",
+            "sort_order": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "3fd6dab1-f26a-577a-89cf-8814724d8837",
+      "slug": "tripura-risa-textile",
+      "type": "craft",
+      "title": "Tripura Risa textile",
+      "summary": "Tripura Risa Textile is a registered Geographical Indication handicraft. The card cites IP India details for verification.",
+      "body": "Tripura Risa Textile is registered as a Geographical Indication handicraft (Intellectual Property India application details list Tripura as the geographical area). Risa cloth is living handloom knowledge; this card does not invent weave patents or sacred rules.\n\nVerify via the GI details page and public search. Support artisans fairly and ask before photographing weavers.\n\nRespectful visiting: credit makers and avoid treating ceremonial cloth as costume without guidance.",
+      "unesco_id": null,
+      "gi_flag": true,
+      "region_id": "bebe76ce-3208-56f6-8a0e-dcbb98225e31",
+      "region_slug": "tripura",
+      "calendar_note": "Handloom year-round; ceremonial wear follows community occasions.",
+      "sensitivity_flag": false,
+      "published": true,
+      "tags": [
+        "gi",
+        "risa",
+        "tripura",
+        "textile"
+      ],
+      "languages": [
+        "en",
+        "hi"
+      ],
+      "sources": [
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/893",
+          "title": "Tripura Risa Textile. GI details",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "4c756054-49d3-52d5-882a-906d519163f4"
+        },
+        {
+          "url": "https://search.ipindia.gov.in/GIRPublicSearch",
+          "title": "Geographical Indications public search",
+          "publisher": "Intellectual Property India",
+          "accessed_on": "2026-11-20",
+          "id": "3cc0dd1b-ff6b-58b6-8055-b70c9943ac79"
+        },
+        {
+          "url": "https://culture.gov.in/intangible-cultural-heritage",
+          "title": "Intangible Cultural Heritage (Ministry of Culture)",
+          "publisher": "Ministry of Culture",
+          "accessed_on": "2026-11-20",
+          "id": "3fc70489-83e8-5688-91ba-5c7714e4c702"
+        },
+        {
+          "url": "https://www.indianculture.gov.in/",
+          "title": "Indian Culture Portal",
+          "publisher": "Ministry of Culture / ICP",
+          "accessed_on": "2026-11-20",
+          "id": "0a7f5978-b238-5f67-8ef2-f00de904dce4"
+        }
+      ],
+      "quiz": {
+        "id": "841cd01b-ebb5-5b4f-bc14-7c3f519032d1",
+        "item_id": "3fd6dab1-f26a-577a-89cf-8814724d8837",
+        "title": "Tripura Risa. five checks",
+        "questions": [
+          {
+            "prompt": "Tripura Risa textile GI geography is…",
+            "options": [
+              "Tripura",
+              "Only Goa",
+              "Only Delhi",
+              "A fictional island"
+            ],
+            "answer_index": 0,
+            "explanation": "Tripura details.",
+            "id": "e3eb17c9-845d-5902-a055-132fff4fa2ab",
+            "sort_order": 0
+          },
+          {
+            "prompt": "GI details page cited is hosted by…",
+            "options": [
+              "Intellectual Property India",
+              "A meme site",
+              "This student app as registrar",
+              "A ride-hailing firm"
+            ],
+            "answer_index": 0,
+            "explanation": "IP India.",
+            "id": "e1ed8ae3-d277-5154-abf7-fa72bd8e822b",
+            "sort_order": 1
+          },
+          {
+            "prompt": "Ceremonial cloth…",
+            "options": [
+              "Is free costume for anyone",
+              "Needs care and guidance before costume use",
+              "Is banned",
+              "Is a World Heritage fort"
+            ],
+            "answer_index": 1,
+            "explanation": "Respect.",
+            "id": "00db2503-062f-5cfb-8052-3f0d47f9d743",
+            "sort_order": 2
+          },
+          {
+            "prompt": "The card refuses to…",
+            "options": [
+              "Cite MoC",
+              "Invent sacred weave rules",
+              "Link GI search",
+              "Mention handloom"
+            ],
+            "answer_index": 1,
+            "explanation": "No invention.",
+            "id": "3bfe471b-096b-51b3-b89f-2ab646d01066",
+            "sort_order": 3
+          },
+          {
+            "prompt": "Respectful visiting includes…",
+            "options": [
+              "Crediting makers",
+              "Secret filming",
+              "Grabbing looms",
+              "Ignoring consent"
+            ],
+            "answer_index": 0,
+            "explanation": "Credit.",
+            "id": "bce37831-243e-52fb-9b8c-6de67cc50a8a",
+            "sort_order": 4
           }
         ]
       }

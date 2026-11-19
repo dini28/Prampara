@@ -12,7 +12,7 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
   }, [pathname]);
 
   return (
-    <div key={tick} className="pp-page-enter min-h-[100dvh]">
+    <div key={tick} className="pp-page-enter ios-push min-h-[100dvh]">
       {children}
     </div>
   );

@@ -7,7 +7,7 @@ export default function NotFound() {
       <p className="mt-4 text-[var(--ink-soft)]">
         That path is not in the curated set. Depth over coverage.
       </p>
-      <Link href="/explore" className="btn mt-6 inline-block rounded-full bg-[var(--terracotta)] px-5 py-2 text-[var(--paper)]">
+      <Link href="/map" className="btn mt-6 inline-block rounded-full bg-[var(--terracotta)] px-5 py-2 text-[var(--paper)]">
         Explore cards
       </Link>
     </main>

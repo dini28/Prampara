@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IndiaMapIntro } from "@/components/IndiaMapIntro";
 
 export function HomeShell({ children }: { children: React.ReactNode }) {
   const [ready, setReady] = useState(false);
   const [showIntro, setShowIntro] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -21,6 +22,12 @@ export function HomeShell({ children }: { children: React.ReactNode }) {
     setShowIntro(true);
   }, []);
 
+  useEffect(() => {
+    const el = contentRef.current;
+    if (!el) return;
+    el.inert = !ready;
+  }, [ready]);
+
   return (
     <>
       {showIntro && !ready ? (
@@ -32,8 +39,8 @@ export function HomeShell({ children }: { children: React.ReactNode }) {
         />
       ) : null}
       <div
+        ref={contentRef}
         className={`transition-opacity duration-500 ${ready ? "opacity-100" : "opacity-0"}`}
-        aria-hidden={!ready}
       >
         {children}
       </div>

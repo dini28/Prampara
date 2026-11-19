@@ -26,7 +26,7 @@ export function LoopStepper({
                 ? `/items/${itemSlug}`
                 : `/items/${itemSlug}/${step.id}`
               : step.id === "discover"
-                ? "/places"
+                ? "/map"
                 : step.href;
 
           return (

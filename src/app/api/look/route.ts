@@ -113,6 +113,6 @@ export async function POST(request: Request) {
         ? `/items/${meaning.related_card_slugs[0]}`
         : meaning.related_place_slugs?.[0]
           ? `/places/${body.destinationSlug ?? "udaipur"}#place-${meaning.related_place_slugs[0]}`
-          : "/explore",
+          : "/map",
   });
 }

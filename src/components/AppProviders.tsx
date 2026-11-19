@@ -9,7 +9,7 @@ import { PageTransition } from "@/components/PageTransition";
 function regionFromPath(pathname: string, regionParam: string | null): string | null {
   const m = pathname.match(/^\/regions\/([^/]+)/);
   if (m) return m[1] ?? null;
-  if (pathname.startsWith("/explore") && regionParam) return regionParam;
+  if (pathname.startsWith("/map") && regionParam) return regionParam;
   return null;
 }
 
@@ -42,7 +42,7 @@ export function AppProviders({ children }: { children: React.ReactNode }) {
   return (
     <>
       <PageTransition>
-        <div className="app-shell pb-[calc(3.75rem+env(safe-area-inset-bottom))] md:pb-0">
+        <div className="app-shell pb-[calc(49px+env(safe-area-inset-bottom))] md:pb-0">
           {children}
         </div>
       </PageTransition>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { addQuizStamp } from "@/lib/learner-progress";
 import type { Quiz } from "@/lib/types";
 
 export function QuizForm({ quiz, itemSlug }: { quiz: Quiz; itemSlug: string }) {
@@ -15,6 +16,7 @@ export function QuizForm({ quiz, itemSlug }: { quiz: Quiz; itemSlug: string }) {
       if (answers[q.id] === q.answer_index) correct += 1;
     }
     setScore(correct);
+    addQuizStamp(itemSlug);
     await fetch("/api/quiz", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

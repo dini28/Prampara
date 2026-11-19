@@ -1,90 +1,80 @@
-import Image from "next/image";
 import Link from "next/link";
+import { CoverageMeter } from "@/components/CoverageMeter";
 import { PageShell } from "@/components/PageShell";
-import { WhereAreYou } from "@/components/WhereAreYou";
-import { getChildCities, getDestinations } from "@/lib/destinations";
+import { getDestinations } from "@/lib/destinations";
+import { getCatalogueCoverage, INDIA_STATES } from "@/lib/india-states";
 
 export const metadata = {
   title: "Places · Parampara Path",
   description:
-    "Visit any place in India and understand it deeply: state culture, city heritage, food, travel, and modern India beside it.",
+    "Place hubs across India: unlockable cited treasures, visit etiquette, and official help links.",
 };
 
 export default function PlacesIndexPage() {
-  const states = getDestinations().filter((d) => d.kind === "state");
+  const coverage = getCatalogueCoverage();
   const cities = getDestinations().filter((d) => d.kind === "city");
+  const covered = coverage.coveredSlugs;
 
   return (
     <PageShell
       width="wide"
       crumbs={[{ href: "/", label: "Home" }, { label: "Places" }]}
-      eyebrow="Place first journey"
-      title="Where do you want to understand?"
-      lead="Start with a state story, then open a city heritage route, food, travel, and modern India. The 8 minute card loop sits inside this journey."
-      nextHref="/places/udaipur"
-      nextLabel="Open Udaipur pilot"
+      eyebrow="Place hubs"
+      title="Pick a place"
+      lead="Open a state hub for treasure chests and official help. Empty states stay empty until cited cards are published."
+      nextHref="/map"
+      nextLabel="Open India map"
       secondaryHref="/places/rajasthan"
-      secondaryLabel="Rajasthan state story"
+      secondaryLabel="Rajasthan hub"
     >
-      <WhereAreYou />
+      <div className="max-w-xl">
+        <CoverageMeter catalogueCovered={coverage.coveredCount} compact />
+      </div>
 
       <section className="mt-12" aria-labelledby="states-h">
         <h2 id="states-h" className="serif text-3xl">
-          State stories
+          States & UTs
         </h2>
-        <div className="mt-6 grid gap-4 md:grid-cols-2">
-          {states.map((s) => (
-            <Link key={s.slug} href={`/places/${s.slug}`} className="visual-card group block">
-              <div className="relative aspect-[16/9]">
-                <Image
-                  src={s.hero_image.src}
-                  alt={s.hero_image.alt}
-                  fill
-                  sizes="(max-width:768px) 100vw, 50vw"
-                  className="object-cover"
-                />
-                <div className="visual-card-overlay absolute inset-0" />
-                <div className="absolute inset-x-0 bottom-0 p-5 text-white">
-                  <h3 className="serif text-2xl">{s.name}</h3>
-                  <p className="mt-1 line-clamp-2 text-sm text-white/85">{s.summary}</p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="mt-12" aria-labelledby="cities-h">
-        <h2 id="cities-h" className="serif text-3xl">
-          Cities in the pilot
-        </h2>
-        <p className="mt-2 text-[var(--ink-soft)]">
-          Udaipur is complete end to end. Jaipur, Jodhpur, and Jaisalmer use the same data shape and
-          will fill from files without code changes.
-        </p>
-        <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {cities.map((c) => {
-            const siblings = c.parent_slug ? getChildCities(c.parent_slug).length : 0;
+        <ul className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          {INDIA_STATES.map((s) => {
+            const count = coverage.cardCountByState[s.slug] ?? 0;
+            const hasCards = covered.has(s.slug);
             return (
-              <li key={c.slug}>
+              <li key={s.slug}>
                 <Link
-                  href={`/places/${c.slug}`}
-                  className="page-panel flex h-full flex-col p-4 hover:outline-[var(--primary)]"
+                  href={`/places/${s.slug}`}
+                  className="flex min-h-12 items-center justify-between gap-2 rounded-xl bg-[var(--surface)] px-4 py-3 outline outline-1 outline-[var(--line)] hover:outline-[var(--primary)]"
                 >
-                  <p className="text-xs font-medium tracking-wide text-[var(--primary)] uppercase">
-                    {c.state_ut}
-                  </p>
-                  <h3 className="serif mt-1 text-xl">{c.name}</h3>
-                  <p className="mt-2 line-clamp-3 flex-1 text-sm text-[var(--ink-soft)]">
-                    {c.summary}
-                  </p>
-                  <p className="mt-3 text-xs text-[var(--muted)]">
-                    {siblings} cities in state map
-                  </p>
+                  <span className="font-medium">{s.name}</span>
+                  <span className="shrink-0 text-xs text-[var(--muted)]">
+                    {hasCards ? `${count} treasures` : "Soon"}
+                  </span>
                 </Link>
               </li>
             );
           })}
+        </ul>
+      </section>
+
+      <section className="mt-12" aria-labelledby="cities-h">
+        <h2 id="cities-h" className="serif text-2xl">
+          Pilot cities
+        </h2>
+        <p className="mt-2 text-sm text-[var(--ink-soft)]">
+          Deeper heritage-route notes for the Rajasthan pilot. Treasures still come from the state
+          catalogue.
+        </p>
+        <ul className="mt-4 flex flex-wrap gap-3">
+          {cities.map((c) => (
+            <li key={c.slug}>
+              <Link
+                href={`/places/${c.slug}`}
+                className="btn inline-flex min-h-11 items-center rounded-full border border-[var(--line-strong)] px-5 text-sm"
+              >
+                {c.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
     </PageShell>

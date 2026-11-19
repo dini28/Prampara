@@ -7,7 +7,7 @@ export const LEARNER_LOOP = [
     title: "Discover",
     short: "Place first",
     body: "Open a place journey or filter by practice type. Not a national encyclopedia dump.",
-    href: "/places",
+    href: "/map",
     needIds: ["UR-01", "UR-02"],
   },
   {
@@ -127,7 +127,7 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     analysis:
       "Primary users start from a region or practice type, not from a national catalogue dump. Explore and region pages are the entry.",
     acceptance: "Filter or open a region and reach a published card in one or two taps.",
-    href: "/explore",
+    href: "/map",
     signal: "catalogue",
   },
   {
@@ -138,7 +138,7 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     analysis:
       "The product owns a short journey: discover → card → ask → quiz → contribute. Screens must not scatter into encyclopedia browsing alone.",
     acceptance: "Loop stepper is visible on primary screens; Path checklist can be walked end-to-end.",
-    href: "/me",
+    href: "/judges#live-analysis",
     signal: "manual",
   },
   {
@@ -202,9 +202,9 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     user: "Traveller",
     need: "Bookmark cards for a later pass",
     analysis:
-      "Secondary users return to a short list rather than re-filtering Explore.",
-    acceptance: "Bookmark toggles on a card and appears under Bookmarks on this device.",
-    href: "/bookmarks",
+      "Secondary users return to a short list rather than re-filtering the map.",
+    acceptance: "Bookmark toggles on a card and appears under Passport on this device.",
+    href: "/passport",
     signal: "manual",
   },
   {
@@ -215,7 +215,7 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     analysis:
       "Human review is a hard user requirement for staff; nothing user-written is public by default.",
     acceptance: "Reviewer desk shows side-by-side context and can accept or reject (unguessable path; not linked publicly).",
-    href: "/about#requirements",
+    href: "/judges#requirements",
     signal: "contrib_reviewed",
   },
   {
@@ -225,8 +225,8 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     need: "Understand the tool is unofficial and points to official pages",
     analysis:
       "Positioning is a user trust requirement: learners must not confuse this MVP with the national archive.",
-    acceptance: "Disclaimer appears on Home; footer and About restate non-affiliation.",
-    href: "/about#positioning",
+    acceptance: "Disclaimer appears on Home; footer and Judges page restate non-affiliation.",
+    href: "/judges#positioning",
     signal: "manual",
   },
   {
@@ -237,7 +237,7 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     analysis:
       "WCAG 2.2 AA intent, 44px targets, focus rings, reduced-motion respect; no autoplay of sacred sound.",
     acceptance: "Keyboard focus is visible; no autoplaying audio on cards.",
-    href: "/about#users",
+    href: "/judges#users",
     signal: "manual",
   },
   {
@@ -248,7 +248,7 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     analysis:
       "Ethics requirement: flag “Handle with care”, omit closed practices, contribution guidelines block sacred instructions.",
     acceptance: "Sensitivity flag or contribute guidelines visible on relevant cards.",
-    href: "/about#ethics",
+    href: "/judges#ethics",
     signal: "manual",
   },
 ];
@@ -280,11 +280,36 @@ export const REQUIREMENT_COVERAGE = USER_REQUIREMENTS.map((ur) => ({
 }));
 
 export const DEMO_PATH = [
-  "Places: Rajasthan then Udaipur (or open Kalbelia directly). UR-01",
-  "Read the card and open Sources. UR-03",
+  "Home → Open India map (Coverage meter shows 36/36 breadth). UR-01",
+  "Tap Rajasthan on the game board → unlock → open Place Hub. UR-01 · UR-02",
+  "Open Kalbelia treasure → Sources chip with check dates. UR-03",
   "Ask a grounded question, then a refuse probe. UR-04 · UR-05",
-  "Complete the quiz. UR-06",
-  "Submit a contribution and accept or reject it in the reviewer desk. UR-07 · UR-09",
+  "Quiz → stamp Passport → show badges / trail. UR-06",
+  "Optional: contribution → staff accept/reject. UR-07 · UR-09",
+] as const;
+
+/** Spoken 90-second jury finale (polish target for viva). */
+export const DEMO_SCRIPT_90S = [
+  "This is Parampara Path, an unofficial living heritage compass for all of India.",
+  "On the map, every state and UT has at least one cited card. Grey never means invented data.",
+  "I unlock Rajasthan, open Kalbelia, and show UNESCO and Ministry sources with check dates.",
+  "Ask answers only from the card. Watch a refuse when I ask for a ritual rule that is not written here.",
+  "Quiz stamps the Passport. Progress stays on this device. No sacred trespass, no brochure dump.",
+] as const;
+
+export const PITCH_OUTLINE = [
+  "Living compass for India: place first, then cited treasure, then passport progress.",
+  "Trust by citation and refusal, not by chatbot invention.",
+  "Game loop without gamifying sacred or closed practices.",
+  "Breadth tooling keeps coverage honest: empty cells stay empty until verified.",
+] as const;
+
+export const NEEDS_HUMAN_VERIFICATION = [
+  "Deep-link replacements for generic Sahapedia / ICP / blog URLs on crafts",
+  "Per-state official tourism and culture app links",
+  "Hindi (and later regional) translations of card body text",
+  "Image licenses beyond Unsplash credits",
+  "Sensitive-practice etiquette copy for island and tribal contexts",
 ] as const;
 
 export const OUT_OF_SCOPE = [

@@ -24,7 +24,7 @@ export default async function AskPage({
       }
       crumbs={[
         { href: "/", label: "Home" },
-        { href: "/explore", label: "Explore" },
+        { href: "/map", label: "Map" },
         { href: `/items/${slug}`, label: item.title },
         { label: "Ask" },
       ]}

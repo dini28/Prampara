@@ -39,32 +39,33 @@ export function OnboardingSlides() {
 
   return (
     <div
-      className="fixed inset-0 z-[60] flex items-end justify-center bg-[oklch(0.2_0.04_275/0.45)] p-4 sm:items-center"
+      className="fixed inset-0 z-[60] flex items-end justify-center bg-[oklch(0.2_0.04_275/0.4)] p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] sm:items-center sm:p-4"
       role="dialog"
       aria-modal="true"
       aria-labelledby="onboard-title"
     >
-      <div className="w-full max-w-md rounded-2xl bg-[var(--bg)] p-6 shadow-[var(--shadow)] outline outline-1 outline-[var(--line)]">
-        <p className="text-xs font-semibold tracking-wide text-[var(--primary)] uppercase">
+      <div className="w-full max-w-md rounded-[16px] bg-[var(--bg)] p-5 shadow-[0_-8px_40px_oklch(0.25_0.04_275/0.18)] outline outline-1 outline-[var(--line)] sm:rounded-2xl sm:p-6 sm:shadow-[var(--shadow)]">
+        <div className="mx-auto mb-4 h-1 w-10 rounded-full bg-[var(--line-strong)] sm:hidden" aria-hidden="true" />
+        <p className="text-[13px] font-semibold tracking-[0.02em] text-[var(--primary)]">
           Welcome · {i + 1} / {SLIDES.length}
         </p>
-        <h2 id="onboard-title" className="serif mt-2 text-2xl">
+        <h2 id="onboard-title" className="mt-2 text-[22px] font-semibold tracking-[-0.02em] text-[var(--ink)] sm:serif sm:text-2xl">
           {slide.title}
         </h2>
-        <p className="mt-3 text-sm leading-relaxed text-[var(--ink-soft)]">{slide.body}</p>
-        <div className="mt-6 flex flex-wrap gap-3">
+        <p className="mt-2 text-[15px] leading-relaxed text-[var(--ink-soft)]">{slide.body}</p>
+        <div className="mt-5 flex flex-col gap-2 sm:mt-6 sm:flex-row sm:flex-wrap sm:gap-3">
           {i < SLIDES.length - 1 ? (
             <button
               type="button"
-              className="btn min-h-12 rounded-full bg-[var(--primary)] px-5 text-sm text-[var(--on-primary)]"
+              className="btn min-h-12 w-full rounded-full bg-[var(--primary)] px-5 text-[15px] font-semibold text-[var(--on-primary)] sm:w-auto"
               onClick={() => setI((n) => n + 1)}
             >
-              Next
+              Continue
             </button>
           ) : (
             <Link
               href="/items/kalbelia"
-              className="btn inline-flex min-h-12 items-center rounded-full bg-[var(--primary)] px-5 text-sm text-[var(--on-primary)]"
+              className="btn inline-flex min-h-12 w-full items-center justify-center rounded-full bg-[var(--primary)] px-5 text-[15px] font-semibold text-[var(--on-primary)] sm:w-auto"
               onClick={dismiss}
             >
               Try the 8 minute demo
@@ -72,10 +73,10 @@ export function OnboardingSlides() {
           )}
           <button
             type="button"
-            className="btn min-h-12 rounded-full border border-[var(--line-strong)] px-5 text-sm"
+            className="btn min-h-12 w-full rounded-full text-[15px] font-medium text-[var(--primary)] sm:w-auto sm:border sm:border-[var(--line-strong)] sm:px-5 sm:text-[var(--ink)]"
             onClick={dismiss}
           >
-            Skip
+            Not now
           </button>
         </div>
       </div>

@@ -10,7 +10,9 @@
     "build": "node scripts/check-dashes.mjs && next build",
     "start": "next start",
     "lint": "eslint",
-    "check:dashes": "node scripts/check-dashes.mjs"
+    "check:dashes": "node scripts/check-dashes.mjs",
+    "coverage": "node scripts/coverage-report.mjs",
+    "catalogue:breadth": "node scripts/merge-breadth-cards.mjs && node scripts/coverage-report.mjs"
   },
   "dependencies": {
     "next": "15.5.9",

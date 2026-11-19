@@ -45,14 +45,16 @@ export function InstallPrompt() {
 
   return (
     <div
-      className="fixed inset-x-3 z-[60] rounded-2xl border border-[var(--line)] bg-[var(--bg)] p-4 shadow-[var(--shadow)] md:hidden"
-      style={{ bottom: "calc(4.5rem + env(safe-area-inset-bottom))" }}
+      className="fixed inset-x-3 z-[60] rounded-[14px] border border-[var(--line)] bg-[var(--bg)]/95 p-4 shadow-[var(--shadow)] backdrop-blur-xl md:hidden"
+      style={{ bottom: "calc(58px + env(safe-area-inset-bottom))" }}
       role="dialog"
       aria-label="Install Parampara Path"
     >
-      <p className="serif text-lg text-[var(--ink)]">Add to Home Screen</p>
-      <p className="mt-1 text-sm text-[var(--ink-soft)]">
-        Open instantly, even offline , like a native app on your phone.
+      <p className="text-[17px] font-semibold tracking-[-0.02em] text-[var(--ink)]">
+        Add to Home Screen
+      </p>
+      <p className="mt-1 text-[13px] leading-snug text-[var(--ink-soft)]">
+        Open instantly, even offline, like a native app on your phone.
       </p>
       <div className="mt-3 flex gap-2">
         <button

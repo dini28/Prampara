@@ -3,6 +3,7 @@ import { InfoTip } from "@/components/InfoTip";
 import { LoopStepper } from "@/components/LoopStepper";
 import { PageShell } from "@/components/PageShell";
 import { SourceList } from "@/components/SourceList";
+import { VisitTreasure } from "@/components/VisitTreasure";
 import { getItemBySlug, getRegionBySlug, TYPE_LABEL } from "@/lib/catalogue";
 import { enrichPlace } from "@/lib/place-enrichment";
 import Link from "next/link";
@@ -33,20 +34,21 @@ export default async function ItemPage({
       }
       crumbs={[
         { href: "/", label: "Home" },
-        { href: "/explore", label: "Explore" },
+        { href: "/map", label: "Map" },
         ...(region
-          ? [{ href: `/regions/${item.region_slug}`, label: region.name }]
+          ? [{ href: `/map?region=${item.region_slug}`, label: region.name }]
           : []),
         { label: item.title },
       ]}
-      eyebrow={`Read · ${TYPE_LABEL[item.type]} card`}
+      eyebrow={`Treasure · ${TYPE_LABEL[item.type]}`}
       title={item.title}
       lead="What it is, who keeps it alive, and how to engage respectfully, with sources you can open."
       nextHref={`/items/${item.slug}/ask`}
       nextLabel="Next: Ask a question"
-      secondaryHref="/explore"
-      secondaryLabel="Back to Explore"
+      secondaryHref="/map"
+      secondaryLabel="Back to map"
     >
+      <VisitTreasure itemSlug={item.slug} regionSlug={item.region_slug} />
       <div className="flex flex-wrap items-center gap-2 text-xs font-medium">
         {item.unesco_id ? (
           <span className="rounded-full bg-[var(--primary-tint)] px-3 py-1.5 text-[var(--primary-deep)]">
@@ -158,7 +160,7 @@ export default async function ItemPage({
       <section id="sources" className="mt-10 scroll-mt-24">
         <div className="flex flex-wrap items-end justify-between gap-3">
           <h2 className="serif text-2xl">Sources</h2>
-          <Link href="/about#report" className="text-sm text-[var(--primary)] underline">
+          <Link href="/judges#report" className="text-sm text-[var(--primary)] underline">
             Report a problem
           </Link>
         </div>

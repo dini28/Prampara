@@ -15,7 +15,7 @@ export default function OfflinePage() {
       lead="Parampara Path could not reach the network. Open a previously viewed or saved card, then reconnect when you can."
       nextHref="/"
       nextLabel="Try Home"
-      secondaryHref="/bookmarks"
+      secondaryHref="/passport"
       secondaryLabel="Open saved cards"
     >
       <div className="page-panel p-5 text-sm leading-relaxed text-[var(--ink-soft)]">

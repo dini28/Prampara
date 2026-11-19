@@ -1,8 +1,6 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { PhotoUnderstand } from "@/components/PhotoUnderstand";
-
 export function AskBox({ slug }: { slug: string }) {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
@@ -111,7 +109,6 @@ export function AskBox({ slug }: { slug: string }) {
           </div>
         ) : null}
       </div>
-      <PhotoUnderstand />
     </div>
   );
 }

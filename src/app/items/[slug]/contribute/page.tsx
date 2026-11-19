@@ -1,7 +1,6 @@
 import { ContributeForm } from "@/components/ContributeForm";
 import { LoopStepper } from "@/components/LoopStepper";
 import { PageShell } from "@/components/PageShell";
-import { UserNeedBanner } from "@/components/UserNeedBanner";
 import { getItemBySlug } from "@/lib/catalogue";
 import { notFound } from "next/navigation";
 
@@ -18,12 +17,9 @@ export default async function ContributePage({
     <PageShell
       width="narrow"
       before={
-        <>
+        <div className="sticky-mini-header -mx-5 px-5 py-3 md:static md:mx-0 md:bg-transparent md:p-0">
           <LoopStepper current="contribute" itemSlug={slug} />
-          <div className="mt-4">
-            <UserNeedBanner ids={["UR-07", "UR-09"]} />
-          </div>
-        </>
+        </div>
       }
       crumbs={[
         { href: "/", label: "Home" },
@@ -33,10 +29,10 @@ export default async function ContributePage({
       eyebrow="Contribute · human review gate"
       title="Contribute a note"
       lead="Your note stays unpublished until a reviewer accepts it. That gate is part of the product. The desk is not linked from the public nav."
-      nextHref="/me"
-      nextLabel="Open Profile"
+      nextHref="/passport"
+      nextLabel="Open passport"
       secondaryHref={`/items/${slug}`}
-      secondaryLabel="Back to card"
+      secondaryLabel="Back to treasure"
     >
       <div className="page-panel p-5 sm:p-6">
         <ContributeForm slug={slug} />
