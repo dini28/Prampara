@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PageShell } from "@/components/PageShell";
 import {
   DEMO_PATH,
   ETHICS_NOTES,
@@ -20,38 +21,26 @@ export default function AboutPage() {
   const should = USER_REQUIREMENTS.filter((r) => r.priority === "Should");
 
   return (
-    <main className="mx-auto max-w-6xl px-5 py-10">
-      <p className="text-sm font-medium text-[var(--primary)]">User requirements analysis</p>
-      <h1 className="serif mt-2 max-w-[20ch] text-5xl leading-[1.05] md:text-6xl">
-        Who needs what — and how we prove it
-      </h1>
-      <p className="mt-5 max-w-2xl text-lg leading-relaxed text-[var(--ink-soft)]">
-        Every screen is traced to a user need (UR-01…UR-12). Use this page to analyse requirements;
-        use <Link href="/me" className="text-[var(--primary)] underline underline-offset-4">Path</Link>{" "}
-        to see live verification against Ask, Quiz, and contribution activity.
+    <PageShell
+      width="wide"
+      crumbs={[{ href: "/", label: "Home" }, { label: "Requirements" }]}
+      eyebrow="User requirements analysis"
+      title="Who needs what — and how we prove it"
+      lead="Every screen is traced to a user need (UR-01…UR-12). Use this page to analyse requirements; use Path to see live verification against Ask, Quiz, and contribution activity."
+      nextHref="#requirements"
+      nextLabel="Jump to UR table"
+      secondaryHref="/me"
+      secondaryLabel="Live analysis on Path"
+    >
+      <p className="mb-10 text-sm text-[var(--ink-soft)]">
+        Prefer a walkthrough?{" "}
+        <Link href="/items/kalbelia" className="text-[var(--primary)] underline underline-offset-4">
+          Run the Kalbelia demo loop
+        </Link>
+        .
       </p>
-      <div className="mt-8 flex flex-wrap gap-3">
-        <Link
-          href="#requirements"
-          className="btn inline-flex min-h-12 items-center rounded-full bg-[var(--primary)] px-6 text-[var(--on-primary)] hover:bg-[var(--primary-hover)]"
-        >
-          Jump to UR table
-        </Link>
-        <Link
-          href="/me"
-          className="btn inline-flex min-h-12 items-center rounded-full border border-[var(--line-strong)] px-6 hover:border-[var(--primary)]"
-        >
-          Live analysis on Path
-        </Link>
-        <Link
-          href="/items/kalbelia"
-          className="btn inline-flex min-h-12 items-center rounded-full px-4 text-[var(--primary)] underline underline-offset-4"
-        >
-          Run demo loop
-        </Link>
-      </div>
 
-      <section className="mt-16" id="users" aria-labelledby="users-heading">
+      <section id="users" aria-labelledby="users-heading">
         <h2 id="users-heading" className="serif text-3xl">
           Users
         </h2>
@@ -253,6 +242,6 @@ export default function AboutPage() {
           culture.
         </p>
       </section>
-    </main>
+    </PageShell>
   );
 }

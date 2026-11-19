@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ExploreFiltersSheet } from "@/components/ExploreFiltersSheet";
 import { ItemCard } from "@/components/ItemCard";
 import { LoopStepper } from "@/components/LoopStepper";
+import { PageShell } from "@/components/PageShell";
+import { PullToRefresh } from "@/components/PullToRefresh";
 import { UserNeedBanner } from "@/components/UserNeedBanner";
 import {
   TYPE_LABEL,
@@ -93,21 +96,98 @@ export default async function ExplorePage({
     });
   }
 
-  return (
-    <main className="mx-auto max-w-6xl px-5 py-10">
-      <LoopStepper current="discover" />
-      <div className="mt-6">
-        <UserNeedBanner ids={["UR-01", "UR-02"]} />
+  const filterForm = (
+    <form
+      className="grid gap-3 rounded-2xl bg-[var(--surface)] p-4 outline outline-1 outline-[var(--line)] md:grid-cols-4"
+      action="/explore"
+      method="get"
+    >
+      <input
+        name="q"
+        defaultValue={q}
+        placeholder="Search title, place, tags…"
+        aria-label="Search cards"
+        className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)] placeholder:text-[var(--muted)]"
+      />
+      <select
+        name="type"
+        defaultValue={type}
+        aria-label="Heritage type"
+        className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)]"
+      >
+        <option value="all">All types ({allItems.length})</option>
+        {(Object.keys(TYPE_LABEL) as HeritageType[]).map((k) => (
+          <option key={k} value={k}>
+            {TYPE_LABEL[k]} ({typeCounts[k]})
+          </option>
+        ))}
+      </select>
+      <select
+        name="region"
+        defaultValue={regionSlug}
+        aria-label="Region"
+        className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)]"
+      >
+        <option value="">All regions ({regionsWithCards.length})</option>
+        {regionsWithCards.map((r) => (
+          <option key={r.id} value={r.slug}>
+            {r.name} ({regionCounts.get(r.slug)})
+          </option>
+        ))}
+      </select>
+      <select
+        name="badge"
+        defaultValue={badge}
+        aria-label="Badge filter"
+        className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)]"
+      >
+        <option value="">Any badge</option>
+        <option value="unesco">
+          UNESCO ({allItems.filter((i) => i.unesco_id).length})
+        </option>
+        <option value="gi">GI tag ({allItems.filter((i) => i.gi_flag).length})</option>
+      </select>
+      <div className="flex flex-wrap items-center gap-3 md:col-span-4">
+        <button
+          type="submit"
+          className="btn min-h-12 touch-manipulation select-none rounded-full bg-[var(--primary)] px-6 text-[var(--on-primary)] hover:bg-[var(--primary-hover)]"
+        >
+          Apply filters
+        </button>
+        {hasFilters ? (
+          <Link
+            href="/explore"
+            className="min-h-12 content-center text-sm text-[var(--primary)] underline underline-offset-4 hover:text-[var(--primary-hover)]"
+          >
+            Clear all
+          </Link>
+        ) : null}
       </div>
+    </form>
+  );
 
-      <h1 className="serif mt-8 text-5xl">Explore by place or theme</h1>
-      <p className="mt-3 max-w-2xl text-[var(--ink-soft)]">
-        Step 1 of the loop: {allItems.length} published cards across{" "}
-        {regionsWithCards.length} regions — filter by type, place, or badge, then open a card for
-        Ask → Quiz → Contribute.
-      </p>
-
-      <section className="mt-8" aria-label="Browse by heritage type">
+  return (
+    <PullToRefresh>
+    <PageShell
+      width="wide"
+      before={
+        <>
+          <LoopStepper current="discover" />
+          <div className="mt-4">
+            <UserNeedBanner ids={["UR-01", "UR-02"]} />
+          </div>
+        </>
+      }
+      crumbs={[{ href: "/", label: "Home" }, { label: "Explore" }]}
+      eyebrow="Step 1 · Discover"
+      title="Explore by place or theme"
+      lead={`${allItems.length} published cards across ${regionsWithCards.length} regions. Filter by type, place, or badge, then open a card for Ask → Quiz → Contribute.`}
+      nextHref="/map"
+      nextLabel="Open the map"
+      secondaryHref="/items/kalbelia"
+      secondaryLabel="Demo: Kalbelia"
+    >
+      <section aria-label="Browse by heritage type">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {VISUAL_CATEGORIES.map((cat) => {
             const count = typeCounts[cat.type];
@@ -151,73 +231,9 @@ export default async function ExplorePage({
         </div>
       </section>
 
-      <form
-        className="mt-8 grid gap-3 rounded-2xl bg-[var(--surface)] p-4 outline outline-1 outline-[var(--line)] md:grid-cols-4"
-        action="/explore"
-        method="get"
-      >
-        <input
-          name="q"
-          defaultValue={q}
-          placeholder="Search title, place, tags…"
-          aria-label="Search cards"
-          className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)] placeholder:text-[var(--muted)]"
-        />
-        <select
-          name="type"
-          defaultValue={type}
-          aria-label="Heritage type"
-          className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)]"
-        >
-          <option value="all">All types ({allItems.length})</option>
-          {(Object.keys(TYPE_LABEL) as HeritageType[]).map((k) => (
-            <option key={k} value={k}>
-              {TYPE_LABEL[k]} ({typeCounts[k]})
-            </option>
-          ))}
-        </select>
-        <select
-          name="region"
-          defaultValue={regionSlug}
-          aria-label="Region"
-          className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)]"
-        >
-          <option value="">All regions ({regionsWithCards.length})</option>
-          {regionsWithCards.map((r) => (
-            <option key={r.id} value={r.slug}>
-              {r.name} ({regionCounts.get(r.slug)})
-            </option>
-          ))}
-        </select>
-        <select
-          name="badge"
-          defaultValue={badge}
-          aria-label="Badge filter"
-          className="min-h-12 rounded-xl bg-[var(--bg)] px-4 py-3 outline outline-1 outline-[var(--line)]"
-        >
-          <option value="">Any badge</option>
-          <option value="unesco">
-            UNESCO ({allItems.filter((i) => i.unesco_id).length})
-          </option>
-          <option value="gi">GI tag ({allItems.filter((i) => i.gi_flag).length})</option>
-        </select>
-        <div className="flex flex-wrap items-center gap-3 md:col-span-4">
-          <button
-            type="submit"
-            className="btn min-h-11 rounded-full bg-[var(--primary)] px-6 text-[var(--on-primary)] hover:bg-[var(--primary-hover)]"
-          >
-            Apply filters
-          </button>
-          {hasFilters ? (
-            <Link
-              href="/explore"
-              className="min-h-11 content-center text-sm text-[var(--primary)] underline underline-offset-4 hover:text-[var(--primary-hover)]"
-            >
-              Clear all
-            </Link>
-          ) : null}
-        </div>
-      </form>
+      <div className="mt-8">
+        <ExploreFiltersSheet>{filterForm}</ExploreFiltersSheet>
+      </div>
 
       {activeChips.length > 0 ? (
         <ul className="mt-4 flex flex-wrap gap-2" aria-label="Active filters">
@@ -316,6 +332,7 @@ export default async function ExplorePage({
           })}
         </div>
       </section>
-    </main>
+    </PageShell>
+    </PullToRefresh>
   );
 }

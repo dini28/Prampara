@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /staff
+Disallow: /desk-
+Disallow: /api/staff
+
+# Reviewer desk uses an unguessable path from PARAMPARA_ADMIN_PATH — never list it here.

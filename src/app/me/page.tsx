@@ -1,4 +1,5 @@
 import { clearLearner } from "@/app/login/actions";
+import { PageShell } from "@/components/PageShell";
 import { getLearnerName } from "@/lib/learner";
 import { getItemBySlug } from "@/lib/catalogue";
 import { DEMO_PATH, LEARNER_LOOP } from "@/lib/project";
@@ -30,14 +31,17 @@ export default async function MePage() {
   const summary = summariseRequirementAnalysis(analysis);
 
   return (
-    <main className="mx-auto max-w-3xl px-5 py-10">
-      <p className="text-sm font-medium text-[var(--primary)]">Live requirements analysis</p>
-      <h1 className="serif mt-2 text-5xl">Your path</h1>
-      <p className="mt-4 text-[var(--ink-soft)]">
-        Run the demo loop, then return here. Runtime signals (Ask, Quiz, contributions) update
-        automatically so you can analyse which user requirements are already met.
-      </p>
-
+    <PageShell
+      width="narrow"
+      crumbs={[{ href: "/", label: "Home" }, { label: "Your path" }]}
+      eyebrow="Live requirements analysis"
+      title="Your path"
+      lead="Run the demo loop, then return here. Ask, Quiz, and contributions update automatically so you can see which user requirements are already met."
+      nextHref="/items/kalbelia"
+      nextLabel="Start demo loop"
+      secondaryHref="/about#users"
+      secondaryLabel="Users & UR table"
+    >
       {learner ? (
         <div className="mt-6 flex flex-wrap items-center gap-3 rounded-2xl bg-[var(--surface)] px-4 py-3 outline outline-1 outline-[var(--line)]">
           <p className="text-sm">
@@ -199,20 +203,6 @@ export default async function MePage() {
         )}
       </section>
 
-      <div className="mt-10 flex flex-wrap gap-3">
-        <Link
-          href="/items/kalbelia"
-          className="btn inline-flex min-h-11 items-center rounded-full bg-[var(--primary)] px-5 text-[var(--on-primary)] hover:bg-[var(--primary-hover)]"
-        >
-          Start demo loop
-        </Link>
-        <Link
-          href="/about#users"
-          className="btn inline-flex min-h-11 items-center rounded-full border border-[var(--line-strong)] px-5 hover:border-[var(--primary)]"
-        >
-          Users & UR table
-        </Link>
-      </div>
-    </main>
+    </PageShell>
   );
 }

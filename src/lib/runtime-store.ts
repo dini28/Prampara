@@ -35,14 +35,23 @@ export type QuizProgress = {
   completedAt: string;
 };
 
+export type AuditEntry = {
+  id: string;
+  action: string;
+  actor: string;
+  detail: string;
+  createdAt: string;
+};
+
 type Store = {
   contributions: RuntimeContribution[];
   asks: AskLog[];
   quizzes: QuizProgress[];
+  audit: AuditEntry[];
 };
 
 function empty(): Store {
-  return { contributions: [], asks: [], quizzes: [] };
+  return { contributions: [], asks: [], quizzes: [], audit: [] };
 }
 
 function load(): Store {
@@ -52,6 +61,7 @@ function load(): Store {
     contributions: parsed.contributions ?? [],
     asks: parsed.asks ?? [],
     quizzes: parsed.quizzes ?? [],
+    audit: parsed.audit ?? [],
   };
 }
 
@@ -117,4 +127,21 @@ export function listQuizzes(learner?: string | null) {
   const rows = load().quizzes;
   if (!learner) return rows;
   return rows.filter((q) => q.learner === learner);
+}
+
+export function appendAudit(row: Omit<AuditEntry, "id" | "createdAt">) {
+  const store = load();
+  const full: AuditEntry = {
+    ...row,
+    id: crypto.randomUUID(),
+    createdAt: new Date().toISOString(),
+  };
+  store.audit.unshift(full);
+  store.audit = store.audit.slice(0, 500);
+  save(store);
+  return full;
+}
+
+export function listAudit(limit = 100) {
+  return load().audit.slice(0, limit);
 }

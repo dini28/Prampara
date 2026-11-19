@@ -214,8 +214,8 @@ export const USER_REQUIREMENTS: UserRequirement[] = [
     need: "Accept or reject contributions with card context",
     analysis:
       "Human review is a hard user requirement for staff; nothing user-written is public by default.",
-    acceptance: "Admin queue shows side-by-side context and can accept or reject.",
-    href: "/admin",
+    acceptance: "Reviewer desk shows side-by-side context and can accept or reject (unguessable path; not linked publicly).",
+    href: "/about#requirements",
     signal: "contrib_reviewed",
   },
   {

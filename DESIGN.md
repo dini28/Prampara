@@ -4,7 +4,10 @@
 Parampara Path — Living Heritage Compass (web app UI).
 
 ## Visual theme
-Neutral, credible reference tool. Near-white field, cool neutral surfaces, one deep blue for actions and links. Green is reserved for verification signals (sources, grounded answers). No cultural ornament; the content carries the heritage.
+**Light theme only** (forced; no OS dark-mode switch). Neutral, credible reference tool. Near-white field, cool neutral surfaces, one deep blue for actions and links. Green is reserved for verification signals (sources, grounded answers). No cultural ornament; the content carries the heritage.
+
+## Page layout
+Every content page uses `PageShell`: breadcrumb → eyebrow → title → one-line purpose → optional next actions → body. Narrow width for reading (cards, Ask, Quiz); wide for browse (Explore, Map, About).
 
 ## Color
 Strategy: Restrained.

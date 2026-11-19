@@ -81,9 +81,35 @@ export default function HomePage() {
         </section>
 
         <div className="mx-auto max-w-6xl px-5 py-6">
-          <p className="rounded-xl bg-[var(--bg)]/90 px-4 py-3 text-sm leading-relaxed text-[var(--ink-soft)] outline outline-1 outline-[var(--line)]">
+          <p className="rounded-xl bg-[var(--bg)] px-4 py-3 text-sm leading-relaxed text-[var(--ink-soft)] outline outline-1 outline-[var(--line)]">
             {getDisclaimer()}
           </p>
+          <nav
+            className="mt-4 grid gap-3 sm:grid-cols-3"
+            aria-label="How to use Parampara Path"
+          >
+            <Link
+              href="/explore"
+              className="page-panel flex min-h-14 flex-col justify-center px-4 py-3 hover:outline-[var(--primary)]"
+            >
+              <span className="text-xs font-medium text-[var(--primary)]">1 · Discover</span>
+              <span className="mt-0.5 text-sm font-medium text-[var(--ink)]">Explore cards by place</span>
+            </Link>
+            <Link
+              href="/map"
+              className="page-panel flex min-h-14 flex-col justify-center px-4 py-3 hover:outline-[var(--primary)]"
+            >
+              <span className="text-xs font-medium text-[var(--primary)]">2 · Nearby</span>
+              <span className="mt-0.5 text-sm font-medium text-[var(--ink)]">Map villages & practices</span>
+            </Link>
+            <Link
+              href="/items/kalbelia"
+              className="page-panel flex min-h-14 flex-col justify-center px-4 py-3 hover:outline-[var(--primary)]"
+            >
+              <span className="text-xs font-medium text-[var(--primary)]">3 · Learn</span>
+              <span className="mt-0.5 text-sm font-medium text-[var(--ink)]">Try the Kalbelia loop</span>
+            </Link>
+          </nav>
         </div>
 
         <section className="border-b border-[var(--line)] py-4" aria-label="Visual themes">

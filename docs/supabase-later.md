@@ -6,7 +6,7 @@ Today:
 - Catalogue: `src/data/catalogue.json`
 - Queue / ask log / quiz scores: `data/runtime-queue.json`
 - Learner label: `pp_learner` cookie
-- Admin: `pp_staff` cookie + `PARAMPARA_ADMIN_SECRET`
+- Reviewer desk: obscure `PARAMPARA_ADMIN_PATH`, httpOnly `pp_sess` session, CSRF cookie, scrypt-verified `PARAMPARA_ADMIN_SECRET`
 
 When you are ready:
 

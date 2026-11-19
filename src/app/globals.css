@@ -1,24 +1,26 @@
 @import "tailwindcss";
 
+/* Light theme only — forced regardless of OS preference */
 :root {
+  color-scheme: light;
   --bg: oklch(0.995 0.002 250);
-  --bg-veil: oklch(0.995 0.002 250 / 0.92);
-  --surface: oklch(0.967 0.006 250);
-  --ink: oklch(0.21 0.02 255);
-  --muted: oklch(0.44 0.02 255);
+  --bg-veil: oklch(0.995 0.002 250 / 0.94);
+  --surface: oklch(0.972 0.006 250);
+  --ink: oklch(0.22 0.02 255);
+  --muted: oklch(0.45 0.02 255);
 
   --primary: oklch(0.42 0.11 255);
-  --primary-hover: oklch(0.37 0.11 255);
-  --primary-deep: oklch(0.28 0.06 255);
+  --primary-hover: oklch(0.36 0.11 255);
+  --primary-deep: oklch(0.3 0.07 255);
   --primary-tint: oklch(0.95 0.025 255);
   --verified: oklch(0.45 0.09 155);
   --verified-tint: oklch(0.95 0.035 155);
   --on-primary: oklch(1 0 0);
   --danger: oklch(0.5 0.17 27);
 
-  --line: oklch(0.21 0.02 255 / 0.12);
-  --line-strong: oklch(0.21 0.02 255 / 0.22);
-  --shadow: 0 1px 2px oklch(0.21 0.02 255 / 0.06), 0 8px 24px oklch(0.21 0.02 255 / 0.06);
+  --line: oklch(0.22 0.02 255 / 0.12);
+  --line-strong: oklch(0.22 0.02 255 / 0.22);
+  --shadow: 0 1px 2px oklch(0.22 0.02 255 / 0.05), 0 10px 28px oklch(0.22 0.02 255 / 0.06);
 
   --accent: var(--verified);
   --paper: var(--bg);
@@ -44,22 +46,25 @@
   --font-sans: var(--font-figtree);
 }
 
-/* @theme inline values are not emitted as CSS variables, so base styles read the next/font variables directly */
 @layer base {
   * {
     box-sizing: border-box;
   }
 
-  html,
-  body {
-    min-height: 100%;
+  html {
+    min-height: 100dvh;
+    overscroll-behavior-y: none;
+    background: var(--bg);
+    color-scheme: light;
   }
 
   body {
     margin: 0;
+    min-height: 100dvh;
+    overscroll-behavior-y: contain;
     background:
-      radial-gradient(1200px 480px at 12% -10%, oklch(0.95 0.025 255 / 0.55), transparent 55%),
-      radial-gradient(900px 420px at 88% 0%, oklch(0.96 0.02 155 / 0.25), transparent 50%),
+      radial-gradient(1100px 420px at 10% -8%, oklch(0.95 0.025 255 / 0.65), transparent 55%),
+      radial-gradient(800px 360px at 92% 0%, oklch(0.96 0.02 155 / 0.28), transparent 50%),
       var(--bg);
     color: var(--ink);
     font-family: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
@@ -71,6 +76,7 @@
     font-family: var(--font-fraunces), ui-serif, Georgia, serif;
     letter-spacing: -0.02em;
     text-wrap: balance;
+    color: var(--ink);
   }
 
   a {
@@ -82,6 +88,8 @@
     transition-property: transform, background-color, color, border-color;
     transition-duration: 160ms;
     transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
   }
 
   button:active,
@@ -90,7 +98,14 @@
   }
 
   img {
-    outline: 1px solid oklch(0 0 0 / 0.1);
+    outline: 1px solid oklch(0 0 0 / 0.08);
+  }
+
+  input,
+  select,
+  textarea {
+    background: var(--bg);
+    color: var(--ink);
   }
 }
 
@@ -99,6 +114,17 @@
     font-family: var(--font-fraunces), ui-serif, Georgia, serif;
     letter-spacing: -0.02em;
     text-wrap: balance;
+  }
+
+  .page-header {
+    /* Shared page intro block */
+  }
+
+  .page-panel {
+    border-radius: 1rem;
+    background: var(--surface);
+    outline: 1px solid var(--line);
+    box-shadow: var(--shadow);
   }
 
   .atmosphere {
@@ -122,7 +148,7 @@
   }
 
   .india-state {
-    fill: oklch(0.92 0.02 255);
+    fill: oklch(0.93 0.015 255);
     stroke: oklch(0.42 0.11 255 / 0.35);
     stroke-width: 0.6;
     transition:
@@ -134,13 +160,13 @@
   .india-state--lit {
     fill: oklch(0.55 0.12 255);
     stroke: oklch(0.72 0.08 255);
-    filter: drop-shadow(0 0 6px oklch(0.55 0.14 255 / 0.55));
+    filter: drop-shadow(0 0 6px oklch(0.55 0.14 255 / 0.45));
   }
 
   .india-map-svg--complete .india-state {
-    fill: oklch(0.48 0.11 255);
+    fill: oklch(0.5 0.1 255);
     stroke: oklch(0.78 0.06 255);
-    filter: drop-shadow(0 0 8px oklch(0.55 0.12 255 / 0.45));
+    filter: drop-shadow(0 0 8px oklch(0.55 0.12 255 / 0.35));
   }
 
   .visual-card {
@@ -148,7 +174,7 @@
     overflow: hidden;
     border-radius: 1rem;
     outline: 1px solid var(--line);
-    background: var(--surface);
+    background: var(--bg);
     box-shadow: var(--shadow);
     transition:
       outline-color 200ms ease,
@@ -167,10 +193,43 @@
   .visual-card-overlay {
     background: linear-gradient(
       to top,
-      oklch(0.18 0.03 255 / 0.88) 0%,
-      oklch(0.18 0.03 255 / 0.35) 45%,
+      oklch(0.2 0.03 255 / 0.82) 0%,
+      oklch(0.2 0.03 255 / 0.3) 45%,
       transparent 100%
     );
+  }
+
+  .pp-page-enter {
+    animation: pp-fade-up 280ms cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  .select-none {
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+}
+
+@keyframes pp-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pp-loader {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
   }
 }
 
@@ -185,5 +244,9 @@
   *::after {
     animation: none !important;
     transition: none !important;
+  }
+
+  .pp-page-enter {
+    animation: none;
   }
 }
